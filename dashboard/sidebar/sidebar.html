@@ -1,0 +1,34 @@
+<aside class="sb" id="sidebar">
+  <div class="sb-logo">
+    <div class="sb-badge">
+      <div class="sb-dot">TA</div>
+      <div><div class="sb-lbl">Team Abhinav</div><div class="sb-sub">HR Analytics v2</div></div>
+    </div>
+  </div>
+  <div class="sb-sec">
+    <div class="sb-sec-lbl">Views</div>
+    <div class="nav-item active" onclick="navTo('overview')"><span class="nav-icon">📊</span>Overview</div>
+    <div class="nav-item" onclick="navTo('attendance')"><span class="nav-icon">📅</span>Attendance</div>
+    <div class="nav-item" onclick="navTo('productivity')"><span class="nav-icon">⚡</span>Productivity</div>
+    <div class="nav-item" onclick="navTo('members')"><span class="nav-icon">👥</span>Members</div>
+    <div class="nav-item" onclick="navTo('assessments')"><span class="nav-icon">🏆</span>Assessments</div>
+  </div>
+  <div class="sb-filters">
+    <div class="f-lbl">Filter by Member</div>
+    <select class="f-sel" id="filterMember" onchange="applyFilters()">
+      <option value="all">All Members</option>
+    </select>
+    <div class="f-lbl">Filter by Status</div>
+    <select class="f-sel" id="filterStatus" onchange="applyFilters()">
+      <option value="all">All Statuses</option>
+      <option value="perfect">100% Present</option>
+      <option value="absent">Has Absences</option>
+      <option value="leave">Has Leaves</option>
+    </select>
+    <div class="f-lbl">Filter by Batch</div>
+    <select class="f-sel" id="filterBatch" onchange="applyFilters()">
+      <option value="all">All Batches</option>
+    </select>
+    <button class="btn-reset" onclick="resetFilters()">↺ Reset All Filters</button>
+  </div>
+</aside>

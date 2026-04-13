@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Bhaiya — Premium HR Analytics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="shared/base.css">
+    <link rel="stylesheet" href="shared/shared.css">
+    <link rel="stylesheet" href="sidebar/sidebar.css">
+    <link rel="stylesheet" href="overview/overview.css">
+    <link rel="stylesheet" href="productivity/productivity.css">
+    <link rel="stylesheet" href="members/members.css">
+    <link rel="stylesheet" href="assessments/assessments.css">
+    <link rel="stylesheet" href="profile/profile.css">
+    <link rel="stylesheet" href="modal/modal.css">
+
+</head>
+<body>
+
+    <!-- SIDEBAR -->
+    <div id="sidebar-container"></div>
+    <div class="sb-backdrop" id="sidebarBackdrop" onclick="closeSidebar()"></div>
+
+    <!-- MAIN -->
+    <main class="main" id="main">
+        <div id="header-container"></div>
+
+        <!-- ═══════════════════ OVERVIEW (ALL MEMBERS) ═══════════════════ -->
+        <div id="view-all">
+            <div id="overview-container"></div>
+            <div id="data-flow-container"></div>
+            <div id="attendance-container"></div>
+            <div id="productivity-container"></div>
+            <div id="members-container"></div>
+            <div id="assessments-container"></div>
+        </div>
+
+        <!-- ═══════════════════ MEMBER PROFILE VIEW ═══════════════════ -->
+        <div id="profile-container"></div>
+
+        <footer style="text-align:center;padding:16px;font-size:12px;color:var(--txt3);border-top:1px solid var(--border);margin-top:8px;font-family:'JetBrains Mono',monospace">
+            Team Abhinav Analytics Dashboard v2 &nbsp;·&nbsp; Source: Attendance Tracker &nbsp;·&nbsp; Last Updated: 28 March 2026 &nbsp;·&nbsp; Shift: 8AM–4PM
+        </footer>
+    </main>
+
+    <!-- MODAL -->
+    <div id="modal-container"></div>
+    <div class="custom-tip" id="tip"></div>
+
+    <!-- JS -->
+    <script src="shared/data.js"></script>
+    <script src="shared/utils.js"></script>
+    <script src="modal/modal.js"></script>
+    <script src="sidebar/sidebar.js"></script>
+    <script src="overview/overview.js"></script>
+    <script src="attendance/attendance.js"></script>
+    <script src="productivity/productivity.js"></script>
+    <script src="members/members.js"></script>
+    <script src="profile/profile.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>

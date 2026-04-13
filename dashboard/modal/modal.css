@@ -1,0 +1,109 @@
+/* ═══════════════════════════════════════════════════
+   MODAL — Detail Modals & Mobile Bottom-Sheet
+   ═══════════════════════════════════════════════════ */
+.modal-bg {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(15, 15, 30, .5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal-bg.open { display: flex; animation: bgIn .3s ease; }
+
+@keyframes bgIn { from { opacity: 0; } to { opacity: 1; } }
+
+.modal {
+  background: var(--surface);
+  border-radius: 18px;
+  width: min(820px, 95vw);
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow:
+    0 8px 24px rgba(0,0,0,.08),
+    0 24px 80px rgba(0,0,0,.16);
+  animation: mIn .35s cubic-bezier(.34,1.56,.64,1);
+}
+
+@keyframes mIn { from { opacity: 0; transform: scale(.92); } to { opacity: 1; transform: scale(1); } }
+
+.modal-head {
+  display: flex; align-items: center;
+  justify-content: space-between;
+  padding: clamp(14px, 2vw, 20px) clamp(16px, 2.5vw, 24px);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(135deg, var(--pp), var(--bp));
+  border-radius: 18px 18px 0 0;
+  flex-shrink: 0;
+  gap: 12px;
+}
+.modal-title {
+  font-size: clamp(16px, 1.8vw, 20px);
+  font-weight: 800; color: var(--p);
+}
+.modal-sub {
+  font-size: clamp(14px, 1.2vw, 15px);
+  color: var(--txt2); margin-top: 2px;
+}
+.modal-close {
+  width: 32px; height: 32px;
+  border-radius: 50%; background: #fff;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; color: var(--txt2);
+  transition: all .2s; flex-shrink: 0;
+}
+.modal-close:hover { background: var(--red); color: #fff; border-color: var(--red); }
+
+.modal-body {
+  padding: clamp(14px, 2vw, 22px) clamp(16px, 2.5vw, 24px);
+  overflow-y: auto;
+  flex: 1;
+  -webkit-overflow-scrolling: touch;
+}
+.modal-foot {
+  padding: clamp(10px, 1.5vw, 14px) clamp(16px, 2.5vw, 24px);
+  border-top: 1px solid var(--border);
+  display: flex; align-items: center;
+  justify-content: flex-end;
+  gap: 10px; flex-shrink: 0;
+}
+.btn-export {
+  padding: 8px 18px;
+  background: var(--p); color: #fff; border: none;
+  border-radius: var(--rs);
+  font-size: 13px; font-weight: 600;
+  cursor: pointer; font-family: 'Inter', sans-serif;
+  transition: all .2s;
+  display: flex; align-items: center; gap: 6px;
+}
+.btn-export:hover { background: var(--pm); transform: translateY(-1px); }
+.btn-export:active { transform: translateY(0) scale(.98); }
+
+/* ═══════════ RESPONSIVE ═══════════ */
+@media (max-width: 768px) {
+  .modal-bg { padding: 16px; }
+
+  .modal {
+    width: 100%;
+    max-height: 90vh;
+    max-height: 90dvh;
+    border-radius: 20px;
+    animation: mIn .35s cubic-bezier(.4,0,.2,1);
+  }
+
+  .modal-head { border-radius: 20px 20px 0 0; padding: 16px; }
+  .modal-body { padding: 14px 16px; }
+  .modal-foot { padding: 10px 16px; }
+}
+
+@media (max-width: 420px) {
+  .modal-title { font-size: 16px; }
+  .modal-sub { font-size: 12px; }
+  .btn-export { padding: 8px 14px; font-size: 12px; }
+}

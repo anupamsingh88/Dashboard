@@ -1,0 +1,41 @@
+/* ═══════════════════════════════════════════════════
+   PRODUCTIVITY — Week Tabs & Charts
+   ═══════════════════════════════════════════════════ */
+.week-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.wtab {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--txt2);
+  cursor: pointer;
+  transition: all .2s cubic-bezier(.4,0,.2,1);
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+.wtab.active {
+  background: var(--p);
+  color: #fff;
+  border-color: var(--p);
+  box-shadow: 0 2px 8px rgba(83,74,183,.25);
+}
+.wtab:hover:not(.active) {
+  background: var(--pp);
+  color: var(--p);
+  border-color: var(--pl);
+}
+
+/* ═══════════ RESPONSIVE ═══════════ */
+@media (max-width: 768px) {
+  .wtab { padding: 8px 14px; font-size: 14px; }
+  .week-tabs { gap: 8px; }
+}
+@media (max-width: 420px) {
+  .wtab { padding: 8px 12px; font-size: 13px; flex: 1; text-align: center; min-width: 0; }
+}

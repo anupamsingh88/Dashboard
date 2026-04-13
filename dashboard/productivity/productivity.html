@@ -1,0 +1,27 @@
+<div id="productivity">
+  <div class="sec-lbl">Productivity — Additional Hours (AH)</div>
+
+  <!-- Week selector -->
+  <div class="cc" style="margin-bottom:14px">
+    <div class="cc-hdr">
+      <div><div class="cc-title">Weekly Productivity — All Members</div><div class="cc-sub">Additional Hours per member by week</div></div>
+      <div class="week-tabs">
+        <span class="wtab active" onclick="selectWeek('ww10',this)">WW10 (28Feb–6Mar)</span>
+        <span class="wtab" onclick="selectWeek('ww11',this)">WW11 (7–13 Mar)</span>
+        <span class="wtab" onclick="selectWeek('ww12',this)">WW12 (14–20 Mar)</span>
+      </div>
+    </div>
+    <div class="chart-wrap" style="height:240px"><canvas id="weeklyProdChart"></canvas></div>
+  </div>
+
+  <div class="chart-row cr2">
+    <div class="cc">
+      <div class="cc-hdr"><div><div class="cc-title">Feb Total AH — All Members</div><div class="cc-sub">February Additional Hours comparison</div></div><div class="cc-badge">Feb 2026</div></div>
+      <div class="chart-wrap" style="height:230px"><canvas id="febProdChart"></canvas></div>
+    </div>
+    <div class="cc">
+      <div class="cc-hdr"><div><div class="cc-title">March Weekly Totals (Top 10)</div><div class="cc-sub">Grouped by work week</div></div></div>
+      <div class="chart-wrap" style="height:230px"><canvas id="weekGroupChart"></canvas></div>
+    </div>
+  </div>
+</div>

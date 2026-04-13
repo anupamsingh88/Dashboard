@@ -1,0 +1,31 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.python-version
+requirements.txt.lock
+
+# Data & Excel (Internal/Sensitive)
+*.xlsx
+*.xls
+*.csv
+!dashboard/shared/*.js
+!dashboard/shared/*.json
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+temp/
+tmp/

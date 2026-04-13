@@ -1,0 +1,17 @@
+/* base.css — Foundational resets and global utility classes */
+/* Palette is defined in shared.css. This file adds only global utils. */
+
+/* If any other file uses --glass-bg, --glass-border etc, alias them here */
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: var(--border, #e2e5f0);
+  --shadow-premium: 0 20px 40px rgba(83, 74, 183, 0.12);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,.06), 0 4px 6px -4px rgba(0,0,0,.06);
+  --text-primary: var(--txt, #1a1d2e);
+  --text-secondary: var(--txt2, #5b6280);
+  --accent-purple: var(--p, #534AB7);
+  --accent-blue: var(--b, #185FA5);
+  --success: #22c55e;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+}

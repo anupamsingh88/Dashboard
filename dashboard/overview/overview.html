@@ -1,0 +1,66 @@
+<div id="overview">
+  <div class="sec-lbl">Key Metrics — Click any card for full breakdown</div>
+  <div class="kpi-row">
+    <div class="kpi c-p" onclick="openModal('present')">
+      <div class="kpi-ico">👥</div><div class="kpi-lbl">Total Members</div>
+      <div class="kpi-val" id="k-members">35</div>
+      <div class="kpi-trend">Active FTEs</div>
+      <div class="kpi-click-hint">Click to explore ↗</div>
+    </div>
+    <div class="kpi c-b" onclick="openModal('present')">
+      <div class="kpi-ico">✅</div><div class="kpi-lbl">Avg Days Present</div>
+      <div class="kpi-val" id="k-avgp">—</div>
+      <div class="kpi-trend">days / member</div>
+      <div class="kpi-click-hint">Click to explore ↗</div>
+    </div>
+    <div class="kpi c-g" onclick="openModal('rate')">
+      <div class="kpi-ico">📈</div><div class="kpi-lbl">Attendance Rate</div>
+      <div class="kpi-val" id="k-rate">—</div>
+      <div class="kpi-trend">of working days</div>
+      <div class="kpi-click-hint">Click to explore ↗</div>
+    </div>
+    <div class="kpi c-a" onclick="openModal('leave')">
+      <div class="kpi-ico">🗓️</div><div class="kpi-lbl">Total Leaves</div>
+      <div class="kpi-val" id="k-leave">—</div>
+      <div class="kpi-trend">across all members</div>
+      <div class="kpi-click-hint">Click to explore ↗</div>
+    </div>
+    <div class="kpi c-r" onclick="openModal('absent')">
+      <div class="kpi-ico">🚨</div><div class="kpi-lbl">Total Absences</div>
+      <div class="kpi-val" id="k-absent">—</div>
+      <div class="kpi-trend">unplanned</div>
+      <div class="kpi-click-hint">Click to explore ↗</div>
+    </div>
+  </div>
+
+  <div class="sec-lbl">Performance Insights — WW12 Productivity Rankings</div>
+  <div class="leaderboard-row">
+    <!-- Top Performers (Wall of Fame) -->
+    <div class="cc glass-card animate-fade-in" style="--animation-order: 1">
+      <div class="cc-hdr">
+        <div>
+          <div class="cc-title">🌟 Wall of Fame</div>
+          <div class="cc-sub">Top 5 Performers (Highest AH)</div>
+        </div>
+        <div class="pill pg">Elite</div>
+      </div>
+      <div id="top-performers-list" class="leader-list">
+        <!-- Dynamic Content -->
+      </div>
+    </div>
+
+    <!-- Bottom Performers (Needs Improvement) -->
+    <div class="cc glass-card animate-fade-in" style="--animation-order: 2">
+      <div class="cc-hdr">
+        <div>
+          <div class="cc-title">🚩 Focus Areas</div>
+          <div class="cc-sub">Bottom 5 (Requires Support)</div>
+        </div>
+        <div class="pill pr">Needs Review</div>
+      </div>
+      <div id="bottom-performers-list" class="leader-list">
+        <!-- Dynamic Content -->
+      </div>
+    </div>
+  </div>
+</div>

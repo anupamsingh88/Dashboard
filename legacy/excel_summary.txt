@@ -1,0 +1,34 @@
+
+
+Sheet 1: FTE Details (Rows: 35)
+Columns: Name, User ID, Personal Email, Alias Email Address, Shift, ZOHO ID, GAMS Access, IA Access, ZOHO Access, FTE Batch, Phone Number
+
+Sheet 2: March Attendance (Rows: 77)
+Columns: 3/16/26, 3/17/26, 3/18/26, 3/19/26, 3/20/26, 3/21/26, 3/24/26, 3/25/26, 3/26/26, 3/27/26, 3/23/26, 3/1/26, 3/11/26, 3/12/26, 3/13/26...
+
+Sheet 3: Daily Log (Rows: 36)
+Columns: DATE, 01-03-2026, 09-03-2026, 16-03-2026, 02-03-2026, 03-03-2026, 07-03-2026, 10-03-2026, 12-03-2026, 13-03-2026, 05-03-2026, 06-03-2026, 11-03-2026, 14-03-2026, 18-03-2026...
+
+Sheet 4: GAMS (Rows: 32)
+Columns: UID, NAME, GAMS APPROVER NAME, TIMESHEET STATUS
+
+Sheet 5: Quick Links (Rows: 16)
+Columns: SUBJECT, LINK, DETAILS
+
+Sheet 6: Assessment Results (Rows: 8)
+Columns: Omni-s2s-Elo, Mask-Milo
+
+Sheet 7: Running Queue Allocation (Rows: 36)
+Columns: 
+
+Sheet 8: Running Tasks (Rows: 19)
+Columns: Task, Pearson Profeciency, TODAY'S ACTIVE TASKS
+
+Sheet 9: March Productivity (Rows: 38)
+Columns: GO TO FEB AH, FEBRUARY AH PAYOUT
+
+Sheet 10: FEB Productivity Data (Rows: 36)
+Columns: 
+
+Sheet 11: January Productivity (Rows: 84)
+Columns: GO TO DECEMBER AH DATA, , BACK TO JANUARY DATA, _1, _2

@@ -1,0 +1,92 @@
+/* ═══════════════════════════════════════════════════
+   MEMBERS — Data Table
+   ═══════════════════════════════════════════════════ */
+.tbl-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  box-shadow: var(--sh);
+  overflow: hidden;
+  margin-bottom: 16px;
+  transition: box-shadow .3s;
+}
+.tbl-card:hover { box-shadow: var(--sh-hover); }
+
+.tbl-hdr {
+  display: flex; align-items: center;
+  justify-content: space-between;
+  padding: clamp(12px, 2vw, 18px) clamp(14px, 2vw, 20px) clamp(10px, 1.5vw, 14px);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap; gap: 8px;
+}
+
+.tbl-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table { width: 100%; border-collapse: collapse; }
+
+thead th {
+  padding: clamp(8px, 1.2vw, 10px) clamp(10px, 1.5vw, 14px);
+  text-align: left;
+  font-size: clamp(12px, 1vw, 14px);
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--txt3);
+  background: var(--bg);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: color .15s;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+thead th:hover { color: var(--p); }
+thead th.sa::after { content: ' ↑'; color: var(--p); }
+thead th.sd::after { content: ' ↓'; color: var(--p); }
+
+tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: all .15s;
+  cursor: default;
+}
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover {
+  background: var(--bp);
+  border-left: 3px solid var(--p);
+}
+tbody td {
+  padding: clamp(8px, 1.2vw, 10px) clamp(10px, 1.5vw, 14px);
+  font-size: clamp(14px, 1.3vw, 16px);
+  color: var(--txt);
+  white-space: nowrap;
+}
+
+/* ═══════════ RESPONSIVE ═══════════ */
+@media (max-width: 768px) {
+  /* Ensure table scrolls horizontally with a shadow hint */
+  .tbl-wrap {
+    position: relative;
+  }
+  .tbl-wrap::after {
+    content: '';
+    position: sticky;
+    right: 0; top: 0; bottom: 0;
+    width: 30px;
+    background: linear-gradient(to left, var(--surface), transparent);
+    pointer-events: none;
+    display: block;
+    float: right;
+    margin-top: -100%;
+    height: 100%;
+  }
+  tbody td { padding: 10px 12px; font-size: 14px; }
+  thead th { padding: 10px 12px; font-size: 12px; }
+}
+
+@media (max-width: 420px) {
+  .tbl-hdr { padding: 10px 12px 8px; }
+}

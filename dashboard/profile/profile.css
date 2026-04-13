@@ -1,0 +1,103 @@
+/* ═══════════════════════════════════════════════════
+   PROFILE — Member Detail View
+   ═══════════════════════════════════════════════════ */
+.profile-card {
+  background: linear-gradient(135deg, var(--pp) 0%, var(--bp) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: clamp(16px, 3vw, 28px);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 3vw, 24px);
+  box-shadow: var(--sh);
+  animation: fadeInUp .4s ease-out;
+  flex-wrap: wrap;
+}
+.profile-avatar {
+  width: clamp(56px, 8vw, 72px);
+  height: clamp(56px, 8vw, 72px);
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--p), var(--pm));
+  display: flex; align-items: center; justify-content: center;
+  font-size: clamp(18px, 3vw, 24px);
+  font-weight: 800; color: #fff; flex-shrink: 0;
+  box-shadow: 0 4px 16px rgba(83,74,183,.3);
+}
+.profile-info { flex: 1; min-width: 0; }
+.profile-name {
+  font-size: clamp(18px, 2.5vw, 22px);
+  font-weight: 800; color: var(--txt);
+  letter-spacing: -.3px;
+  word-break: break-word;
+}
+.profile-meta {
+  font-size: clamp(13px, 1.4vw, 15px);
+  color: var(--txt2); margin-top: 4px;
+  display: flex; gap: clamp(8px, 2vw, 16px); flex-wrap: wrap;
+}
+.profile-meta span { display: flex; align-items: center; gap: 4px; }
+.profile-badges {
+  display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap;
+}
+.profile-badge {
+  padding: 6px 14px; border-radius: 30px;
+  font-size: clamp(12px, 1.2vw, 14px);
+  font-weight: 700; border: none;
+  white-space: nowrap;
+}
+.pb-green  { background: #dcfce7; color: #166534; }
+.pb-purple { background: var(--pp); color: var(--p); }
+.pb-blue   { background: var(--bp); color: var(--b); }
+
+/* ─── Calendar Heatmap ─── */
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: clamp(2px, .5vw, 4px);
+  margin-top: 12px;
+}
+.cal-day-label {
+  text-align: center;
+  font-size: clamp(11px, 1vw, 13px);
+  font-weight: 700; color: var(--txt3); padding: 2px 0;
+}
+.cal-day {
+  aspect-ratio: 1;
+  min-height: 28px;
+  border-radius: 6px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: clamp(13px, 1.1vw, 14px);
+  font-weight: 600;
+  cursor: default;
+  transition: transform .15s;
+  position: relative;
+}
+.cal-day:hover { transform: scale(1.15); z-index: 2; }
+
+.cd-present  { background: #dcfce7; color: #166534; }
+.cd-absent   { background: #fee2e2; color: #991b1b; }
+.cd-leave    { background: #fef3c7; color: #92400e; }
+.cd-weekoff  { background: #f1f5f9; color: #64748b; }
+.cd-holiday  { background: #ede9fe; color: #6d28d9; }
+.cd-empty    { background: transparent; color: transparent; }
+.cd-resigned { background: #f1f5f9; color: #94a3b8; text-decoration: line-through; }
+
+/* ═══════════ RESPONSIVE ═══════════ */
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .profile-avatar { margin: 0 auto; }
+  .profile-info { width: 100%; }
+  .profile-badges { justify-content: flex-start; }
+  .cal-day { min-height: 24px; font-size: 12px; }
+}
+
+@media (max-width: 420px) {
+  .profile-badge { padding: 5px 10px; font-size: 12px; }
+  .profile-meta { font-size: 13px; gap: 6px; }
+  .cal-day { min-height: 22px; border-radius: 4px; }
+}

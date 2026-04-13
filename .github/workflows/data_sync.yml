@@ -1,6 +1,9 @@
 name: Refresh Dashboard Data
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Run every 30 minutes
     - cron: '*/30 * * * *'

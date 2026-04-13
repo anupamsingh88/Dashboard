@@ -1,4 +1,4 @@
-// Generated on 2026-04-13T21:45:11.521763
+// Generated on 2026-04-13T22:40:47.022813
 const FTE_DETAILS = {
   "IN7947": {
     "batch": "N/A",

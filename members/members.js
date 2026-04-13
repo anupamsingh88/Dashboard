@@ -2,12 +2,16 @@ function renderTable(){
   const tbody = document.getElementById('tblBody');
   if(!tbody) return;
   
+  // Update column header to reflect active month
+  const ahHeader = document.getElementById('ahColHeader');
+  if (ahHeader) ahHeader.textContent = `${activeMonth} AH`;
+  
   let data = [...filteredUIDs];
   const fn = {
     name:u=>ATT[u].name.toLowerCase(), uid:u=>u,
     batch:u=>FTE_DETAILS[u]?.batch||'', present:u=>ATT[u].present,
     absent:u=>ATT[u].absent, leave:u=>ATT[u].leave, weekoff:u=>ATT[u].weekoff,
-    attRate:u=>attRate(ATT[u]), marchAH:u=>marchAH(u), gams:u=>GAMS[u]||''
+    attRate:u=>attRate(ATT[u]), totalAH:u=>totalAH(u), gams:u=>GAMS[u]||''
   };
   const sortFn = fn[sortKey]||fn.present;
   data.sort((a,b)=>{
@@ -18,12 +22,12 @@ function renderTable(){
   
   document.getElementById('tbl-count').textContent=data.length+' members';
   document.querySelectorAll('thead th').forEach(th=>{th.className='';});
-  const keyMap={name:0,uid:1,batch:2,present:3,absent:4,leave:5,weekoff:6,attRate:7,marchAH:8,gams:9};
+  const keyMap={name:0,uid:1,batch:2,present:3,absent:4,leave:5,weekoff:6,attRate:7,totalAH:8,gams:9};
   const ths=document.querySelectorAll('thead th');
   if(keyMap[sortKey]!==undefined && ths[keyMap[sortKey]]) ths[keyMap[sortKey]].className=sortAsc?'sa':'sd';
 
   tbody.innerHTML = data.map(uid=>{
-    const m=ATT[uid], rate=attRate(m), ah=marchAH(uid);
+    const m=ATT[uid], rate=attRate(m), ah=totalAH(uid);
     const gams=GAMS[uid]||'N/A';
     const rateClr=rate===100?'#22c55e':rate>=90?P.p:'#f59e0b';
     const gpill=gams==='Applied'?'pa':gams==='Endorsed'?'pb':'pp';

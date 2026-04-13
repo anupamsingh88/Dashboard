@@ -7,15 +7,55 @@ const GC = '#e2e5f0';
 // Assume ATT is globally available now
 let filteredUIDs = Object.keys(ATT);
 let sortKey = 'present', sortAsc = false;
-let currentWeek = 'ww10';
+let currentWeek = null; // Will be set dynamically
 let allCharts = {};
 let modalExportData = [];
 let currentMemberUID = null;
+let activeMonth = Object.keys(PROJECT_DATA).slice(-1)[0] || 'March'; // Default to latest month
 
 // ═══ UTILS ═══
 function attRate(m){const w=m.present+m.absent+m.leave;return w?Math.round(m.present/w*100):100}
 
-function marchAH(uid){const p=MARCH_PROD[uid];return p?+(p.ww10+p.ww11+p.ww12).toFixed(1):0}
+/**
+ * Get all available work-week keys for the current month's PROD data.
+ * Returns sorted array like ['ww10', 'ww11', 'ww12']
+ */
+function getAvailableWeeks() {
+  const weeks = new Set();
+  if (window.PROD) {
+    Object.values(window.PROD).forEach(member => {
+      Object.keys(member).forEach(k => {
+        if (k.startsWith('ww')) weeks.add(k);
+      });
+    });
+  }
+  return [...weeks].sort((a, b) => {
+    return parseInt(a.replace('ww', '')) - parseInt(b.replace('ww', ''));
+  });
+}
+
+/**
+ * Calculate total AH (Additional Hours) for a member in the active month.
+ * Sums all ww keys, or falls back to summing daily values.
+ */
+function totalAH(uid) {
+  const p = window.PROD?.[uid];
+  if (!p) return 0;
+  // Sum all ww keys
+  let total = 0;
+  let hasWW = false;
+  for (const [k, v] of Object.entries(p)) {
+    if (k.startsWith('ww')) {
+      total += v;
+      hasWW = true;
+    }
+  }
+  // Fallback: sum daily values if no ww keys
+  if (!hasWW && p.daily) {
+    total = Object.values(p.daily).reduce((a, b) => a + b, 0);
+  }
+  return +total.toFixed(1);
+}
 
 function animateCount(el, target, decimals=0, suffix=''){
   if (!el) return;

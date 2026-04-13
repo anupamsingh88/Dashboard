@@ -1,7 +1,7 @@
 function showMemberProfile(uid){
   const m = ATT[uid];
-  const p = MARCH_PROD[uid]||{ww10:0,ww11:0,ww12:0,daily:{}};
-  const fte = FTE_DETAILS[uid]||{};
+  const p = PROD[uid] || {daily:{}};
+  const fte = FTE_DETAILS[uid] || {};
   if(!m) return;
 
   document.getElementById('view-all').style.display='none';
@@ -10,8 +10,7 @@ function showMemberProfile(uid){
   const name = m.name;
   const initials = name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
   const rate = attRate(m);
-  const ah = +(p.ww10+p.ww11+p.ww12).toFixed(1);
-  const feb = FEB_PROD[uid]?.total||0;
+  const ah = totalAH(uid);
 
   document.getElementById('profileAvatar').textContent=initials;
   document.getElementById('profileName').textContent=name;
@@ -21,40 +20,53 @@ function showMemberProfile(uid){
   document.getElementById('profileGAMS').textContent=GAMS[uid]||'N/A';
   document.getElementById('badgeAtt').textContent=`Att. Rate: ${rate}%`;
   document.getElementById('badgePresent').textContent=`${m.present} Days Present`;
-  document.getElementById('badgeMarchAH').textContent=`Mar AH: ${ah} hrs`;
+  document.getElementById('badgeMarchAH').textContent=`${activeMonth} AH: ${ah} hrs`;
 
   document.getElementById('hdr-title').textContent=`${name} — Personal Profile`;
-  document.getElementById('hdr-sub').textContent=`${uid} · ${fte.batch||'N/A'} · March 2026`;
+  document.getElementById('hdr-sub').textContent=`${uid} · ${fte.batch||'N/A'} · ${activeMonth} 2026`;
 
   buildCalHeatmap(uid);
   buildMemberTimeline(uid);
-  buildMemberRadar(uid, rate, ah, feb);
+  buildMemberRadar(uid, rate, ah);
   buildMemberWeekly(uid);
   buildMemberSummary(uid);
 }
 
 function buildCalHeatmap(uid){
-  const m=ATT[uid]; const p=MARCH_PROD[uid]||{daily:{}};
+  const m=ATT[uid]; const p=PROD[uid]||{daily:{}};
   const cal=document.getElementById('calHeatmap');
   cal.innerHTML='';
   const dayLabels=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
   dayLabels.forEach(d=>{ const el=document.createElement('div'); el.className='cal-day-label'; el.textContent=d; cal.appendChild(el); });
 
-  for(let i=0;i<6;i++){ const el=document.createElement('div');el.className='cal-day cd-empty';cal.appendChild(el); }
+  // Get month info dynamically
+  const monthIdx = MONTHS_SHORT.findIndex(m => activeMonth.startsWith(m)) !== -1 
+    ? MONTHS_SHORT.findIndex(m => activeMonth.startsWith(m))
+    : new Date().getMonth();
+  const fullMonthIdx = ['January','February','March','April','May','June','July','August','September','October','November','December'].indexOf(activeMonth);
+  const actualMonthIdx = fullMonthIdx >= 0 ? fullMonthIdx : monthIdx;
+  const year = 2026;
+  const daysInMonth = new Date(year, actualMonthIdx + 1, 0).getDate();
+  
+  // Calculate offset for day-of-week alignment
+  const firstDay = new Date(year, actualMonthIdx, 1).getDay(); // 0=Sun
+  const offset = (firstDay === 0) ? 6 : firstDay - 1; // Convert to Mon=0 format
+  
+  for(let i=0;i<offset;i++){ const el=document.createElement('div');el.className='cal-day cd-empty';cal.appendChild(el); }
 
-  for(let day=1;day<=31;day++){
-    const dateStr=`2026-03-${day.toString().padStart(2,'0')}`;
+  for(let day=1;day<=daysInMonth;day++){
+    const dateStr=`${year}-${String(actualMonthIdx+1).padStart(2,'0')}-${day.toString().padStart(2,'0')}`;
     const status=(m.days[dateStr]||'').trim();
-    const ah=p.daily[dateStr]||0;
+    const ah=p.daily?.[dateStr]||0;
     const el=document.createElement('div');
     el.className='cal-day';
     el.textContent=day;
     let cls='cd-weekoff', tip='Week-Off / Not started';
     const sl=status.toLowerCase();
-    if(!status||status===''){cls='cd-empty';el.textContent='';tip='Not tracked'}
-    else if(sl.includes('present')||sl==='present'){cls='cd-present';tip=`Present · ${ah.toFixed(1)} AH hrs`}
+    if(!status||status===''||status==='nan'){cls='cd-empty';el.textContent=day;tip='Not tracked'}
+    else if(sl.includes('present')){cls='cd-present';tip=`Present · ${ah.toFixed(1)} AH hrs`}
     else if(sl.includes('absent')){cls='cd-absent';tip='Absent'}
-    else if(sl.includes('pl')||sl.includes('leave')){cls='cd-leave';tip='On Leave (PL)'}
+    else if(sl.includes('pl')||sl.includes('leave')||sl.includes('upl')){cls='cd-leave';tip='On Leave'}
     else if(sl.includes('holiday')){cls='cd-holiday';tip='Holiday'}
     else if(sl.includes('resign')){cls='cd-resigned';tip='Resigned'}
     else{cls='cd-weekoff';tip='Week-Off'}
@@ -65,41 +77,44 @@ function buildCalHeatmap(uid){
 }
 
 function buildMemberTimeline(uid){
-  const p=MARCH_PROD[uid]||{ww10:0, ww11:0, ww12:0, daily:{}};
+  const p=PROD[uid]||{daily:{}};
   const m=ATT[uid];
   const dates=Object.keys(m.days).sort();
   const labels=dates.map(d=>{ const dt=new Date(d); return dt.getDate().toString().padStart(2,'0')+' '+MONTHS_SHORT[dt.getMonth()]; });
   
-  // Calculate synthetic daily hours from weekly totals if p.daily is empty
+  // Use daily production data if available
   const hasDaily = Object.keys(p.daily||{}).length > 0;
   
-  const w10_days = dates.filter(d => new Date(d).getDate() <= 6 && (m.days[d]||'').toLowerCase().includes('present'));
-  const w11_days = dates.filter(d => { const dt=new Date(d).getDate(); return dt>=7 && dt<=13 && (m.days[d]||'').toLowerCase().includes('present'); });
-  const w12_days = dates.filter(d => { const dt=new Date(d).getDate(); return dt>=14 && dt<=20 && (m.days[d]||'').toLowerCase().includes('present'); });
+  // Get available weeks and their averages for synthetic data
+  const weeks = getAvailableWeeks();
+  const weekAverages = {};
+  if (!hasDaily && weeks.length > 0) {
+    // Calculate average per-day from weekly totals
+    weeks.forEach(wk => {
+      const wwVal = p[wk] || 0;
+      const presentDays = dates.filter(d => (m.days[d]||'').toLowerCase().includes('present')).length;
+      weekAverages[wk] = presentDays > 0 ? wwVal / Math.ceil(presentDays / weeks.length) : 0;
+    });
+  }
   
-  const w10_avg = w10_days.length ? p.ww10 / w10_days.length : 0;
-  const w11_avg = w11_days.length ? p.ww11 / w11_days.length : 0;
-  const w12_avg = w12_days.length ? p.ww12 / w12_days.length : 0;
-  const overall_avg = (p.ww10+p.ww11+p.ww12) / ((w10_days.length+w11_days.length+w12_days.length)||1);
+  const overallAvg = weeks.length > 0 
+    ? weeks.reduce((acc, wk) => acc + (p[wk] || 0), 0) / Math.max(dates.filter(d => (m.days[d]||'').toLowerCase().includes('present')).length, 1)
+    : 0;
 
   const vals=dates.map(d => {
-    if(hasDaily && p.daily[d]) return p.daily[d];
+    if(hasDaily && p.daily[d] !== undefined) return p.daily[d];
     const s = (m.days[d]||'').toLowerCase();
     if(!s.includes('present')) return 0;
     const dt = new Date(d).getDate();
-    let val = overall_avg;
-    if(dt <= 6) val = w10_avg;
-    else if(dt <= 13) val = w11_avg;
-    else if(dt <= 20) val = w12_avg;
-    // Add deterministic variance
-    let v = val + (((dt * 7) % 5) - 2) * 0.4;
-    return v > 0 ? +v.toFixed(1) : +(val.toFixed(1));
+    // Add deterministic variance for visual interest
+    let v = overallAvg + (((dt * 7) % 5) - 2) * 0.4;
+    return v > 0 ? +v.toFixed(1) : +(overallAvg.toFixed(1));
   });
 
   const pColors=dates.map(d=>{
     const s=(m.days[d]||'').toLowerCase();
     if(s.includes('absent')) return P.r;
-    if(s.includes('pl')||s.includes('leave')) return P.a;
+    if(s.includes('pl')||s.includes('leave')||s.includes('upl')) return P.a;
     if(s.includes('holiday')) return P.pl;
     if(s.includes('weekoff')||s.includes('week off')) return '#d1d5db';
     if(!s.includes('present')) return '#d1d5db';
@@ -133,13 +148,14 @@ function buildMemberTimeline(uid){
   });
 }
 
-function buildMemberRadar(uid, rate, marchAH, febAH){
-  const avgAH = Object.values(MARCH_PROD).reduce((a,p)=>a+(p.ww10+p.ww11+p.ww12),0)/Object.values(MARCH_PROD).length;
-  const maxAH = Math.max(...Object.values(MARCH_PROD).map(p=>p.ww10+p.ww11+p.ww12));
+function buildMemberRadar(uid, rate, memberAH){
+  const allAH = Object.values(PROD).map(p => totalAH(Object.keys(PROD).find(k => PROD[k] === p)));
+  const avgAH = allAH.length > 0 ? allAH.reduce((a,b) => a+b, 0) / allAH.length : 1;
+  const maxAH = allAH.length > 0 ? Math.max(...allAH) : 1;
   const consistency = rate; 
-  const productivity = Math.min(100, Math.round(marchAH/maxAH*100));
+  const productivity = Math.min(100, Math.round(memberAH/Math.max(maxAH,1)*100));
   const punctuality = rate >= 95?92:rate>=90?80:70;
-  const avgHrsScore = Math.min(100,Math.round(marchAH/avgAH*80));
+  const avgHrsScore = Math.min(100,Math.round(memberAH/Math.max(avgAH,1)*80));
   const gamsScore = (GAMS[uid]==='Endorsed')?100:(GAMS[uid]==='Applied')?70:50;
 
   mkChart('radarChart',{
@@ -168,15 +184,22 @@ function buildMemberRadar(uid, rate, marchAH, febAH){
 }
 
 function buildMemberWeekly(uid){
-  const p=MARCH_PROD[uid]||{ww10:0,ww11:0,ww12:0};
+  const p=PROD[uid]||{};
+  const weeks = getAvailableWeeks();
+  
+  if (weeks.length === 0) return;
+  
+  const colors = [P.pl, P.pm, P.p, P.bm, P.bl, P.b];
+  
   mkChart('memberWeeklyChart',{
     type:'bar',
     data:{
-      labels:['WW10 (28Feb–6Mar)','WW11 (7–13 Mar)','WW12 (14–20 Mar)'],
+      labels: weeks.map(wk => wk.toUpperCase()),
       datasets:[{
         label:'Additional Hours',
-        data:[p.ww10,p.ww11,p.ww12],
-        backgroundColor:[P.pl,P.pm,P.p], borderRadius:8, borderSkipped:false
+        data: weeks.map(wk => p[wk] || 0),
+        backgroundColor: weeks.map((_, i) => colors[i % colors.length]),
+        borderRadius:8, borderSkipped:false
       }]
     },
     options:{
@@ -189,16 +212,18 @@ function buildMemberWeekly(uid){
 }
 
 function buildMemberSummary(uid){
-  const m=ATT[uid]; const p=MARCH_PROD[uid]||{ww10:0,ww11:0,ww12:0};
-  const feb=FEB_PROD[uid]?.total||0;
-  const totalAH=+(p.ww10+p.ww11+p.ww12).toFixed(1);
-  const ObjectVals = Object.values(MARCH_PROD);
-  const teamAvgAH=+(ObjectVals.reduce((a,x)=>a+x.ww10+x.ww11+x.ww12,0)/ObjectVals.length).toFixed(1);
+  const m=ATT[uid]; const p=PROD[uid]||{};
+  const memberTotalAH = totalAH(uid);
+  const allTotals = Object.keys(PROD).map(k => totalAH(k));
+  const teamAvgAH = allTotals.length > 0 ? +(allTotals.reduce((a,b)=>a+b,0)/allTotals.length).toFixed(1) : 0;
+  const weeks = getAvailableWeeks();
+  const weekRange = weeks.length > 0 ? `${weeks[0].toUpperCase()}–${weeks[weeks.length-1].toUpperCase()}` : 'N/A';
+  
   const rows=[
     ['Present Days',m.present,'📗'],['Absent Days',m.absent,'📕'],['Leave Days',m.leave,'📙'],
     ['Week-Offs',m.weekoff,'⬜'],['Holidays',m.holiday,'🟣'],['Att. Rate',attRate(m)+'%','📈'],
-    ['Mar AH (WW10–12)',totalAH+' hrs','⚡'],['Feb Total AH',feb.toFixed(1)+' hrs','📊'],
-    ['Team Avg Mar AH',teamAvgAH+' hrs','👥'],['GAMS Status',GAMS[uid]||'N/A','🗂'],
+    [`${activeMonth} AH (${weekRange})`,memberTotalAH+' hrs','⚡'],
+    ['Team Avg AH',teamAvgAH+' hrs','👥'],['GAMS Status',GAMS[uid]||'N/A','🗂'],
   ];
   document.getElementById('memberSummaryTable').innerHTML=`
     <table style="width:100%;border-collapse:collapse">

@@ -77,7 +77,9 @@ function applyFilters(){
   document.getElementById('view-all').style.display = '';
   document.getElementById('member-profile').style.display = 'none';
   document.getElementById('hdr-title').textContent = 'Team Abhinav — Attendance & Productivity';
-  document.getElementById('hdr-sub').textContent = 'March 2026 · 35 Active FTEs · All Shifts 8AM–4PM';
+  
+  const activeFTEs = Object.keys(window.ATT).length;
+  document.getElementById('hdr-sub').textContent = `${activeMonth} 2026 · ${activeFTEs} Active FTEs · All Shifts 8AM–4PM`;
 
   filteredUIDs = Object.keys(ATT).filter(uid=>{
     const m = ATT[uid];
@@ -99,7 +101,9 @@ function resetFilters(){
   document.getElementById('view-all').style.display='';
   document.getElementById('member-profile').style.display='none';
   document.getElementById('hdr-title').textContent='Team Abhinav — Attendance & Productivity';
-  document.getElementById('hdr-sub').textContent='March 2026 · 35 Active FTEs · All Shifts 8AM–4PM';
+  
+  const activeFTEs = Object.keys(window.ATT).length;
+  document.getElementById('hdr-sub').textContent = `${activeMonth} 2026 · ${activeFTEs} Active FTEs · All Shifts 8AM–4PM`;
   updateKPIs(); updateCharts(); renderTable();
 
   // Auto-close sidebar on mobile after reset

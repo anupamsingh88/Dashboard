@@ -49,9 +49,11 @@ function initApp() {
     initMonthSelector();
     
     // Default to current month if available, else latest
+    const availableMonths = Object.keys(PROJECT_DATA);
+    
+    // Try current month first
     const now = new Date();
     const currentMonthName = now.toLocaleString('default', { month: 'long' });
-    const availableMonths = Object.keys(PROJECT_DATA);
     
     let defaultMonth = availableMonths[availableMonths.length - 1]; // Latest as fallback
     if (availableMonths.includes(currentMonthName)) {
@@ -77,7 +79,7 @@ function updateDynamicTexts(monthName) {
     titles.forEach(el => {
         // Replace common month names with the active one
         let txt = el.textContent;
-        const monthPattern = /(January|February|March|April|May|June|July|August|September|October|November|December|Feb|Mar|Apr)/gi;
+        const monthPattern = /(January|February|March|April|May|June|July|August|September|October|November|December|Feb|Mar|Apr|Jan)/gi;
         el.textContent = txt.replace(monthPattern, monthName);
     });
 
@@ -93,12 +95,22 @@ function switchMonth(monthName) {
 
     const data = PROJECT_DATA[monthName];
     
+    // Update active month state
+    activeMonth = monthName;
+    
     // Update Global References for components
     window.ATT = data.ATT;
     window.PROD = data.PROD;
     window.GAMS = data.GAMS;
     window.DAILY_PRESENT = data.DAILY_PRESENT;
     window.LEADERBOARD = data.LEADERBOARD;
+    
+    // Reset filtered UIDs to all members of the new month
+    filteredUIDs = Object.keys(window.ATT);
+    
+    // Reset current week for the new month
+    const weeks = getAvailableWeeks();
+    currentWeek = weeks.length > 0 ? weeks[weeks.length - 1] : null;
 
     // Update dynamic text across the dashboard
     updateDynamicTexts(monthName);
@@ -121,28 +133,22 @@ function switchMonth(monthName) {
     if (typeof initMemberAttChart === 'function') initMemberAttChart();
     if (typeof initLeaveChart === 'function') initLeaveChart();
     
-    // Handle Productivity charts - find the latest WW in the data
-    let allWeeks = [];
-    Object.values(window.PROD).forEach(member => {
-        Object.keys(member).forEach(k => {
-            if (k.startsWith('ww')) allWeeks.push(k);
-        });
-    });
-    allWeeks = [...new Set(allWeeks)].sort((a,b) => {
-        const numA = parseInt(a.replace('ww',''));
-        const numB = parseInt(b.replace('ww',''));
-        return numB - numA; // Sort descending
-    });
-
-    const latestWW = allWeeks[0] || 'ww10';
-    if (typeof initWeeklyProdChart === 'function') initWeeklyProdChart(latestWW);
-    
+    // Build week tabs and productivity charts
+    if (typeof buildWeekTabs === 'function') buildWeekTabs();
+    if (typeof initWeeklyProdChart === 'function') initWeeklyProdChart(currentWeek);
     if (typeof initWeekGroupChart === 'function') initWeekGroupChart();
+    
     if (typeof renderTable === 'function') renderTable(); // from members.js
 
     // Update selector value if changed programmatically
     const selector = document.getElementById('monthSelect');
     if (selector) selector.value = monthName;
+    
+    // Update footer
+    const footer = document.querySelector('footer');
+    if (footer) {
+        footer.innerHTML = `Team Abhinav Analytics Dashboard v2 &nbsp;·&nbsp; Source: Attendance Tracker &nbsp;·&nbsp; ${monthName} 2026 &nbsp;·&nbsp; Shift: 8AM–4PM`;
+    }
 }
 
 window.switchMonth = switchMonth;

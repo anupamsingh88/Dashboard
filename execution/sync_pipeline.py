@@ -10,8 +10,8 @@ load_dotenv()
 
 EXCEL_URL = os.getenv('EXCEL_URL', 'https://innodata-my.sharepoint.com/:x:/p/in2725/IQBWGt0zGH3_T4Judv8QK_8IAbx8oCHC7zkQNM_Ls6fAoBs?download=1')
 TEMP_FILE = 'temp_tracker.xlsx'
-DATA_FILE = 'dashboard/shared/data.js'
-VERSION_FILE = 'dashboard/shared/version.json'
+DATA_FILE = 'shared/data.js'
+VERSION_FILE = 'shared/version.json'
 
 def download_excel(url, output_path):
     print(f"Downloading from SharePoint...")

@@ -18,8 +18,8 @@ requirements.txt.lock
 *.xlsx
 *.xls
 *.csv
-!dashboard/shared/*.js
-!dashboard/shared/*.json
+!shared/*.js
+!shared/*.json
 
 # IDEs
 .vscode/

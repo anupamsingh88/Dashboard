@@ -1,10 +1,14 @@
-// Generated on 2026-04-13T18:41:10.294583
+// Generated on 2026-04-13T19:12:13.260533
 const FTE_DETAILS = {
   "IN7947": {
     "batch": "N/A",
     "shift": "8AM - 4PM"
   },
   "IN4996": {
+    "batch": "N/A",
+    "shift": "8AM - 4PM"
+  },
+  "IN8181": {
     "batch": "N/A",
     "shift": "8AM - 4PM"
   },
@@ -29,6 +33,10 @@ const FTE_DETAILS = {
     "shift": "8AM - 4PM"
   },
   "IN4784": {
+    "batch": "N/A",
+    "shift": "8AM - 4PM"
+  },
+  "IN8182": {
     "batch": "N/A",
     "shift": "8AM - 4PM"
   },
@@ -57,6 +65,10 @@ const FTE_DETAILS = {
     "shift": "8AM - 4PM"
   },
   "IN5005": {
+    "batch": "N/A",
+    "shift": "8AM - 4PM"
+  },
+  "IN8183": {
     "batch": "N/A",
     "shift": "8AM - 4PM"
   },
@@ -1752,6 +1764,47 @@ const PROJECT_DATA = {
         "weekoff": 4,
         "holiday": 1
       },
+      "IN8181": {
+        "name": "Arpit Aggarwal",
+        "uid": "IN8181",
+        "days": {
+          "2026-04-01": "nan",
+          "2026-04-02": "nan",
+          "2026-04-03": "nan",
+          "2026-04-04": "nan",
+          "2026-04-05": "nan",
+          "2026-04-06": "nan",
+          "2026-04-07": "nan",
+          "2026-04-08": "nan",
+          "2026-04-09": "nan",
+          "2026-04-10": "nan",
+          "2026-04-11": "nan",
+          "2026-04-12": "nan",
+          "2026-04-13": "nan",
+          "2026-04-14": "nan",
+          "2026-04-15": "nan",
+          "2026-04-16": "nan",
+          "2026-04-17": "nan",
+          "2026-04-18": "nan",
+          "2026-04-19": "Week Off",
+          "2026-04-20": "nan",
+          "2026-04-21": "nan",
+          "2026-04-22": "nan",
+          "2026-04-23": "nan",
+          "2026-04-24": "nan",
+          "2026-04-25": "nan",
+          "2026-04-26": "Week Off",
+          "2026-04-27": "nan",
+          "2026-04-28": "nan",
+          "2026-04-29": "nan",
+          "2026-04-30": "nan"
+        },
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 2,
+        "holiday": 0
+      },
       "IN4997": {
         "name": "BRAJ PAL SINGH",
         "uid": "IN4997",
@@ -1997,6 +2050,47 @@ const PROJECT_DATA = {
         "leave": 0,
         "weekoff": 4,
         "holiday": 1
+      },
+      "IN8182": {
+        "name": "Meenakshi Rawat",
+        "uid": "IN8182",
+        "days": {
+          "2026-04-01": "nan",
+          "2026-04-02": "nan",
+          "2026-04-03": "nan",
+          "2026-04-04": "nan",
+          "2026-04-05": "nan",
+          "2026-04-06": "nan",
+          "2026-04-07": "nan",
+          "2026-04-08": "nan",
+          "2026-04-09": "nan",
+          "2026-04-10": "nan",
+          "2026-04-11": "nan",
+          "2026-04-12": "nan",
+          "2026-04-13": "nan",
+          "2026-04-14": "nan",
+          "2026-04-15": "nan",
+          "2026-04-16": "nan",
+          "2026-04-17": "nan",
+          "2026-04-18": "nan",
+          "2026-04-19": "Week Off",
+          "2026-04-20": "nan",
+          "2026-04-21": "nan",
+          "2026-04-22": "nan",
+          "2026-04-23": "nan",
+          "2026-04-24": "nan",
+          "2026-04-25": "nan",
+          "2026-04-26": "Week Off",
+          "2026-04-27": "nan",
+          "2026-04-28": "nan",
+          "2026-04-29": "nan",
+          "2026-04-30": "nan"
+        },
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 2,
+        "holiday": 0
       },
       "IN5003": {
         "name": "Mudimala Chandrashaker",
@@ -2284,6 +2378,47 @@ const PROJECT_DATA = {
         "leave": 0,
         "weekoff": 4,
         "holiday": 1
+      },
+      "IN8183": {
+        "name": "Poonam Anurag Kohli",
+        "uid": "IN8183",
+        "days": {
+          "2026-04-01": "nan",
+          "2026-04-02": "nan",
+          "2026-04-03": "nan",
+          "2026-04-04": "nan",
+          "2026-04-05": "nan",
+          "2026-04-06": "nan",
+          "2026-04-07": "nan",
+          "2026-04-08": "nan",
+          "2026-04-09": "nan",
+          "2026-04-10": "nan",
+          "2026-04-11": "nan",
+          "2026-04-12": "nan",
+          "2026-04-13": "nan",
+          "2026-04-14": "nan",
+          "2026-04-15": "nan",
+          "2026-04-16": "nan",
+          "2026-04-17": "nan",
+          "2026-04-18": "nan",
+          "2026-04-19": "Week Off",
+          "2026-04-20": "nan",
+          "2026-04-21": "nan",
+          "2026-04-22": "nan",
+          "2026-04-23": "nan",
+          "2026-04-24": "nan",
+          "2026-04-25": "nan",
+          "2026-04-26": "Week Off",
+          "2026-04-27": "nan",
+          "2026-04-28": "nan",
+          "2026-04-29": "nan",
+          "2026-04-30": "nan"
+        },
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 2,
+        "holiday": 0
       },
       "IN5115": {
         "name": "Prashant ojha",
@@ -3066,7 +3201,7 @@ const PROJECT_DATA = {
         "ww14": 32.14,
         "ww15": 40.73,
         "ww16": 4.82,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4996": {
         "name": "Arogya Painuly",
@@ -3109,7 +3244,7 @@ const PROJECT_DATA = {
         "ww14": 38.98,
         "ww15": 48.08,
         "ww16": 4.6,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4997": {
         "name": "Braj Pal Singh",
@@ -3152,7 +3287,7 @@ const PROJECT_DATA = {
         "ww14": 30.84,
         "ww15": 53.46,
         "ww16": 5.02,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5107": {
         "name": "Duddeda Pooja",
@@ -3195,7 +3330,7 @@ const PROJECT_DATA = {
         "ww14": 86.1,
         "ww15": 52.25,
         "ww16": 3.79,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4995": {
         "name": "Katikela Sreeharsha Kishore",
@@ -3238,7 +3373,7 @@ const PROJECT_DATA = {
         "ww14": 11.94,
         "ww15": 25.08,
         "ww16": 8.07,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5010": {
         "name": "KUMKUM RAWAT",
@@ -3281,7 +3416,7 @@ const PROJECT_DATA = {
         "ww14": 48.46,
         "ww15": 64.28,
         "ww16": 5.69,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5103": {
         "name": "Kuvvarapu Vikranth",
@@ -3324,7 +3459,7 @@ const PROJECT_DATA = {
         "ww14": 9.02,
         "ww15": 34.97,
         "ww16": 6.97,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4784": {
         "name": "M. Sai Prasad Naik",
@@ -3367,7 +3502,7 @@ const PROJECT_DATA = {
         "ww14": 8.33,
         "ww15": 23.6,
         "ww16": 1.61,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5003": {
         "name": "Mudimala Chandrashaker",
@@ -3383,7 +3518,7 @@ const PROJECT_DATA = {
           "2026-04-05": 16.36,
           "2026-04-06": 5.98,
           "2026-04-07": 15.57,
-          "2026-04-08": 21.08,
+          "2026-04-08": 16.0,
           "2026-04-09": 8.39,
           "2026-04-10": 9.45,
           "2026-04-11": 0.0,
@@ -3408,9 +3543,9 @@ const PROJECT_DATA = {
           "2026-04-30": 0
         },
         "ww14": 72.19,
-        "ww15": 98.79,
+        "ww15": 93.71,
         "ww16": 0.0,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4986": {
         "name": "Murtaza Mustafa Zafar",
@@ -3453,7 +3588,7 @@ const PROJECT_DATA = {
         "ww14": 60.13,
         "ww15": 49.4,
         "ww16": 9.11,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4988": {
         "name": "Musfira",
@@ -3496,7 +3631,7 @@ const PROJECT_DATA = {
         "ww14": 39.99,
         "ww15": 38.49,
         "ww16": 0.0,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5116": {
         "name": "Nisarga Suresh Kapde",
@@ -3539,7 +3674,7 @@ const PROJECT_DATA = {
         "ww14": 28.49,
         "ww15": 45.02,
         "ww16": 7.66,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5000": {
         "name": "Nishtha Sharma",
@@ -3582,7 +3717,7 @@ const PROJECT_DATA = {
         "ww14": 27.29,
         "ww15": 36.09,
         "ww16": 4.18,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4993": {
         "name": "P. Omkar",
@@ -3625,7 +3760,7 @@ const PROJECT_DATA = {
         "ww14": 26.75,
         "ww15": 47.91,
         "ww16": 5.31,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5005": {
         "name": "Paniganti Saraswathi",
@@ -3668,7 +3803,7 @@ const PROJECT_DATA = {
         "ww14": 10.54,
         "ww15": 25.91,
         "ww16": 0.0,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5115": {
         "name": "Prashant ojha",
@@ -3711,7 +3846,7 @@ const PROJECT_DATA = {
         "ww14": 12.29,
         "ww15": 2.28,
         "ww16": 2.21,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5498": {
         "name": "Pratik Mahadev More",
@@ -3754,7 +3889,7 @@ const PROJECT_DATA = {
         "ww14": 41.97,
         "ww15": 45.23,
         "ww16": 4.76,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5122": {
         "name": "Prince Patel",
@@ -3797,7 +3932,7 @@ const PROJECT_DATA = {
         "ww14": 49.3,
         "ww15": 86.87,
         "ww16": 3.55,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5009": {
         "name": "Priyata M",
@@ -3840,7 +3975,7 @@ const PROJECT_DATA = {
         "ww14": 22.61,
         "ww15": 50.97,
         "ww16": 5.73,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5108": {
         "name": "Pummy Kumari singh",
@@ -3883,7 +4018,7 @@ const PROJECT_DATA = {
         "ww14": 86.65,
         "ww15": 80.55,
         "ww16": 13.93,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5677": {
         "name": "Sahil Kiran",
@@ -3926,7 +4061,7 @@ const PROJECT_DATA = {
         "ww14": 24.71,
         "ww15": 50.57,
         "ww16": 0.78,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4998": {
         "name": "Saransh Kumar",
@@ -3969,7 +4104,7 @@ const PROJECT_DATA = {
         "ww14": 4.79,
         "ww15": 34.58,
         "ww16": 3.57,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5801": {
         "name": "Saurabh Barua",
@@ -4012,7 +4147,7 @@ const PROJECT_DATA = {
         "ww14": 55.0,
         "ww15": 38.67,
         "ww16": 4.18,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4987": {
         "name": "Shubhasmita Sahoo",
@@ -4055,7 +4190,7 @@ const PROJECT_DATA = {
         "ww14": 55.45,
         "ww15": 55.97,
         "ww16": 15.51,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4989": {
         "name": "Siddharth Kumar",
@@ -4098,7 +4233,7 @@ const PROJECT_DATA = {
         "ww14": 19.93,
         "ww15": 26.78,
         "ww16": 2.13,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5104": {
         "name": "Simran Bheda",
@@ -4141,7 +4276,7 @@ const PROJECT_DATA = {
         "ww14": 4.33,
         "ww15": 14.16,
         "ww16": 2.94,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5127": {
         "name": "Sripuram Pravara Sujesvi",
@@ -4184,7 +4319,7 @@ const PROJECT_DATA = {
         "ww14": 35.14,
         "ww15": 39.41,
         "ww16": 4.61,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN8009": {
         "name": "Suragani Eswar Teja",
@@ -4227,7 +4362,7 @@ const PROJECT_DATA = {
         "ww14": 32.61,
         "ww15": 38.63,
         "ww16": 3.08,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5002": {
         "name": "suyash bhavsar",
@@ -4270,7 +4405,7 @@ const PROJECT_DATA = {
         "ww14": 8.3,
         "ww15": 13.82,
         "ww16": 2.66,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5008": {
         "name": "Tabish Karim",
@@ -4313,7 +4448,7 @@ const PROJECT_DATA = {
         "ww14": 61.05,
         "ww15": 60.14,
         "ww16": 0.0,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5811": {
         "name": "Urhan Ahmad Khan",
@@ -4356,7 +4491,7 @@ const PROJECT_DATA = {
         "ww14": 21.08,
         "ww15": 24.52,
         "ww16": 1.95,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN4657": {
         "name": "Vishnudas S Menon",
@@ -4399,7 +4534,7 @@ const PROJECT_DATA = {
         "ww14": 23.38,
         "ww15": 34.15,
         "ww16": 4.42,
-        "ww17": 0
+        "ww17": 0.0
       },
       "IN5120": {
         "name": "Zoya Nawaz Khan",
@@ -4442,7 +4577,7 @@ const PROJECT_DATA = {
         "ww14": 32.47,
         "ww15": 23.34,
         "ww16": 2.95,
-        "ww17": 0
+        "ww17": 0.0
       }
     },
     "GAMS": {
@@ -4502,7 +4637,7 @@ const PROJECT_DATA = {
         {
           "uid": "IN5003",
           "name": "Mudimala Chandrashaker",
-          "score": 170.98
+          "score": 165.9
         },
         {
           "uid": "IN5107",

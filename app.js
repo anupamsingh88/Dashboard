@@ -46,24 +46,74 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 function initApp() {
-    // ═══ INIT LOGIC ═══
+    initMonthSelector();
+    
+    // Default to current month if available, else latest
+    const now = new Date();
+    const currentMonthName = now.toLocaleString('default', { month: 'long' });
+    const availableMonths = Object.keys(PROJECT_DATA);
+    
+    let defaultMonth = availableMonths[availableMonths.length - 1]; // Latest as fallback
+    if (availableMonths.includes(currentMonthName)) {
+        defaultMonth = currentMonthName;
+    }
+
+    switchMonth(defaultMonth);
+    
+    initSidebar(); // from sidebar.js
+}
+
+function initMonthSelector() {
+    const selector = document.getElementById('monthSelect');
+    if (!selector) return;
+
+    const months = Object.keys(PROJECT_DATA);
+    selector.innerHTML = months.map(m => `<option value="${m}">${m} 2026</option>`).join('');
+}
+
+function switchMonth(monthName) {
+    if (!PROJECT_DATA[monthName]) return;
+
+    const data = PROJECT_DATA[monthName];
+    
+    // Update Global References for components
+    window.ATT = data.ATT;
+    window.PROD = data.PROD;
+    window.GAMS = data.GAMS;
+    window.DAILY_PRESENT = data.DAILY_PRESENT;
+    window.LEADERBOARD = data.LEADERBOARD;
+
+    // Update Header sub-text
+    const activeFTEs = Object.keys(window.ATT).length;
+    const hdrSub = document.getElementById('hdr-sub');
+    if (hdrSub) hdrSub.textContent = `${monthName} 2026 · ${activeFTEs} Active FTEs · All Shifts 8AM–4PM`;
+
+    // Update Date Display
     const dElem = document.getElementById('curDate');
     if(dElem) dElem.textContent = new Date().toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',year:'numeric'});
 
-    initSidebar(); // from sidebar.js
+    // Update UI components
     updateKPIs(); // from overview.js
     
-    // charts from attendance.js and productivity.js
+    // Re-init charts
     if (typeof initDailyChart === 'function') initDailyChart();
     if (typeof initDonutChart === 'function') initDonutChart();
     if (typeof initMemberAttChart === 'function') initMemberAttChart();
     if (typeof initLeaveChart === 'function') initLeaveChart();
-    if (typeof initWeeklyProdChart === 'function') initWeeklyProdChart('ww10');
-    if (typeof initFebProdChart === 'function') initFebProdChart();
+    
+    // Handle Productivity charts (WW varies by month, but we'll show first found for now)
+    const firstWW = Object.keys(window.PROD[Object.keys(window.PROD)[0]] || {}).find(k => k.startsWith('ww')) || 'ww10';
+    if (typeof initWeeklyProdChart === 'function') initWeeklyProdChart(firstWW);
+    
     if (typeof initWeekGroupChart === 'function') initWeekGroupChart();
-
     if (typeof renderTable === 'function') renderTable(); // from members.js
+
+    // Update selector value if changed programmatically
+    const selector = document.getElementById('monthSelect');
+    if (selector) selector.value = monthName;
 }
+
+window.switchMonth = switchMonth;
 
 /**
  * TRIGGER MANUAL SYNC

@@ -13,10 +13,11 @@ TEMP_FILE = 'temp_tracker.xlsx'
 DATA_FILE = 'shared/data.js'
 VERSION_FILE = 'shared/version.json'
 
+MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
 def download_excel(url, output_path):
     print(f"Downloading from SharePoint...")
     try:
-        # Use a download=1 flag to force direct download if not already present
         if 'download=1' not in url:
             separator = '&' if '?' in url else '?'
             url = f"{url}{separator}download=1"
@@ -34,31 +35,32 @@ def download_excel(url, output_path):
         print(f"  Error downloading: {e}")
         return False
 
-def process_tracker(input_file, output_js, version_file):
-    """Process the Team Abhinav Attendance Tracker Excel file and generate data.js."""
-    print(f"Processing {input_file}...")
-    if not os.path.exists(input_file):
-        print(f"  Error: {input_file} not found.")
-        return
-        
-    xl = pd.ExcelFile(input_file)
+def get_month_data(xl, month_name, fte_data):
+    """Extracts attendance and productivity for a specific month."""
+    att_sheet = f"{month_name} Attendance"
+    prod_sheet = f"{month_name} Productivity"
+    gams_sheet = f"GAMS ({month_name})"
     
-    # 1. Load FTE Details
-    df_fte = pd.read_excel(xl, 'FTE Details')
-    fte_data = {}
-    for _, row in df_fte.iterrows():
-        uid = str(row.get('User ID', row.get('UID', ''))).strip()
-        if uid and uid != 'nan':
-            fte_data[uid] = {
-                "batch": str(row.get('Batch', 'N/A')),
-                "shift": str(row.get('Shift', 'N/A'))
-            }
+    # Check if sheets exist
+    if att_sheet not in xl.sheet_names or prod_sheet not in xl.sheet_names:
+        # Try alternate GAMS naming
+        if month_name == "March" and "GAMS (March Only)" in xl.sheet_names:
+            gams_sheet = "GAMS (March Only)"
+        else:
+            return None
 
-    # 2. Load Attendance
-    df_att = pd.read_excel(xl, 'March Attendance')
+    print(f"  Extracting data for {month_name}...")
+    
+    # 1. Attendance
+    df_att = pd.read_excel(xl, att_sheet)
     att_data = {}
     daily_present = {}
-    date_cols = [col for col in df_att.columns if isinstance(col, datetime) or (isinstance(col, str) and col.startswith('2026-03'))]
+    # Detect year from data or assume 2026 for now
+    year = 2026
+    month_idx = MONTHS.index(month_name) + 1
+    month_prefix = f"{year}-{month_idx:02d}"
+    
+    date_cols = [col for col in df_att.columns if isinstance(col, datetime) or (isinstance(col, str) and col.startswith(month_prefix))]
     
     for _, row in df_att.iterrows():
         uid = str(row.get('User ID', '')).strip()
@@ -82,18 +84,19 @@ def process_tracker(input_file, output_js, version_file):
             "holiday": int(row.get('HOLIDAY', 0)) if pd.notna(row.get('HOLIDAY')) else 0
         }
 
-    # 3. Load March Productivity
-    df_prod = pd.read_excel(xl, 'March Productivity', header=1)
+    # 2. Productivity
+    df_prod = pd.read_excel(xl, prod_sheet, header=1)
     df_prod_data = df_prod.iloc[1:].copy()
-    ww10_col = next((c for c in df_prod.columns if 'WW10' in str(c)), None)
-    ww11_col = next((c for c in df_prod.columns if 'WW11' in str(c)), None)
-    ww12_col = next((c for c in df_prod.columns if 'WW12' in str(c)), None)
+    
+    # Find WW columns dynamically
+    ww_cols = [c for c in df_prod.columns if 'WW' in str(c)]
     
     prod_data = {}
     for _, row in df_prod_data.iterrows():
         uid = str(row.get('Unnamed: 1', '')).strip()
         name = str(row.get('FTE Details', '')).strip()
         if not uid or uid == 'nan' or not name or name == 'nan': continue
+        
         daily_ah = {}
         for col in df_prod.columns:
             if isinstance(col, datetime):
@@ -101,34 +104,100 @@ def process_tracker(input_file, output_js, version_file):
                 val = row.get(col)
                 daily_ah[date_str] = float(val) if pd.notna(val) else 0
         
-        ww10_val = float(row.get(ww10_col, 0)) if ww10_col and pd.notna(row.get(ww10_col)) else 0
-        ww11_val = float(row.get(ww11_col, 0)) if ww11_col and pd.notna(row.get(ww11_col)) else 0
-        ww12_val = float(row.get(ww12_col, 0)) if ww12_col and pd.notna(row.get(ww12_col)) else 0
-        prod_data[uid] = {"name": name, "ww10": round(ww10_val, 2), "ww11": round(ww11_val, 2), "ww12": round(ww12_val, 2), "daily": daily_ah}
+        member_prod = {"name": name, "daily": daily_ah}
+        total_score = 0
+        for ww in ww_cols:
+            val = float(row.get(ww, 0)) if pd.notna(row.get(ww)) else 0
+            member_prod[ww.lower()] = round(val, 2)
+            total_score += val
+            
+        prod_data[uid] = member_prod
 
-    # 4. Load GAMS & Leadboard... (truncated logic for brevity but kept functional)
-    df_gams = pd.read_excel(xl, 'GAMS')
-    gams_data = {str(row.get('UID', '')).strip(): str(row.get('TIMESHEET STATUS', 'Applied')) for _, row in df_gams.iterrows() if pd.notna(row.get('UID'))}
+    # 3. GAMS
+    gams_data = {}
+    if gams_sheet in xl.sheet_names:
+        df_gams = pd.read_excel(xl, gams_sheet)
+        gams_data = {str(row.get('UID', '')).strip(): str(row.get('TIMESHEET STATUS', 'Applied')) for _, row in df_gams.iterrows() if pd.notna(row.get('UID'))}
 
-    # Leaderboard
-    sorted_players = [{"uid": uid, "name": d['name'], "score": round(d['ww10'] + d['ww11'] + d['ww12'], 2)} for uid, d in prod_data.items() if (d['ww10'] + d['ww11'] + d['ww12']) > 0]
+    # 4. Leaderboard
+    sorted_players = []
+    for uid, d in prod_data.items():
+        score = sum(v for k, v in d.items() if k.startswith('ww'))
+        if score > 0:
+            sorted_players.append({"uid": uid, "name": d['name'], "score": round(score, 2)})
+            
     sorted_players.sort(key=lambda x: x['score'], reverse=True)
-    leaderboard = { 'top': sorted_players[:5], 'bottom': sorted_players[-5:] if len(sorted_players) >= 5 else sorted_players }
+    leaderboard = { 
+        'top': sorted_players[:5], 
+        'bottom': sorted_players[-5:] if len(sorted_players) >= 5 else sorted_players 
+    }
 
-    # Write JS
+    return {
+        "ATT": att_data,
+        "PROD": prod_data,
+        "GAMS": gams_data,
+        "DAILY_PRESENT": daily_present,
+        "LEADERBOARD": leaderboard
+    }
+
+def process_tracker(input_file, output_js, version_file):
+    print(f"Processing {input_file} for all months...")
+    if not os.path.exists(input_file):
+        print(f"  Error: {input_file} not found.")
+        return
+        
+    xl = pd.ExcelFile(input_file)
+    
+    # FTE Details (Global)
+    df_fte = pd.read_excel(xl, 'FTE Details')
+    fte_data = {}
+    for _, row in df_fte.iterrows():
+        uid = str(row.get('User ID', row.get('UID', ''))).strip()
+        if uid and uid != 'nan':
+            fte_data[uid] = {
+                "batch": str(row.get('Batch', 'N/A')),
+                "shift": str(row.get('Shift', 'N/A'))
+            }
+
+    all_monthly_data = {}
+    for month in MONTHS:
+        try:
+            data = get_month_data(xl, month, fte_data)
+            if data:
+                all_monthly_data[month] = data
+        except Exception as e:
+            print(f"  Skipping {month}: {e}")
+
+    if not all_monthly_data:
+        print("  Error: No monthly data could be extracted!")
+        return
+
+    # Write combined JS
     with open(output_js, 'w', encoding='utf-8') as f:
-        f.write(f"const ATT = {json.dumps(att_data, indent=2)};\n\n")
-        f.write(f"const MARCH_PROD = {json.dumps(prod_data, indent=2)};\n\n")
-        f.write(f"const GAMS = {json.dumps(gams_data, indent=2)};\n\n")
+        f.write(f"// Generated on {datetime.now().isoformat()}\n")
         f.write(f"const FTE_DETAILS = {json.dumps(fte_data, indent=2)};\n\n")
-        f.write(f"const DAILY_PRESENT = {json.dumps(daily_present, indent=2)};\n\n")
-        f.write(f"const LEADERBOARD = {json.dumps(leaderboard, indent=2)};\n")
+        f.write(f"const PROJECT_DATA = {json.dumps(all_monthly_data, indent=2)};\n\n")
+        
+        # Backward compatibility: set the latest month as default globals
+        if all_monthly_data:
+            latest_month = list(all_monthly_data.keys())[-1]
+            latest = all_monthly_data[latest_month]
+            f.write(f"// Defaulting to {latest_month} for backward compatibility\n")
+            f.write(f"let ATT = PROJECT_DATA['{latest_month}'].ATT;\n")
+            f.write(f"let PROD = PROJECT_DATA['{latest_month}'].PROD;\n")
+            f.write(f"let GAMS = PROJECT_DATA['{latest_month}'].GAMS;\n")
+            f.write(f"let DAILY_PRESENT = PROJECT_DATA['{latest_month}'].DAILY_PRESENT;\n")
+            f.write(f"let LEADERBOARD = PROJECT_DATA['{latest_month}'].LEADERBOARD;\n")
 
     # Update Version
-    version = {"timestamp": datetime.now().isoformat(), "source": "SharePoint Online"}
+    version = {
+        "timestamp": datetime.now().isoformat(), 
+        "available_months": list(all_monthly_data.keys()),
+        "source": "SharePoint Online Multi-Month"
+    }
     with open(version_file, 'w', encoding='utf-8') as f:
-        json.dump(version, f, indent=2)
-    print(f"  Success! Dashboard updated.")
+        xl.close()
+    print(f"  Success! Multi-month data generated for: {', '.join(all_monthly_data.keys())}")
 
 if __name__ == "__main__":
     if download_excel(EXCEL_URL, TEMP_FILE):

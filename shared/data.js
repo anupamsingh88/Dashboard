@@ -1,4 +1,4 @@
-// Generated on 2026-04-13T22:41:55.946152
+// Generated on 2026-04-13T23:11:13.134494
 const FTE_DETAILS = {
   "IN7947": {
     "batch": "N/A",
@@ -1491,7 +1491,206 @@ const PROJECT_DATA = {
         "holiday": 1
       }
     },
-    "PROD": {},
+    "PROD": {
+      "IN7947": {
+        "name": "ADITI",
+        "daily": {},
+        "ww14(28/03-03/04)": 32.14,
+        "ww15(04/04-10/04)": 35.01
+      },
+      "IN4996": {
+        "name": "Arogya Painuly",
+        "daily": {},
+        "ww14(28/03-03/04)": 38.98,
+        "ww15(04/04-10/04)": 38.45
+      },
+      "IN4997": {
+        "name": "Braj Pal Singh",
+        "daily": {},
+        "ww14(28/03-03/04)": 30.84,
+        "ww15(04/04-10/04)": 44.63
+      },
+      "IN5107": {
+        "name": "Duddeda Pooja",
+        "daily": {},
+        "ww14(28/03-03/04)": 86.1,
+        "ww15(04/04-10/04)": 45.01
+      },
+      "IN4995": {
+        "name": "Katikela Sreeharsha Kishore",
+        "daily": {},
+        "ww14(28/03-03/04)": 11.94,
+        "ww15(04/04-10/04)": 12.1
+      },
+      "IN5010": {
+        "name": "KUMKUM RAWAT",
+        "daily": {},
+        "ww14(28/03-03/04)": 48.46,
+        "ww15(04/04-10/04)": 55.12
+      },
+      "IN5103": {
+        "name": "Kuvvarapu Vikranth",
+        "daily": {},
+        "ww14(28/03-03/04)": 9.02,
+        "ww15(04/04-10/04)": 34.97
+      },
+      "IN4784": {
+        "name": "M. Sai Prasad Naik",
+        "daily": {},
+        "ww14(28/03-03/04)": 8.33,
+        "ww15(04/04-10/04)": 19.18
+      },
+      "IN5003": {
+        "name": "Mudimala Chandrashaker",
+        "daily": {},
+        "ww14(28/03-03/04)": 72.19,
+        "ww15(04/04-10/04)": 89.34
+      },
+      "IN4986": {
+        "name": "Murtaza Mustafa Zafar",
+        "daily": {},
+        "ww14(28/03-03/04)": 60.13,
+        "ww15(04/04-10/04)": 38.44
+      },
+      "IN4988": {
+        "name": "Musfira",
+        "daily": {},
+        "ww14(28/03-03/04)": 39.99,
+        "ww15(04/04-10/04)": 38.49
+      },
+      "IN5116": {
+        "name": "Nisarga Suresh Kapde",
+        "daily": {},
+        "ww14(28/03-03/04)": 28.49,
+        "ww15(04/04-10/04)": 36.71
+      },
+      "IN5000": {
+        "name": "Nishtha Sharma",
+        "daily": {},
+        "ww14(28/03-03/04)": 27.29,
+        "ww15(04/04-10/04)": 30.74
+      },
+      "IN4993": {
+        "name": "P. Omkar",
+        "daily": {},
+        "ww14(28/03-03/04)": 26.75,
+        "ww15(04/04-10/04)": 37.08
+      },
+      "IN5005": {
+        "name": "Paniganti Saraswathi",
+        "daily": {},
+        "ww14(28/03-03/04)": 10.54,
+        "ww15(04/04-10/04)": 21.15
+      },
+      "IN5115": {
+        "name": "Prashant ojha",
+        "daily": {},
+        "ww14(28/03-03/04)": 12.29,
+        "ww15(04/04-10/04)": 0.0
+      },
+      "IN5498": {
+        "name": "Pratik Mahadev More",
+        "daily": {},
+        "ww14(28/03-03/04)": 41.97,
+        "ww15(04/04-10/04)": 36.84
+      },
+      "IN5122": {
+        "name": "Prince Patel",
+        "daily": {},
+        "ww14(28/03-03/04)": 49.3,
+        "ww15(04/04-10/04)": 74.0
+      },
+      "IN5009": {
+        "name": "Priyata M",
+        "daily": {},
+        "ww14(28/03-03/04)": 22.61,
+        "ww15(04/04-10/04)": 42.87
+      },
+      "IN5108": {
+        "name": "Pummy Kumari singh",
+        "daily": {},
+        "ww14(28/03-03/04)": 86.65,
+        "ww15(04/04-10/04)": 72.81
+      },
+      "IN5677": {
+        "name": "Sahil Kiran",
+        "daily": {},
+        "ww14(28/03-03/04)": 24.71,
+        "ww15(04/04-10/04)": 44.82
+      },
+      "IN4998": {
+        "name": "Saransh Kumar",
+        "daily": {},
+        "ww14(28/03-03/04)": 4.79,
+        "ww15(04/04-10/04)": 30.04
+      },
+      "IN5801": {
+        "name": "Saurabh Barua",
+        "daily": {},
+        "ww14(28/03-03/04)": 55.0,
+        "ww15(04/04-10/04)": 35.91
+      },
+      "IN4987": {
+        "name": "Shubhasmita Sahoo",
+        "daily": {},
+        "ww14(28/03-03/04)": 55.45,
+        "ww15(04/04-10/04)": 45.42
+      },
+      "IN4989": {
+        "name": "Siddharth Kumar",
+        "daily": {},
+        "ww14(28/03-03/04)": 19.93,
+        "ww15(04/04-10/04)": 25.22
+      },
+      "IN5104": {
+        "name": "Simran Bheda",
+        "daily": {},
+        "ww14(28/03-03/04)": 4.33,
+        "ww15(04/04-10/04)": 8.19
+      },
+      "IN5127": {
+        "name": "Sripuram Pravara Sujesvi",
+        "daily": {},
+        "ww14(28/03-03/04)": 35.14,
+        "ww15(04/04-10/04)": 33.36
+      },
+      "IN8009": {
+        "name": "Suragani Eswar Teja",
+        "daily": {},
+        "ww14(28/03-03/04)": 32.61,
+        "ww15(04/04-10/04)": 33.73
+      },
+      "IN5002": {
+        "name": "suyash bhavsar",
+        "daily": {},
+        "ww14(28/03-03/04)": 8.3,
+        "ww15(04/04-10/04)": 11.67
+      },
+      "IN5008": {
+        "name": "Tabish Karim",
+        "daily": {},
+        "ww14(28/03-03/04)": 61.05,
+        "ww15(04/04-10/04)": 52.86
+      },
+      "IN5811": {
+        "name": "Urhan Ahmad Khan",
+        "daily": {},
+        "ww14(28/03-03/04)": 21.08,
+        "ww15(04/04-10/04)": 24.52
+      },
+      "IN4657": {
+        "name": "Vishnudas S Menon",
+        "daily": {},
+        "ww14(28/03-03/04)": 23.38,
+        "ww15(04/04-10/04)": 26.73
+      },
+      "IN5120": {
+        "name": "Zoya Nawaz Khan",
+        "daily": {},
+        "ww14(28/03-03/04)": 32.47,
+        "ww15(04/04-10/04)": 19.76
+      }
+    },
     "GAMS": {
       "IN7947": "Approved",
       "IN4996": "Applied",
@@ -1540,8 +1739,60 @@ const PROJECT_DATA = {
       "2026-04-13": 31
     },
     "LEADERBOARD": {
-      "top": [],
-      "bottom": []
+      "top": [
+        {
+          "uid": "IN5003",
+          "name": "Mudimala Chandrashaker",
+          "score": 161.53
+        },
+        {
+          "uid": "IN5108",
+          "name": "Pummy Kumari singh",
+          "score": 159.46
+        },
+        {
+          "uid": "IN5107",
+          "name": "Duddeda Pooja",
+          "score": 131.11
+        },
+        {
+          "uid": "IN5122",
+          "name": "Prince Patel",
+          "score": 123.3
+        },
+        {
+          "uid": "IN5008",
+          "name": "Tabish Karim",
+          "score": 113.91
+        }
+      ],
+      "bottom": [
+        {
+          "uid": "IN5115",
+          "name": "Prashant ojha",
+          "score": 12.29
+        },
+        {
+          "uid": "IN5104",
+          "name": "Simran Bheda",
+          "score": 12.52
+        },
+        {
+          "uid": "IN5002",
+          "name": "suyash bhavsar",
+          "score": 19.97
+        },
+        {
+          "uid": "IN4995",
+          "name": "Katikela Sreeharsha Kishore",
+          "score": 24.04
+        },
+        {
+          "uid": "IN4784",
+          "name": "M. Sai Prasad Naik",
+          "score": 27.51
+        }
+      ]
     }
   }
 };

@@ -71,6 +71,23 @@ function initMonthSelector() {
     selector.innerHTML = months.map(m => `<option value="${m}">${m} 2026</option>`).join('');
 }
 
+function updateDynamicTexts(monthName) {
+    // 1. Update Chart Titles
+    const titles = document.querySelectorAll('.cc-title, .sec-lbl');
+    titles.forEach(el => {
+        // Replace common month names with the active one
+        let txt = el.textContent;
+        const monthPattern = /(January|February|March|April|May|June|July|August|September|October|November|December|Feb|Mar|Apr)/gi;
+        el.textContent = txt.replace(monthPattern, monthName);
+    });
+
+    // 2. Update Data Flow section if it exists
+    const dataFlowSub = document.querySelector('.df-sub');
+    if (dataFlowSub) {
+        dataFlowSub.textContent = `Live processing pipeline for ${monthName} 2026 operations`;
+    }
+}
+
 function switchMonth(monthName) {
     if (!PROJECT_DATA[monthName]) return;
 
@@ -83,10 +100,13 @@ function switchMonth(monthName) {
     window.DAILY_PRESENT = data.DAILY_PRESENT;
     window.LEADERBOARD = data.LEADERBOARD;
 
+    // Update dynamic text across the dashboard
+    updateDynamicTexts(monthName);
+
     // Update Header sub-text
     const activeFTEs = Object.keys(window.ATT).length;
     const hdrSub = document.getElementById('hdr-sub');
-    if (hdrSub) hdrSub.textContent = `${monthName} 2026 · ${activeFTEs} Active FTEs · All Shifts 8AM–4PM`;
+    if (hdrSub) hdrSub.textContent = `${monthName} 2026 · ${activeFTEs} Active FTEs · Digital & Voice Operations`;
 
     // Update Date Display
     const dElem = document.getElementById('curDate');
@@ -101,9 +121,21 @@ function switchMonth(monthName) {
     if (typeof initMemberAttChart === 'function') initMemberAttChart();
     if (typeof initLeaveChart === 'function') initLeaveChart();
     
-    // Handle Productivity charts (WW varies by month, but we'll show first found for now)
-    const firstWW = Object.keys(window.PROD[Object.keys(window.PROD)[0]] || {}).find(k => k.startsWith('ww')) || 'ww10';
-    if (typeof initWeeklyProdChart === 'function') initWeeklyProdChart(firstWW);
+    // Handle Productivity charts - find the latest WW in the data
+    let allWeeks = [];
+    Object.values(window.PROD).forEach(member => {
+        Object.keys(member).forEach(k => {
+            if (k.startsWith('ww')) allWeeks.push(k);
+        });
+    });
+    allWeeks = [...new Set(allWeeks)].sort((a,b) => {
+        const numA = parseInt(a.replace('ww',''));
+        const numB = parseInt(b.replace('ww',''));
+        return numB - numA; // Sort descending
+    });
+
+    const latestWW = allWeeks[0] || 'ww10';
+    if (typeof initWeeklyProdChart === 'function') initWeeklyProdChart(latestWW);
     
     if (typeof initWeekGroupChart === 'function') initWeekGroupChart();
     if (typeof renderTable === 'function') renderTable(); // from members.js

@@ -36,7 +36,7 @@ def download_excel(url, output_path):
         return False
 
 def get_month_data(xl, month_name, fte_data):
-    """Extracts attendance and productivity for a specific month."""
+    """Extracts attendance and productivity for a specific month with flexible column detection."""
     att_sheet = f"{month_name} Attendance"
     prod_sheet = f"{month_name} Productivity"
     gams_sheet = f"GAMS ({month_name})"
@@ -55,26 +55,29 @@ def get_month_data(xl, month_name, fte_data):
     df_att = pd.read_excel(xl, att_sheet)
     att_data = {}
     daily_present = {}
-    # Detect year from data or assume 2026 for now
     year = 2026
     month_idx = MONTHS.index(month_name) + 1
     month_prefix = f"{year}-{month_idx:02d}"
     
     date_cols = [col for col in df_att.columns if isinstance(col, datetime) or (isinstance(col, str) and col.startswith(month_prefix))]
     
+    # Flexible column search for Attendance
+    uid_col = next((c for c in df_att.columns if str(c).lower() in ['user id', 'uid', 'unnamed: 1']), 'User ID')
+    name_col = next((c for c in df_att.columns if str(c).lower() in ['name', 'fte details', 'unnamed: 0']), 'Name')
+
     for _, row in df_att.iterrows():
-        uid = str(row.get('User ID', '')).strip()
-        if not uid or uid == 'nan': continue
+        uid = str(row.get(uid_col, '')).strip()
+        if not uid or uid == 'nan' or uid == 'User ID': continue
         days = {}
         for col in date_cols:
-            date_str = col.strftime('%Y-%m-%d') if isinstance(col, datetime) else col
+            date_str = col.strftime('%Y-%m-%d') if isinstance(col, datetime) else str(col)
             val = str(row.get(col, '')).strip()
             days[date_str] = val
             if val.lower() == 'present':
                 daily_present[date_str] = daily_present.get(date_str, 0) + 1
         
         att_data[uid] = {
-            "name": str(row.get('Name', '')),
+            "name": str(row.get(name_col, '')),
             "uid": uid,
             "days": days,
             "present": int(row.get('PRESENT', 0)) if pd.notna(row.get('PRESENT')) else 0,
@@ -85,17 +88,28 @@ def get_month_data(xl, month_name, fte_data):
         }
 
     # 2. Productivity
-    df_prod = pd.read_excel(xl, prod_sheet, header=1)
-    df_prod_data = df_prod.iloc[1:].copy()
+    # Note: Header is usually at row 1 or 2
+    df_prod_raw = pd.read_excel(xl, prod_sheet, header=None)
+    header_idx = 0
+    for i, row in df_prod_raw.head(5).iterrows():
+        if any('WW' in str(cell).upper() for cell in row):
+            header_idx = i
+            break
+            
+    df_prod = pd.read_excel(xl, prod_sheet, header=header_idx)
     
-    # Find WW columns dynamically
-    ww_cols = [c for c in df_prod.columns if 'WW' in str(c)]
+    # Flexible column search for Productivity
+    p_uid_col = next((c for c in df_prod.columns if str(c).lower() in ['user id', 'uid', 'unnamed: 1']), df_prod.columns[1])
+    p_name_col = next((c for c in df_prod.columns if str(c).lower() in ['name', 'fte details', 'fte name']), df_prod.columns[0])
+    
+    # Find WW columns dynamically (case insensitive)
+    ww_cols = [c for c in df_prod.columns if 'WW' in str(c).upper()]
     
     prod_data = {}
-    for _, row in df_prod_data.iterrows():
-        uid = str(row.get('Unnamed: 1', '')).strip()
-        name = str(row.get('FTE Details', '')).strip()
-        if not uid or uid == 'nan' or not name or name == 'nan': continue
+    for _, row in df_prod.iterrows():
+        uid = str(row.get(p_uid_col, '')).strip()
+        name = str(row.get(p_name_col, '')).strip()
+        if not uid or uid == 'nan' or uid.lower() in ['uid', 'user id'] or not name or name == 'nan': continue
         
         daily_ah = {}
         for col in df_prod.columns:
@@ -105,11 +119,9 @@ def get_month_data(xl, month_name, fte_data):
                 daily_ah[date_str] = float(val) if pd.notna(val) else 0
         
         member_prod = {"name": name, "daily": daily_ah}
-        total_score = 0
         for ww in ww_cols:
             val = float(row.get(ww, 0)) if pd.notna(row.get(ww)) else 0
-            member_prod[ww.lower()] = round(val, 2)
-            total_score += val
+            member_prod[str(ww).lower().replace(' ', '')] = round(val, 2)
             
         prod_data[uid] = member_prod
 
@@ -117,11 +129,14 @@ def get_month_data(xl, month_name, fte_data):
     gams_data = {}
     if gams_sheet in xl.sheet_names:
         df_gams = pd.read_excel(xl, gams_sheet)
-        gams_data = {str(row.get('UID', '')).strip(): str(row.get('TIMESHEET STATUS', 'Applied')) for _, row in df_gams.iterrows() if pd.notna(row.get('UID'))}
+        g_uid_col = next((c for c in df_gams.columns if str(c).lower() in ['uid', 'user id']), 'UID')
+        g_status_col = next((c for c in df_gams.columns if 'STATUS' in str(c).upper()), 'TIMESHEET STATUS')
+        gams_data = {str(row.get(g_uid_col, '')).strip(): str(row.get(g_status_col, 'Applied')) for _, row in df_gams.iterrows() if pd.notna(row.get(g_uid_col))}
 
     # 4. Leaderboard
     sorted_players = []
     for uid, d in prod_data.items():
+        # Sum all score-like keys
         score = sum(v for k, v in d.items() if k.startswith('ww'))
         if score > 0:
             sorted_players.append({"uid": uid, "name": d['name'], "score": round(score, 2)})
@@ -129,7 +144,15 @@ def get_month_data(xl, month_name, fte_data):
     sorted_players.sort(key=lambda x: x['score'], reverse=True)
     leaderboard = { 
         'top': sorted_players[:5], 
-        'bottom': sorted_players[-5:] if len(sorted_players) >= 5 else sorted_players 
+        'bottom': sorted_players[-5:][::-1] if len(sorted_players) >= 5 else sorted_players[::-1]
+    }
+
+    return {
+        "ATT": att_data,
+        "PROD": prod_data,
+        "GAMS": gams_data,
+        "DAILY_PRESENT": daily_present,
+        "LEADERBOARD": leaderboard
     }
 
     return {

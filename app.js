@@ -70,7 +70,7 @@ function updateDynamicTexts(month) {
     titles.forEach(el => {
         let txt = el.textContent;
         // Use word boundaries \b so we don't accidentally replace "Mar" inside "Summary" -> "SumAprily"
-        const monthPattern = /\b(January|February|March|April|May|June|July|August|September|October|November|December|Feb|Mar|Apr|Jan)\b/gi;
+        const monthPattern = /\b(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b/gi;
         el.textContent = txt.replace(monthPattern, month);
     });
 

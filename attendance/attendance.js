@@ -141,10 +141,10 @@ function onDateChange(date) {
         // Calculate for specific day
         filteredUIDs.forEach(uid => {
             const s = (ATT[uid].days[date] || '').toUpperCase();
-            if (s === 'P') stats.p++;
-            else if (s === 'PL') stats.pl++;
-            else if (s === 'UPL' || s === 'U') stats.upl++;
-            else if (s === 'A' || s === 'ABSENT') stats.a++;
+            if (s === 'P' || s === 'PRESENT') stats.p++;
+            else if (s.includes('PL')) stats.pl++;
+            else if (s.includes('UPL') || s === 'U') stats.upl++;
+            else if (s === 'A' || s === 'ABSENT' || s === 'OFF') stats.a++;
         });
 
         // Restore labels

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 // Generated on 2026-04-14T15:52:34.405416
 window.FTE_DETAILS = {
+=======
+// Generated on 2026-04-14T13:25:33.718476
+const FTE_DETAILS = {
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
   "IN7947": {
     "name": "ADITI",
     "batch": "nan",
@@ -26,6 +31,10 @@ window.FTE_DETAILS = {
     "gams_access": "DONE",
     "ia_access": "PENDING",
     "zoho_access": "PENDING"
+  },
+  "IN8181": {
+    "batch": "N/A",
+    "shift": "8AM - 4PM"
   },
   "IN4997": {
     "name": "BRAJ PAL SINGH",
@@ -89,6 +98,10 @@ window.FTE_DETAILS = {
     "gams_access": "DONE",
     "ia_access": "PENDING",
     "zoho_access": "PENDING"
+  },
+  "IN8182": {
+    "batch": "N/A",
+    "shift": "8AM - 4PM"
   },
   "IN5003": {
     "name": "Mudimala Chandrashaker",
@@ -161,6 +174,10 @@ window.FTE_DETAILS = {
     "gams_access": "DONE",
     "ia_access": "PENDING",
     "zoho_access": "PENDING"
+  },
+  "IN8183": {
+    "batch": "N/A",
+    "shift": "8AM - 4PM"
   },
   "IN5115": {
     "name": "Prashant ojha",
@@ -364,6 +381,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "7:50 AM",
@@ -410,6 +428,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -434,6 +454,7 @@ const PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
+<<<<<<< HEAD
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -575,6 +596,8 @@ const PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -636,6 +659,88 @@ const PROJECT_DATA = {
         },
         "present": 11,
         "absent": 0,
+        "leave": 1,
+        "weekoff": 4,
+        "holiday": 1
+      },
+      "IN8181": {
+        "name": "Arpit Aggarwal",
+        "uid": "IN8181",
+        "days": {
+          "2026-04-01": "nan",
+          "2026-04-02": "nan",
+          "2026-04-03": "nan",
+          "2026-04-04": "nan",
+          "2026-04-05": "nan",
+          "2026-04-06": "nan",
+          "2026-04-07": "nan",
+          "2026-04-08": "nan",
+          "2026-04-09": "nan",
+          "2026-04-10": "nan",
+          "2026-04-11": "nan",
+          "2026-04-12": "nan",
+          "2026-04-13": "nan",
+          "2026-04-14": "Present",
+          "2026-04-15": "nan",
+          "2026-04-16": "nan",
+          "2026-04-17": "nan",
+          "2026-04-18": "nan",
+          "2026-04-19": "Week Off",
+          "2026-04-20": "nan",
+          "2026-04-21": "nan",
+          "2026-04-22": "nan",
+          "2026-04-23": "nan",
+          "2026-04-24": "nan",
+          "2026-04-25": "nan",
+          "2026-04-26": "Week Off",
+          "2026-04-27": "nan",
+          "2026-04-28": "nan",
+          "2026-04-29": "nan",
+          "2026-04-30": "nan"
+        },
+        "present": 1,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 2,
+        "holiday": 0
+      },
+      "IN4997": {
+        "name": "BRAJ PAL SINGH",
+        "uid": "IN4997",
+        "days": {
+          "2026-04-01": "Present",
+          "2026-04-02": "Present",
+          "2026-04-03": "Holiday",
+          "2026-04-04": "Present",
+          "2026-04-05": "Week Off",
+          "2026-04-06": "Present",
+          "2026-04-07": "Present",
+          "2026-04-08": "Present",
+          "2026-04-09": "Present",
+          "2026-04-10": "Present",
+          "2026-04-11": "Present",
+          "2026-04-12": "Week Off",
+          "2026-04-13": "Present",
+          "2026-04-14": "Present",
+          "2026-04-15": "nan",
+          "2026-04-16": "nan",
+          "2026-04-17": "nan",
+          "2026-04-18": "nan",
+          "2026-04-19": "Week Off",
+          "2026-04-20": "nan",
+          "2026-04-21": "nan",
+          "2026-04-22": "nan",
+          "2026-04-23": "nan",
+          "2026-04-24": "nan",
+          "2026-04-25": "nan",
+          "2026-04-26": "Week Off",
+          "2026-04-27": "nan",
+          "2026-04-28": "nan",
+          "2026-04-29": "nan",
+          "2026-04-30": "nan"
+        },
+        "present": 11,
+        "absent": 0,
         "leave": 0,
         "weekoff": 4,
         "holiday": 1
@@ -675,6 +780,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "8:30 AM",
@@ -729,6 +835,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -770,6 +878,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:00",
@@ -796,6 +905,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 10,
         "absent": 0,
         "leave": 1,
@@ -837,6 +948,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "07:00",
@@ -847,6 +959,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -888,12 +1002,15 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:00",
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 10,
         "absent": 0,
         "leave": 1,
@@ -935,6 +1052,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "06:07",
@@ -981,6 +1099,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1022,6 +1142,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-13": {
             "in": "08:00",
@@ -1032,6 +1153,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 2,
         "absent": 0,
         "leave": 0,
@@ -1073,6 +1196,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "07:00",
@@ -1119,6 +1243,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1160,12 +1286,15 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:00",
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1207,7 +1336,10 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {},
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1249,6 +1381,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "PL",
@@ -1275,6 +1408,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 10,
         "absent": 0,
         "leave": 1,
@@ -1316,6 +1451,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:10",
@@ -1366,6 +1502,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1407,7 +1545,10 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {},
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1432,6 +1573,7 @@ const PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
+<<<<<<< HEAD
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -1531,6 +1673,8 @@ const PROJECT_DATA = {
           "2026-04-12": "nan",
           "2026-04-13": "nan",
           "2026-04-14": "nan",
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -1548,8 +1692,53 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {},
         "present": 0,
+=======
+        "present": 11,
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 2,
+        "holiday": 0
+      },
+      "IN8183": {
+        "name": "Poonam Anurag Kohli",
+        "uid": "IN8183",
+        "days": {
+          "2026-04-01": "nan",
+          "2026-04-02": "nan",
+          "2026-04-03": "nan",
+          "2026-04-04": "nan",
+          "2026-04-05": "nan",
+          "2026-04-06": "nan",
+          "2026-04-07": "nan",
+          "2026-04-08": "nan",
+          "2026-04-09": "nan",
+          "2026-04-10": "nan",
+          "2026-04-11": "nan",
+          "2026-04-12": "nan",
+          "2026-04-13": "nan",
+          "2026-04-14": "Present",
+          "2026-04-15": "nan",
+          "2026-04-16": "nan",
+          "2026-04-17": "nan",
+          "2026-04-18": "nan",
+          "2026-04-19": "Week Off",
+          "2026-04-20": "nan",
+          "2026-04-21": "nan",
+          "2026-04-22": "nan",
+          "2026-04-23": "nan",
+          "2026-04-24": "nan",
+          "2026-04-25": "nan",
+          "2026-04-26": "Week Off",
+          "2026-04-27": "nan",
+          "2026-04-28": "nan",
+          "2026-04-29": "nan",
+          "2026-04-30": "nan"
+        },
+        "present": 1,
         "absent": 0,
         "leave": 0,
         "weekoff": 2,
@@ -1590,6 +1779,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:00",
@@ -1604,6 +1794,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 7,
         "absent": 2,
         "leave": 2,
@@ -1645,6 +1837,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:00",
@@ -1703,6 +1896,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1744,7 +1939,10 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {},
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1786,6 +1984,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "07:30",
@@ -1816,6 +2015,8 @@ const PROJECT_DATA = {
             "out": "18:30"
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1857,6 +2058,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "6:00 AM",
@@ -1907,6 +2109,8 @@ const PROJECT_DATA = {
             "out": "10:00 PM"
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1948,7 +2152,10 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {},
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -1990,6 +2197,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "06:00",
@@ -2044,6 +2252,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -2085,6 +2295,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "07:41",
@@ -2131,6 +2342,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 10,
         "absent": 0,
         "leave": 1,
@@ -2172,6 +2385,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:00",
@@ -2218,6 +2432,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -2259,6 +2475,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:30",
@@ -2309,6 +2526,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -2350,12 +2569,15 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-04": {
             "in": "08:07",
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 10,
         "absent": 0,
         "leave": 1,
@@ -2397,7 +2619,10 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {},
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -2439,6 +2664,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "07:10",
@@ -2493,6 +2719,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -2601,6 +2829,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "07:25",
@@ -2647,6 +2876,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 10,
         "absent": 0,
         "leave": 1,
@@ -2688,6 +2919,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:23",
@@ -2734,6 +2966,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 10,
         "absent": 0,
         "leave": 1,
@@ -2775,6 +3009,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:30",
@@ -2821,6 +3056,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 10,
         "absent": 0,
         "leave": 1,
@@ -2862,6 +3099,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
+<<<<<<< HEAD
         "daily_log": {
           "2026-04-01": {
             "in": "08:00",
@@ -2912,6 +3150,8 @@ const PROJECT_DATA = {
             "out": null
           }
         },
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "present": 11,
         "absent": 0,
         "leave": 0,
@@ -3046,7 +3286,10 @@ const PROJECT_DATA = {
           "2026-04-29": 0,
           "2026-04-30": 0
         },
+<<<<<<< HEAD
         "ah": {},
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "ww14": 0,
         "ww15": 0,
         "ww16": 0.0,
@@ -3354,7 +3597,10 @@ const PROJECT_DATA = {
           "2026-04-29": 0,
           "2026-04-30": 0
         },
+<<<<<<< HEAD
         "ah": {},
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "ww14": 0,
         "ww15": 0,
         "ww16": 0.0,
@@ -3706,7 +3952,10 @@ const PROJECT_DATA = {
           "2026-04-29": 0,
           "2026-04-30": 0
         },
+<<<<<<< HEAD
         "ah": {},
+=======
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
         "ww14": 0,
         "ww15": 0,
         "ww16": 0.0,
@@ -4506,6 +4755,7 @@ const PROJECT_DATA = {
       }
     },
     "GAMS": {
+<<<<<<< HEAD
       "IN7947": {
         "status": "Approved",
         "approver": "ALIUDDIN [IN3036]"
@@ -4650,6 +4900,44 @@ const PROJECT_DATA = {
         "status": "Approved",
         "approver": "ALIUDDIN .. . [IN3036]"
       }
+=======
+      "IN7947": "Approved",
+      "IN4996": "Applied",
+      "IN8181": "nan",
+      "IN4997": "Applied",
+      "IN5107": "Approved",
+      "IN4995": "Applied",
+      "IN5010": "Applied",
+      "IN5103": "Approved",
+      "IN4784": "Approved",
+      "IN8182": "Applied",
+      "IN5003": "Approved",
+      "IN4986": "Applied",
+      "IN4988": "Approved",
+      "IN5116": "Approved",
+      "IN5000": "Applied",
+      "IN4993": "Approved",
+      "IN5005": "Applied",
+      "IN8183": "nan",
+      "IN5115": "nan",
+      "IN5498": "Applied",
+      "IN5122": "Approved",
+      "IN5009": "Applied",
+      "IN5108": "Approved",
+      "IN5677": "nan",
+      "IN4998": "Approved",
+      "IN5801": "Approved",
+      "IN4987": "Applied",
+      "IN4989": "Applied",
+      "IN5104": "Applied",
+      "IN5127": "Applied",
+      "IN8009": "Approved",
+      "IN5002": "Approved",
+      "IN5008": "Approved",
+      "IN5811": "Approved",
+      "IN4657": "Approved",
+      "IN5120": "Approved"
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
     },
     "DAILY_PRESENT": {
       "2026-04-01": 32,
@@ -4662,7 +4950,11 @@ const PROJECT_DATA = {
       "2026-04-10": 32,
       "2026-04-11": 32,
       "2026-04-13": 32,
+<<<<<<< HEAD
       "2026-04-14": 34
+=======
+      "2026-04-14": 35
+>>>>>>> 52657192a11a9e43f53b347a5a841e1eb03a73e2
     },
     "LEADERBOARD": {
       "top": [

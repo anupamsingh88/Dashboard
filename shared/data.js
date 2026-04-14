@@ -1,4 +1,4 @@
-// Generated on 2026-04-13T23:40:23.819719
+// Generated on 2026-04-14T02:14:39.125974
 const FTE_DETAILS = {
   "IN7947": {
     "batch": "N/A",
@@ -1904,7 +1904,7 @@ const PROJECT_DATA = {
           "2026-04-11": "Present",
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
-          "2026-04-14": "nan",
+          "2026-04-14": "Present",
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -1922,7 +1922,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
-        "present": 9,
+        "present": 10,
         "absent": 0,
         "leave": 1,
         "weekoff": 4,
@@ -2314,7 +2314,7 @@ const PROJECT_DATA = {
           "2026-04-11": "Present",
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
-          "2026-04-14": "nan",
+          "2026-04-14": "Present",
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -2332,7 +2332,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
-        "present": 10,
+        "present": 11,
         "absent": 0,
         "leave": 0,
         "weekoff": 4,
@@ -2519,7 +2519,7 @@ const PROJECT_DATA = {
           "2026-04-11": "Present",
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
-          "2026-04-14": "nan",
+          "2026-04-14": "Present",
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -2537,7 +2537,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
-        "present": 10,
+        "present": 11,
         "absent": 0,
         "leave": 0,
         "weekoff": 4,
@@ -2601,7 +2601,7 @@ const PROJECT_DATA = {
           "2026-04-11": "Present",
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
-          "2026-04-14": "nan",
+          "2026-04-14": "Present",
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -2619,7 +2619,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
-        "present": 10,
+        "present": 11,
         "absent": 0,
         "leave": 0,
         "weekoff": 4,
@@ -2683,7 +2683,7 @@ const PROJECT_DATA = {
           "2026-04-11": "Present",
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
-          "2026-04-14": "nan",
+          "2026-04-14": "Present",
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -2701,7 +2701,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
-        "present": 10,
+        "present": 11,
         "absent": 0,
         "leave": 0,
         "weekoff": 4,
@@ -2847,7 +2847,7 @@ const PROJECT_DATA = {
           "2026-04-11": "Present",
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
-          "2026-04-14": "nan",
+          "2026-04-14": "Present",
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -2865,7 +2865,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
-        "present": 9,
+        "present": 10,
         "absent": 0,
         "leave": 1,
         "weekoff": 4,
@@ -3011,7 +3011,7 @@ const PROJECT_DATA = {
           "2026-04-11": "PL",
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
-          "2026-04-14": "nan",
+          "2026-04-14": "Present",
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -3029,7 +3029,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
-        "present": 9,
+        "present": 10,
         "absent": 0,
         "leave": 1,
         "weekoff": 4,
@@ -4715,7 +4715,7 @@ const PROJECT_DATA = {
       "IN8181": "nan",
       "IN4997": "Applied",
       "IN5107": "Approved",
-      "IN4995": "Approved",
+      "IN4995": "Applied",
       "IN5010": "Applied",
       "IN5103": "nan",
       "IN4784": "Approved",
@@ -4757,7 +4757,8 @@ const PROJECT_DATA = {
       "2026-04-09": 32,
       "2026-04-10": 32,
       "2026-04-11": 32,
-      "2026-04-13": 31
+      "2026-04-13": 31,
+      "2026-04-14": 7
     },
     "LEADERBOARD": {
       "top": [

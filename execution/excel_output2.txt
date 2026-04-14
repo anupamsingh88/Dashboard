@@ -1,0 +1,139 @@
+File: f:\Bhino_Bhaiya\Team Abhinav Attendance Tracker - Copy.xlsx
+Sheet Names: ['FTE Details', 'April Attendance', 'Daily Log', 'GAMS (March Only)', 'GAMS (April)', 'Quick Links', 'Assessment Results', 'Running Queue Allocation', 'Running Tasks', 'April Productivity', 'March Productivity', 'April AH', 'MARCH AH']
+
+=== Sheet: FTE Details ===
+Shape (first 5 rows): (5, 14)
+Columns:
+['Name', 'User ID', 'Personal Email', 'Phone Number', 'Alias Email Address', 'FTE Batch', 'Shift', 'ZOHO ID', 'GAMS Access', 'IA Access', 'ZOHO Access', 'X-Connect: Innodata Awareness & Workers Rights Notice for Crowdsourced Workforce', 'X-Connect: Handling Unexpected Sensitive/Objectionable Content in Work Queues', 'Unnamed: 13']
+
+First row sample:
+{'Name': 'ADITI', 'User ID': 'IN7947', 'Personal Email': 'tandonaditi9@gmail.com', 'Phone Number': nan, 'Alias Email Address': 'ICG526A12026@innodata.com', 'FTE Batch': nan, 'Shift': '8AM - 4PM', 'ZOHO ID': 'Aditi@ic.innodata.com', 'GAMS Access': 'DONE', 'IA Access': 'DONE', 'ZOHO Access': 'DONE', 'X-Connect: Innodata Awareness & Workers Rights Notice for Crowdsourced Workforce': nan, 'X-Connect: Handling Unexpected Sensitive/Objectionable Content in Work Queues': nan, 'Unnamed: 13': nan}
+
+========================================
+
+=== Sheet: April Attendance ===
+Shape (first 5 rows): (5, 40)
+Columns:
+['Name', 'User ID', datetime.datetime(2026, 4, 1, 0, 0), datetime.datetime(2026, 4, 2, 0, 0), datetime.datetime(2026, 4, 3, 0, 0), datetime.datetime(2026, 4, 4, 0, 0), datetime.datetime(2026, 4, 5, 0, 0), datetime.datetime(2026, 4, 6, 0, 0), datetime.datetime(2026, 4, 7, 0, 0), datetime.datetime(2026, 4, 8, 0, 0), datetime.datetime(2026, 4, 9, 0, 0), datetime.datetime(2026, 4, 10, 0, 0), datetime.datetime(2026, 4, 11, 0, 0), datetime.datetime(2026, 4, 12, 0, 0), datetime.datetime(2026, 4, 13, 0, 0), datetime.datetime(2026, 4, 14, 0, 0), datetime.datetime(2026, 4, 15, 0, 0), datetime.datetime(2026, 4, 16, 0, 0), datetime.datetime(2026, 4, 17, 0, 0), datetime.datetime(2026, 4, 18, 0, 0)]
+... and 20 more columns
+
+First row sample:
+{'Name': 'ADITI', 'User ID': 'IN7947', datetime.datetime(2026, 4, 1, 0, 0): 'Present', datetime.datetime(2026, 4, 2, 0, 0): 'Present', datetime.datetime(2026, 4, 3, 0, 0): 'Holiday', datetime.datetime(2026, 4, 4, 0, 0): 'Present', datetime.datetime(2026, 4, 5, 0, 0): 'Week Off', datetime.datetime(2026, 4, 6, 0, 0): 'Present', datetime.datetime(2026, 4, 7, 0, 0): 'Present', datetime.datetime(2026, 4, 8, 0, 0): 'Present', datetime.datetime(2026, 4, 9, 0, 0): 'Present', datetime.datetime(2026, 4, 10, 0, 0): 'Present', datetime.datetime(2026, 4, 11, 0, 0): 'Present', datetime.datetime(2026, 4, 12, 0, 0): 'Week Off', datetime.datetime(2026, 4, 13, 0, 0): 'Present', datetime.datetime(2026, 4, 14, 0, 0): 'Present', datetime.datetime(2026, 4, 15, 0, 0): nan, datetime.datetime(2026, 4, 16, 0, 0): nan, datetime.datetime(2026, 4, 17, 0, 0): nan, datetime.datetime(2026, 4, 18, 0, 0): nan, datetime.datetime(2026, 4, 19, 0, 0): 'Week Off', datetime.datetime(2026, 4, 20, 0, 0): nan, datetime.datetime(2026, 4, 21, 0, 0): nan, datetime.datetime(2026, 4, 22, 0, 0): nan, datetime.datetime(2026, 4, 23, 0, 0): nan, datetime.datetime(2026, 4, 24, 0, 0): nan, datetime.datetime(2026, 4, 25, 0, 0): nan, datetime.datetime(2026, 4, 26, 0, 0): 'Week Off', datetime.datetime(2026, 4, 27, 0, 0): nan, datetime.datetime(2026, 4, 28, 0, 0): nan, datetime.datetime(2026, 4, 29, 0, 0): nan, datetime.datetime(2026, 4, 30, 0, 0): nan, 'Unnamed: 32': nan, 'Unnamed: 33': nan, 'Unnamed: 34': nan, 'PRESENT': 11, 'ABSENT': 0, 'WEEK-OFF': 4, 'LEAVE': 0, 'HOLIDAY': 1}
+
+========================================
+
+=== Sheet: Daily Log ===
+Shape (first 5 rows): (5, 62)
+Columns:
+['Unnamed: 0', 'DATE', datetime.datetime(2026, 4, 1, 0, 0), 'Unnamed: 3', datetime.datetime(2026, 4, 2, 0, 0), 'Unnamed: 5', datetime.datetime(2026, 4, 3, 0, 0), 'Unnamed: 7', datetime.datetime(2026, 4, 4, 0, 0), 'Unnamed: 9', datetime.datetime(2026, 4, 5, 0, 0), 'Unnamed: 11', datetime.datetime(2026, 4, 6, 0, 0), 'Unnamed: 13', datetime.datetime(2026, 4, 7, 0, 0), 'Unnamed: 15', datetime.datetime(2026, 4, 8, 0, 0), 'Unnamed: 17', datetime.datetime(2026, 4, 9, 0, 0), 'Unnamed: 19']
+... and 42 more columns
+
+First row sample:
+{'Unnamed: 0': 'UID', 'DATE': 'NAME', datetime.datetime(2026, 4, 1, 0, 0): 'Log-in', 'Unnamed: 3': 'Log-out', datetime.datetime(2026, 4, 2, 0, 0): 'Log-in', 'Unnamed: 5': 'Log-out', datetime.datetime(2026, 4, 3, 0, 0): 'Log-in', 'Unnamed: 7': 'Log-out', datetime.datetime(2026, 4, 4, 0, 0): 'Log-in', 'Unnamed: 9': 'Log-out', datetime.datetime(2026, 4, 5, 0, 0): 'Log-in', 'Unnamed: 11': 'Log-out', datetime.datetime(2026, 4, 6, 0, 0): 'Log-in', 'Unnamed: 13': 'Log-out', datetime.datetime(2026, 4, 7, 0, 0): 'Log-in', 'Unnamed: 15': 'Log-out', datetime.datetime(2026, 4, 8, 0, 0): 'Log-in', 'Unnamed: 17': 'Log-out', datetime.datetime(2026, 4, 9, 0, 0): 'Log-in', 'Unnamed: 19': 'Log-out', datetime.datetime(2026, 4, 10, 0, 0): 'Log-in', 'Unnamed: 21': 'Log-out', datetime.datetime(2026, 4, 11, 0, 0): 'Log-in', 'Unnamed: 23': 'Log-out', datetime.datetime(2026, 4, 12, 0, 0): 'Log-in', 'Unnamed: 25': 'Log-out', datetime.datetime(2026, 4, 13, 0, 0): 'Log-in', 'Unnamed: 27': 'Log-out', datetime.datetime(2026, 4, 14, 0, 0): 'Log-in', 'Unnamed: 29': 'Log-out', datetime.datetime(2026, 4, 15, 0, 0): 'Log-in', 'Unnamed: 31': 'Log-out', datetime.datetime(2026, 4, 16, 0, 0): 'Log-in', 'Unnamed: 33': 'Log-out', datetime.datetime(2026, 4, 17, 0, 0): 'Log-in', 'Unnamed: 35': 'Log-out', datetime.datetime(2026, 4, 18, 0, 0): 'Log-in', 'Unnamed: 37': 'Log-out', datetime.datetime(2026, 4, 19, 0, 0): 'Log-in', 'Unnamed: 39': 'Log-out', datetime.datetime(2026, 4, 20, 0, 0): 'Log-in', 'Unnamed: 41': 'Log-out', datetime.datetime(2026, 4, 21, 0, 0): 'Log-in', 'Unnamed: 43': 'Log-out', datetime.datetime(2026, 4, 22, 0, 0): 'Log-in', 'Unnamed: 45': 'Log-out', datetime.datetime(2026, 4, 23, 0, 0): 'Log-in', 'Unnamed: 47': 'Log-out', datetime.datetime(2026, 4, 24, 0, 0): 'Log-in', 'Unnamed: 49': 'Log-out', datetime.datetime(2026, 4, 25, 0, 0): 'Log-in', 'Unnamed: 51': 'Log-out', datetime.datetime(2026, 4, 26, 0, 0): 'Log-in', 'Unnamed: 53': 'Log-out', datetime.datetime(2026, 4, 27, 0, 0): 'Log-in', 'Unnamed: 55': 'Log-out', datetime.datetime(2026, 4, 28, 0, 0): 'Log-in', 'Unnamed: 57': 'Log-out', datetime.datetime(2026, 4, 29, 0, 0): 'Log-in', 'Unnamed: 59': 'Log-out', datetime.datetime(2026, 4, 30, 0, 0): 'Log-in', 'Unnamed: 61': 'Log-out'}
+
+========================================
+
+=== Sheet: GAMS (March Only) ===
+Shape (first 5 rows): (5, 6)
+Columns:
+['UID', 'NAME', 'GAMS APPROVER NAME', 'TIMESHEET STATUS', 'Remarks ( detailed status of the filed timesheets)', 'ENDORSER NAME']
+
+First row sample:
+{'UID': 'IN7947', 'NAME': 'ADITI', 'GAMS APPROVER NAME': 'KHOIROM J. [IN2637]', 'TIMESHEET STATUS': 'Approved', 'Remarks ( detailed status of the filed timesheets)': '5-03-2026 - 31-03-2026.[Approved]', 'ENDORSER NAME': 'KHOIROM J. [IN2637]'}
+
+========================================
+
+=== Sheet: GAMS (April) ===
+Shape (first 5 rows): (5, 6)
+Columns:
+['UID', 'NAME', 'GAMS APPROVER NAME', 'TIMESHEET STATUS', 'Remarks ( detailed status of the filed timesheets)', 'ENDORSER NAME']
+
+First row sample:
+{'UID': 'IN7947', 'NAME': 'ADITI', 'GAMS APPROVER NAME': 'ALIUDDIN [IN3036]', 'TIMESHEET STATUS': 'Approved', 'Remarks ( detailed status of the filed timesheets)': '[Approved] 01/04/2026 - 11/04/2026, [Applied] 13/04/2026', 'ENDORSER NAME': '., ALIUDDIN [IN3036]'}
+
+========================================
+
+=== Sheet: Quick Links ===
+Shape (first 5 rows): (5, 3)
+Columns:
+['SUBJECT', 'LINK', 'DETAILS']
+
+First row sample:
+{'SUBJECT': 'DAILY OPS', 'LINK': nan, 'DETAILS': nan}
+
+========================================
+
+=== Sheet: Assessment Results ===
+Shape (first 5 rows): (5, 10)
+Columns:
+['Omni-s2s-Elo', 'Unnamed: 1', 'Mask-Milo', 'Unnamed: 3', 'Full Pixel Perfect Pattern Extraction', 'Unnamed: 5', 'Derendering Website Design', 'Unnamed: 7', 'Video Quality Compare', 'Unnamed: 9']
+
+First row sample:
+{'Omni-s2s-Elo': 'Passed', 'Unnamed: 1': 'Failed', 'Mask-Milo': 'Passed', 'Unnamed: 3': 'Failed', 'Full Pixel Perfect Pattern Extraction': 'Passed', 'Unnamed: 5': 'Failed', 'Derendering Website Design': 'Passed', 'Unnamed: 7': 'Failed', 'Video Quality Compare': 'Passed', 'Unnamed: 9': 'Failed'}
+
+========================================
+
+=== Sheet: Running Queue Allocation ===
+Shape (first 5 rows): (5, 10)
+Columns:
+['QUEUE ALLOCATIONS: APRIL 11, 2026', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9']
+
+First row sample:
+{'QUEUE ALLOCATIONS: APRIL 11, 2026': 'NAME', 'Unnamed: 1': 'Alias Email', 'Unnamed: 2': 'P0', 'Unnamed: 3': 'P0 Working Status', 'Unnamed: 4': 'P1', 'Unnamed: 5': 'P1 Working Status', 'Unnamed: 6': 'P2', 'Unnamed: 7': 'P2 Working Status', 'Unnamed: 8': 'Fallback Queue', 'Unnamed: 9': 'Fallback Working Status'}
+
+========================================
+
+=== Sheet: Running Tasks ===
+Shape (first 5 rows): (5, 8)
+Columns:
+['Task Name / ID', 'Language Proficiency', 'Unnamed: 2', "\xa0TODAY'S ACTIVE TASKS", 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7']
+
+First row sample:
+{'Task Name / ID': '251015-stationary-camera-transforms', 'Language Proficiency': 'C1', 'Unnamed: 2': nan, "\xa0TODAY'S ACTIVE TASKS": nan, 'Unnamed: 4': nan, 'Unnamed: 5': nan, 'Unnamed: 6': nan, 'Unnamed: 7': nan}
+
+========================================
+
+=== Sheet: April Productivity ===
+Shape (first 5 rows): (5, 40)
+Columns:
+['FTE Details', 'Unnamed: 1', 'Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'WW14(28/03 - 03/04)', 'Saturday.1', 'Sunday.1', 'Monday.1', 'Tuesday.1', 'Wednesday.1', 'Thursday.1', 'Friday.1', 'WW15(04/04-10/04)', 'Saturday.2', 'Sunday.2']
+... and 20 more columns
+
+First row sample:
+{'FTE Details': 'Name', 'Unnamed: 1': 'User ID', 'Saturday': datetime.datetime(2026, 3, 28, 0, 0), 'Sunday': datetime.datetime(2026, 3, 29, 0, 0), 'Monday': datetime.datetime(2026, 3, 30, 0, 0), 'Tuesday': datetime.datetime(2026, 3, 31, 0, 0), 'Wednesday': datetime.datetime(2026, 4, 1, 0, 0), 'Thursday': datetime.datetime(2026, 4, 2, 0, 0), 'Friday': datetime.datetime(2026, 4, 3, 0, 0), 'WW14(28/03 - 03/04)': nan, 'Saturday.1': datetime.datetime(2026, 4, 4, 0, 0), 'Sunday.1': datetime.datetime(2026, 4, 5, 0, 0), 'Monday.1': datetime.datetime(2026, 4, 6, 0, 0), 'Tuesday.1': datetime.datetime(2026, 4, 7, 0, 0), 'Wednesday.1': datetime.datetime(2026, 4, 8, 0, 0), 'Thursday.1': datetime.datetime(2026, 4, 9, 0, 0), 'Friday.1': datetime.datetime(2026, 4, 10, 0, 0), 'WW15(04/04-10/04)': nan, 'Saturday.2': datetime.datetime(2026, 4, 11, 0, 0), 'Sunday.2': datetime.datetime(2026, 4, 12, 0, 0), 'Monday.2': Timestamp('2026-04-13 00:00:00'), 'Tuesday.2': Timestamp('2026-04-14 00:00:00'), 'Wednesday.2': Timestamp('2026-04-15 00:00:00'), 'Thursday.2': Timestamp('2026-04-16 00:00:00'), 'Friday.2': Timestamp('2026-04-17 00:00:00'), 'WW16(11/04 - 17/04)': nan, 'Saturday.3': Timestamp('2026-04-18 00:00:00'), 'Sunday.3': Timestamp('2026-04-19 00:00:00'), 'Monday.3': Timestamp('2026-04-20 00:00:00'), 'Tuesday.3': Timestamp('2026-04-21 00:00:00'), 'Wednesday.3': Timestamp('2026-04-22 00:00:00'), 'Thursday.3': Timestamp('2026-04-23 00:00:00'), 'Friday.3': Timestamp('2026-04-24 00:00:00'), 'WW17(18/04 - 24/04)': nan, 'Saturday.4': Timestamp('2026-04-25 00:00:00'), 'Sunday.4': Timestamp('2026-04-26 00:00:00'), 'Monday.4': Timestamp('2026-04-27 00:00:00'), 'Tuesday.4': Timestamp('2026-04-28 00:00:00'), 'Wednesday.4': Timestamp('2026-04-29 00:00:00'), 'Thursday.4': Timestamp('2026-04-30 00:00:00')}
+
+========================================
+
+=== Sheet: March Productivity ===
+Shape (first 5 rows): (5, 50)
+Columns:
+['GO TO FEB AH', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16', 'Unnamed: 17', 'Unnamed: 18', 'Unnamed: 19']
+... and 30 more columns
+
+First row sample:
+{'GO TO FEB AH': 'FTE Details', 'Unnamed: 1': nan, 'Unnamed: 2': 'Saturday', 'Unnamed: 3': 'Sunday', 'Unnamed: 4': 'Monday', 'Unnamed: 5': 'Tuesday', 'Unnamed: 6': 'Wednesday', 'Unnamed: 7': 'Thursday', 'Unnamed: 8': 'Friday', 'Unnamed: 9': 'WW10 (28/02-06/03)', 'Unnamed: 10': 'Saturday', 'Unnamed: 11': 'Sunday', 'Unnamed: 12': 'Monday', 'Unnamed: 13': 'Tuesday', 'Unnamed: 14': 'Wednesday', 'Unnamed: 15': 'Thursday', 'Unnamed: 16': 'Friday', 'Unnamed: 17': 'WW11 (07/03-13/03)', 'Unnamed: 18': 'Saturday', 'Unnamed: 19': 'Sunday', 'Unnamed: 20': 'Monday', 'Unnamed: 21': 'Tuesday', 'Unnamed: 22': 'Wednesday', 'Unnamed: 23': 'Thursday', 'Unnamed: 24': 'Friday', 'Unnamed: 25': 'WW12 (14/03-20/03)', 'Unnamed: 26': 'Saturday', 'Unnamed: 27': 'Sunday', 'Unnamed: 28': 'Monday', 'Unnamed: 29': 'Tuesday', 'Unnamed: 30': 'Wednesday', 'Unnamed: 31': 'Thursday', 'Unnamed: 32': 'Friday', 'Unnamed: 33': 'WW13 (21/02-27/02)', 'Unnamed: 34': 'Saturday', 'Unnamed: 35': 'Sunday', 'Unnamed: 36': 'Monday', 'Unnamed: 37': 'Tuesday', 'Unnamed: 38': 'Overall', 'Unnamed: 39': nan, 'Unnamed: 40': nan, 'FEBRUARY AH PAYOUT': 'Rater Details', 'Unnamed: 42': nan, 'Unnamed: 43': 'MM Rendering', 'Unnamed: 44': nan, 'Unnamed: 45': nan, 'Unnamed: 46': nan, 'Unnamed: 47': 'Shadowing hrs', 'Unnamed: 48': nan, 'Unnamed: 49': nan}
+
+========================================
+
+=== Sheet: April AH ===
+Shape (first 5 rows): (5, 32)
+Columns:
+['Details', 'Unnamed: 1', 'Additional Hours Worked (Only on the allowed dates)                                                                                                                                          Additional Hours Worked (Only on the allowed dates)', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16', 'Unnamed: 17', 'Unnamed: 18', 'Unnamed: 19']
+... and 12 more columns
+
+First row sample:
+{'Details': 'Name', 'Unnamed: 1': 'User ID', 'Additional Hours Worked (Only on the allowed dates)                                                                                                                                          Additional Hours Worked (Only on the allowed dates)': Timestamp('2026-04-01 00:00:00'), 'Unnamed: 3': Timestamp('2026-04-02 00:00:00'), 'Unnamed: 4': Timestamp('2026-04-03 00:00:00'), 'Unnamed: 5': Timestamp('2026-04-04 00:00:00'), 'Unnamed: 6': Timestamp('2026-04-05 00:00:00'), 'Unnamed: 7': datetime.datetime(2026, 4, 6, 0, 0), 'Unnamed: 8': datetime.datetime(2026, 4, 7, 0, 0), 'Unnamed: 9': datetime.datetime(2026, 4, 8, 0, 0), 'Unnamed: 10': Timestamp('2026-04-09 00:00:00'), 'Unnamed: 11': Timestamp('2026-04-10 00:00:00'), 'Unnamed: 12': Timestamp('2026-04-11 00:00:00'), 'Unnamed: 13': Timestamp('2026-04-12 00:00:00'), 'Unnamed: 14': Timestamp('2026-04-13 00:00:00'), 'Unnamed: 15': Timestamp('2026-04-14 00:00:00'), 'Unnamed: 16': Timestamp('2026-04-15 00:00:00'), 'Unnamed: 17': Timestamp('2026-04-16 00:00:00'), 'Unnamed: 18': Timestamp('2026-04-17 00:00:00'), 'Unnamed: 19': Timestamp('2026-04-18 00:00:00'), 'Unnamed: 20': Timestamp('2026-04-19 00:00:00'), 'Unnamed: 21': Timestamp('2026-04-20 00:00:00'), 'Unnamed: 22': Timestamp('2026-04-21 00:00:00'), 'Unnamed: 23': Timestamp('2026-04-22 00:00:00'), 'Unnamed: 24': Timestamp('2026-04-23 00:00:00'), 'Unnamed: 25': Timestamp('2026-04-24 00:00:00'), 'Unnamed: 26': Timestamp('2026-04-25 00:00:00'), 'Unnamed: 27': Timestamp('2026-04-26 00:00:00'), 'Unnamed: 28': Timestamp('2026-04-27 00:00:00'), 'Additional Hours Worked (Only on the allowed dates)                                                                                                                                          Additional Hours Worked (Only on the allowed dates).1': Timestamp('2026-04-28 00:00:00'), 'Unnamed: 30': Timestamp('2026-04-29 00:00:00'), 'Unnamed: 31': Timestamp('2026-04-30 00:00:00')}
+
+========================================
+
+=== Sheet: MARCH AH ===
+Shape (first 5 rows): (5, 33)
+Columns:
+['Details', 'Unnamed: 1', 'Additional Hours Worked (Only on the allowed dates)                                                                                                                                          Additional Hours Worked (Only on the allowed dates)', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16', 'Unnamed: 17', 'Unnamed: 18', 'Unnamed: 19']
+... and 13 more columns
+
+First row sample:
+{'Details': 'Name', 'Unnamed: 1': 'User ID', 'Additional Hours Worked (Only on the allowed dates)                                                                                                                                          Additional Hours Worked (Only on the allowed dates)': datetime.datetime(2026, 3, 1, 0, 0), 'Unnamed: 3': datetime.datetime(2026, 3, 2, 0, 0), 'Unnamed: 4': datetime.datetime(2026, 3, 3, 0, 0), 'Unnamed: 5': datetime.datetime(2026, 3, 4, 0, 0), 'Unnamed: 6': datetime.datetime(2026, 3, 5, 0, 0), 'Unnamed: 7': datetime.datetime(2026, 3, 6, 0, 0), 'Unnamed: 8': datetime.datetime(2026, 3, 7, 0, 0), 'Unnamed: 9': datetime.datetime(2026, 3, 8, 0, 0), 'Unnamed: 10': Timestamp('2026-03-09 00:00:00'), 'Unnamed: 11': datetime.datetime(2026, 3, 10, 0, 0), 'Unnamed: 12': datetime.datetime(2026, 3, 11, 0, 0), 'Unnamed: 13': datetime.datetime(2026, 3, 12, 0, 0), 'Unnamed: 14': datetime.datetime(2026, 3, 13, 0, 0), 'Unnamed: 15': datetime.datetime(2026, 3, 14, 0, 0), 'Unnamed: 16': Timestamp('2026-03-15 00:00:00'), 'Unnamed: 17': datetime.datetime(2026, 3, 16, 0, 0), 'Unnamed: 18': datetime.datetime(2026, 3, 17, 0, 0), 'Unnamed: 19': datetime.datetime(2026, 3, 18, 0, 0), 'Unnamed: 20': datetime.datetime(2026, 3, 19, 0, 0), 'Unnamed: 21': datetime.datetime(2026, 3, 20, 0, 0), 'Unnamed: 22': Timestamp('2026-03-21 00:00:00'), 'Unnamed: 23': Timestamp('2026-03-22 00:00:00'), 'Unnamed: 24': Timestamp('2026-03-23 00:00:00'), 'Unnamed: 25': Timestamp('2026-03-24 00:00:00'), 'Unnamed: 26': Timestamp('2026-03-25 00:00:00'), 'Unnamed: 27': Timestamp('2026-03-26 00:00:00'), 'Unnamed: 28': Timestamp('2026-03-27 00:00:00'), 'Additional Hours Worked (Only on the allowed dates)                                                                                                                                          Additional Hours Worked (Only on the allowed dates).1': Timestamp('2026-03-28 00:00:00'), 'Unnamed: 30': Timestamp('2026-03-29 00:00:00'), 'Unnamed: 31': Timestamp('2026-03-30 00:00:00'), 'Unnamed: 32': Timestamp('2026-03-31 00:00:00')}
+
+========================================
+

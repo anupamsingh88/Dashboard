@@ -1,8 +1,7 @@
 {
-  "timestamp": "2026-04-13T18:41:10.300057",
+  "timestamp": "2026-04-14T15:52:34.411055",
   "available_months": [
-    "March",
     "April"
   ],
-  "source": "SharePoint Online Multi-Month"
+  "source": "Attendance Tracker Pipeline v2"
 }

@@ -3,20 +3,26 @@
   <div class="kpi-row">
     <div class="kpi c-p" onclick="openModal('present')">
       <div class="kpi-ico">👥</div><div class="kpi-lbl">Total Members</div>
-      <div class="kpi-val" id="k-members">35</div>
+      <div class="kpi-val" id="k-members">0</div>
       <div class="kpi-trend">Active FTEs</div>
       <div class="kpi-click-hint">Click to explore ↗</div>
     </div>
-    <div class="kpi c-b" onclick="openModal('present')">
-      <div class="kpi-ico">✅</div><div class="kpi-lbl">Avg Days Present</div>
-      <div class="kpi-val" id="k-avgp">—</div>
-      <div class="kpi-trend">days / member</div>
+    <div class="kpi c-b" onclick="openModal('missing_access')">
+      <div class="kpi-ico">🔒</div><div class="kpi-lbl">Missing Access</div>
+      <div class="kpi-val" id="k-access">0</div>
+      <div class="kpi-trend">GAMS/IA/Zoho</div>
+      <div class="kpi-click-hint">Click to explore ↗</div>
+    </div>
+    <div class="kpi c-r" onclick="openModal('missing_att')">
+      <div class="kpi-ico">🚨</div><div class="kpi-lbl">Missing Attendance</div>
+      <div class="kpi-val" id="k-missing-att">0</div>
+      <div class="kpi-trend">Missing records</div>
       <div class="kpi-click-hint">Click to explore ↗</div>
     </div>
     <div class="kpi c-g" onclick="openModal('rate')">
-      <div class="kpi-ico">📈</div><div class="kpi-lbl">Attendance Rate</div>
+      <div class="kpi-ico">📈</div><div class="kpi-lbl">Overall Att. Rate</div>
       <div class="kpi-val" id="k-rate">—</div>
-      <div class="kpi-trend">of working days</div>
+      <div class="kpi-trend">of scheduled days</div>
       <div class="kpi-click-hint">Click to explore ↗</div>
     </div>
     <div class="kpi c-a" onclick="openModal('leave')">
@@ -25,15 +31,9 @@
       <div class="kpi-trend">across all members</div>
       <div class="kpi-click-hint">Click to explore ↗</div>
     </div>
-    <div class="kpi c-r" onclick="openModal('absent')">
-      <div class="kpi-ico">🚨</div><div class="kpi-lbl">Total Absences</div>
-      <div class="kpi-val" id="k-absent">—</div>
-      <div class="kpi-trend">unplanned</div>
-      <div class="kpi-click-hint">Click to explore ↗</div>
-    </div>
   </div>
 
-  <div class="sec-lbl">Performance Insights — WW12 Productivity Rankings</div>
+  <div class="sec-lbl">Performance Insights — Productivity Rankings</div>
   <div class="leaderboard-row">
     <!-- Top Performers (Wall of Fame) -->
     <div class="cc glass-card animate-fade-in" style="--animation-order: 1">

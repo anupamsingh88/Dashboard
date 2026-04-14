@@ -7,11 +7,12 @@
   </div>
   <div class="sb-sec">
     <div class="sb-sec-lbl">Views</div>
-    <div class="nav-item active" onclick="navTo('overview')"><span class="nav-icon">📊</span>Overview</div>
-    <div class="nav-item" onclick="navTo('attendance')"><span class="nav-icon">📅</span>Attendance</div>
-    <div class="nav-item" onclick="navTo('productivity')"><span class="nav-icon">⚡</span>Productivity</div>
-    <div class="nav-item" onclick="navTo('members')"><span class="nav-icon">👥</span>Members</div>
-    <div class="nav-item" onclick="navTo('assessments')"><span class="nav-icon">🏆</span>Assessments</div>
+    <div class="nav-item active" data-section="overview" onclick="navTo('overview')"><span class="nav-icon">📊</span>Overview (KPIs)</div>
+    <div class="nav-item" data-section="attendance" onclick="navTo('attendance')"><span class="nav-icon">📅</span>Attendance</div>
+    <div class="nav-item" data-section="productivity" data-alias="additional-hours" onclick="navTo('productivity')"><span class="nav-icon">⚡</span>Productivity</div>
+    <div class="nav-item" data-section="gams" onclick="navTo('gams')"><span class="nav-icon">🔒</span>GAMS / Timesheets</div>
+    <div class="nav-item" data-section="queue" onclick="navTo('queue')"><span class="nav-icon">📥</span>Queue Allocation</div>
+    <div class="nav-item" data-section="assessments" data-alias="members" onclick="navTo('assessments')"><span class="nav-icon">🏆</span>Tasks & Assessments</div>
   </div>
   <div class="sb-filters">
     <div class="f-lbl">Filter by Member</div>

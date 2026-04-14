@@ -19,6 +19,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         loadHTML('shared/data_flow.html', 'data-flow-container'),
         loadHTML('attendance/attendance.html', 'attendance-container'),
         loadHTML('productivity/productivity.html', 'productivity-container'),
+        loadHTML('additional_hours/ah.html', 'additional-hours-container'),
+        loadHTML('queue/queue.html', 'queue-container'),
         loadHTML('members/members.html', 'members-container'),
         loadHTML('assessments/assessments.html', 'assessments-container'),
         loadHTML('profile/profile.html', 'profile-container'),
@@ -46,108 +48,80 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 function initApp() {
-    initMonthSelector();
-    
-    // Default to current month if available, else latest
+    // Determine the default month (April)
     const availableMonths = Object.keys(PROJECT_DATA);
+    const defaultMonth = availableMonths[availableMonths.length - 1] || 'April';
     
-    // Try current month first
-    const now = new Date();
-    const currentMonthName = now.toLocaleString('default', { month: 'long' });
-    
-    let defaultMonth = availableMonths[availableMonths.length - 1]; // Latest as fallback
-    if (availableMonths.includes(currentMonthName)) {
-        defaultMonth = currentMonthName;
-    }
-
     switchMonth(defaultMonth);
     
-    initSidebar(); // from sidebar.js
-}
-
-function initMonthSelector() {
-    const selector = document.getElementById('monthSelect');
-    if (!selector) return;
-
-    const months = Object.keys(PROJECT_DATA);
-    selector.innerHTML = months.map(m => `<option value="${m}">${m} 2026</option>`).join('');
-}
-
-function updateDynamicTexts(monthName) {
-    // 1. Update Chart Titles
-    const titles = document.querySelectorAll('.cc-title, .sec-lbl');
-    titles.forEach(el => {
-        // Replace common month names with the active one
-        let txt = el.textContent;
-        const monthPattern = /(January|February|March|April|May|June|July|August|September|October|November|December|Feb|Mar|Apr|Jan)/gi;
-        el.textContent = txt.replace(monthPattern, monthName);
-    });
-
-    // 2. Update Data Flow section if it exists
-    const dataFlowSub = document.querySelector('.df-sub');
-    if (dataFlowSub) {
-        dataFlowSub.textContent = `Live processing pipeline for ${monthName} 2026 operations`;
+    // Perform internal sidebar setup
+    if (typeof initSidebar === 'function') initSidebar();
+    
+    renderDashboard();
+    
+    // Initialize Scrollspy
+    if (typeof initScrollspy === 'function') {
+      initScrollspy();
     }
 }
 
-function switchMonth(monthName) {
-    if (!PROJECT_DATA[monthName]) return;
+function updateDynamicTexts(month) {
+    const titles = document.querySelectorAll('.cc-title, .sec-lbl');
+    titles.forEach(el => {
+        let txt = el.textContent;
+        // Use word boundaries \b so we don't accidentally replace "Mar" inside "Summary" -> "SumAprily"
+        const monthPattern = /\b(January|February|March|April|May|June|July|August|September|October|November|December|Feb|Mar|Apr|Jan)\b/gi;
+        el.textContent = txt.replace(monthPattern, month);
+    });
 
-    const data = PROJECT_DATA[monthName];
-    
-    // Update active month state
-    activeMonth = monthName;
-    
-    // Update Global References for components
-    window.ATT = data.ATT;
-    window.PROD = data.PROD;
-    window.GAMS = data.GAMS;
-    window.DAILY_PRESENT = data.DAILY_PRESENT;
-    window.LEADERBOARD = data.LEADERBOARD;
-    
-    // Reset filtered UIDs to all members of the new month
-    filteredUIDs = Object.keys(window.ATT);
-    
-    // Reset current week for the new month
-    const weeks = getAvailableWeeks();
-    currentWeek = weeks.length > 0 ? weeks[weeks.length - 1] : null;
+    const dataFlowSub = document.querySelector('.df-sub');
+    if (dataFlowSub) {
+        dataFlowSub.textContent = `Live processing pipeline for ${month} 2026 operations`;
+    }
+}
 
-    // Update dynamic text across the dashboard
-    updateDynamicTexts(monthName);
+function switchMonth(month) {
+    if (!PROJECT_DATA[month]) return;
+    activeMonth = month;
+    const data = PROJECT_DATA[month];
 
-    // Update Header sub-text
-    const activeFTEs = Object.keys(window.ATT).length;
-    const hdrSub = document.getElementById('hdr-sub');
-    if (hdrSub) hdrSub.textContent = `${monthName} 2026 · ${activeFTEs} Active FTEs · Digital & Voice Operations`;
-
-    // Update Date Display
-    const dElem = document.getElementById('curDate');
-    if(dElem) dElem.textContent = new Date().toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',year:'numeric'});
-
-    // Update UI components
-    updateKPIs(); // from overview.js
+    window.ATT = data.ATT || {};
+    window.PROD = data.PROD || {};
+    window.GAMS = data.GAMS || {};
+    window.QUEUE = data.QUEUE || {};
+    window.ASSESSMENTS = data.ASSESSMENTS || [];
+    window.LEADERBOARD = data.LEADERBOARD || { top: [], bottom: [] };
     
-    // Re-init charts
+    window.filteredUIDs = Object.keys(window.ATT);
+    
+    updateKPIs();
+    updateDynamicTexts(month);
+    
+    // UI Components
+    if (typeof renderTable === 'function') try { renderTable(); } catch(e) {}
+    if (typeof renderGAMS === 'function') try { renderGAMS(); } catch(e) {}
+    if (typeof renderQueue === 'function') try { renderQueue(); } catch(e) {}
+    if (typeof renderAH === 'function') try { renderAH(); } catch(e) {}
+    if (typeof renderAssessments === 'function') try { renderAssessments(); } catch(e) {}
+    if (typeof buildWeekTabs === 'function') try { buildWeekTabs(); } catch(e) {}
+
+    // Charts
     if (typeof initDailyChart === 'function') initDailyChart();
     if (typeof initDonutChart === 'function') initDonutChart();
     if (typeof initMemberAttChart === 'function') initMemberAttChart();
     if (typeof initLeaveChart === 'function') initLeaveChart();
-    
-    // Build week tabs and productivity charts
-    if (typeof buildWeekTabs === 'function') buildWeekTabs();
-    if (typeof initWeeklyProdChart === 'function') initWeeklyProdChart(currentWeek);
     if (typeof initWeekGroupChart === 'function') initWeekGroupChart();
-    
-    if (typeof renderTable === 'function') renderTable(); // from members.js
 
-    // Update selector value if changed programmatically
-    const selector = document.getElementById('monthSelect');
-    if (selector) selector.value = monthName;
-    
-    // Update footer
+    const weeks = getAvailableWeeks();
+    currentWeek = weeks.length > 0 ? weeks[weeks.length - 1] : null;
+    if (typeof initWeeklyProdChart === 'function') initWeeklyProdChart(currentWeek);
+
+    const hdrSub = document.getElementById('hdr-sub');
+    if (hdrSub) hdrSub.textContent = `${month} 2026 · ${Object.keys(window.ATT).length} Active FTEs · Digital & Voice Operations`;
+
     const footer = document.querySelector('footer');
     if (footer) {
-        footer.innerHTML = `Team Abhinav Analytics Dashboard v2 &nbsp;·&nbsp; Source: Attendance Tracker &nbsp;·&nbsp; ${monthName} 2026 &nbsp;·&nbsp; Shift: 8AM–4PM`;
+        footer.innerHTML = `Team Abhinav Analytics Dashboard v2 &nbsp;·&nbsp; Source: Attendance Tracker &nbsp;·&nbsp; ${month} 2026 &nbsp;·&nbsp; Shift: 8AM–4PM`;
     }
 }
 

@@ -16,11 +16,11 @@ function showMemberProfile(uid){
   document.getElementById('profileName').textContent=name;
   document.getElementById('profileUID').textContent=uid;
   document.getElementById('profileBatch').textContent=fte.batch||'N/A';
-  document.getElementById('profileShift').textContent=fte.shift||'8AM-4PM';
-  document.getElementById('profileGAMS').textContent=GAMS[uid]||'N/A';
+  document.getElementById('profileShift').textContent=fte.shift||'8AM - 4PM';
+  document.getElementById('profileGAMS').textContent=getGAMSStatus(uid);
   document.getElementById('badgeAtt').textContent=`Att. Rate: ${rate}%`;
   document.getElementById('badgePresent').textContent=`${m.present} Days Present`;
-  document.getElementById('badgeMarchAH').textContent=`${activeMonth} AH: ${ah} hrs`;
+  document.getElementById('badgeCurrentAH').textContent=`${activeMonth} AH: ${ah} hrs`;
 
   document.getElementById('hdr-title').textContent=`${name} — Personal Profile`;
   document.getElementById('hdr-sub').textContent=`${uid} · ${fte.batch||'N/A'} · ${activeMonth} 2026`;
@@ -40,17 +40,15 @@ function buildCalHeatmap(uid){
   dayLabels.forEach(d=>{ const el=document.createElement('div'); el.className='cal-day-label'; el.textContent=d; cal.appendChild(el); });
 
   // Get month info dynamically
-  const monthIdx = MONTHS_SHORT.findIndex(m => activeMonth.startsWith(m)) !== -1 
-    ? MONTHS_SHORT.findIndex(m => activeMonth.startsWith(m))
-    : new Date().getMonth();
-  const fullMonthIdx = ['January','February','March','April','May','June','July','August','September','October','November','December'].indexOf(activeMonth);
-  const actualMonthIdx = fullMonthIdx >= 0 ? fullMonthIdx : monthIdx;
+  // Get month info dynamically (April 2026)
+  const d = new Date(`1 ${activeMonth} 2026`);
+  const actualMonthIdx = isNaN(d.getTime()) ? 3 : d.getMonth(); // Default to April (3) if parsing fails
   const year = 2026;
   const daysInMonth = new Date(year, actualMonthIdx + 1, 0).getDate();
   
-  // Calculate offset for day-of-week alignment
-  const firstDay = new Date(year, actualMonthIdx, 1).getDay(); // 0=Sun
-  const offset = (firstDay === 0) ? 6 : firstDay - 1; // Convert to Mon=0 format
+  // Calculate offset for day-of-week alignment (Mon=0 format)
+  const firstDay = new Date(year, actualMonthIdx, 1).getDay(); 
+  const offset = (firstDay === 0) ? 6 : firstDay - 1; 
   
   for(let i=0;i<offset;i++){ const el=document.createElement('div');el.className='cal-day cd-empty';cal.appendChild(el); }
 
@@ -156,7 +154,8 @@ function buildMemberRadar(uid, rate, memberAH){
   const productivity = Math.min(100, Math.round(memberAH/Math.max(maxAH,1)*100));
   const punctuality = rate >= 95?92:rate>=90?80:70;
   const avgHrsScore = Math.min(100,Math.round(memberAH/Math.max(avgAH,1)*80));
-  const gamsScore = (GAMS[uid]==='Endorsed')?100:(GAMS[uid]==='Applied')?70:50;
+  const gamsStatus = getGAMSStatus(uid);
+  const gamsScore = (gamsStatus==='Endorsed' || gamsStatus==='Working')?100:(gamsStatus==='Applied' || gamsStatus==='Queue Not Visible')?70:50;
 
   mkChart('radarChart',{
     type:'radar',
@@ -223,7 +222,7 @@ function buildMemberSummary(uid){
     ['Present Days',m.present,'📗'],['Absent Days',m.absent,'📕'],['Leave Days',m.leave,'📙'],
     ['Week-Offs',m.weekoff,'⬜'],['Holidays',m.holiday,'🟣'],['Att. Rate',attRate(m)+'%','📈'],
     [`${activeMonth} AH (${weekRange})`,memberTotalAH+' hrs','⚡'],
-    ['Team Avg AH',teamAvgAH+' hrs','👥'],['GAMS Status',GAMS[uid]||'N/A','🗂'],
+    ['Team Avg AH',teamAvgAH+' hrs','👥'],['GAMS Status',getGAMSStatus(uid),'🗂'],
   ];
   document.getElementById('memberSummaryTable').innerHTML=`
     <table style="width:100%;border-collapse:collapse">

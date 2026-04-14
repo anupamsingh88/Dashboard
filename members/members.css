@@ -42,7 +42,7 @@ thead th {
   transition: color .15s;
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: 20;
 }
 thead th:hover { color: var(--p); }
 thead th.sa::after { content: ' ↑'; color: var(--p); }

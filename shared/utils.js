@@ -11,7 +11,8 @@ let currentWeek = null; // Will be set dynamically
 let allCharts = {};
 let modalExportData = [];
 let currentMemberUID = null;
-let activeMonth = Object.keys(PROJECT_DATA).slice(-1)[0] || 'March'; // Default to latest month
+let currentDateFilter = null; // null means all dates in month
+let activeMonth = Object.keys(PROJECT_DATA).slice(-1)[0] || 'April'; // Default to newest month
 
 // ═══ UTILS ═══
 function attRate(m){const w=m.present+m.absent+m.leave;return w?Math.round(m.present/w*100):100}
@@ -78,4 +79,75 @@ function mkChart(id, cfg){
   if(allCharts[id]) allCharts[id].destroy();
   allCharts[id] = new Chart(ctx, cfg);
   return allCharts[id];
+}
+
+/**
+ * Universal CSV Export
+ */
+function exportToCSV(dataRows, filename) {
+  if (!dataRows || !dataRows.length) return;
+  const chars = dataRows.map(row => 
+    row.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(',')
+  ).join('\n');
+  
+  const blob = new Blob([chars], { type: 'text/csv;charset=utf-8;' });
+  const link = document.createElement("a");
+  const url = URL.createObjectURL(blob);
+  link.setAttribute("href", url);
+  link.setAttribute("download", filename);
+  link.style.visibility = 'hidden';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+/**
+ * Identify count of users who have missing attendance before 'Today'.
+ */
+function getMissingAttendanceCount() {
+    if (!window.ATT) return 0;
+    
+    let missingCount = 0;
+    const today = new Date();
+    // Offset local timezone for ISO string
+    const offset = today.getTimezoneOffset() * 60000;
+    const localToday = new Date(today.getTime() - offset);
+    const todayStr = localToday.toISOString().split('T')[0];
+    
+    for(const uid in window.ATT) {
+        let memberMissing = false;
+        const days = window.ATT[uid].days;
+        if (!days) continue;
+        
+        // Corrected for...of instead of for...in
+        for (const dateStr of Object.keys(days).sort()) {
+            if (dateStr > todayStr) break; 
+            
+            const status = days[dateStr];
+            if (!status || status.trim() === '' || status.trim().toLowerCase() === 'nan') {
+                memberMissing = true;
+                break;
+            }
+        }
+        if (memberMissing) missingCount++;
+    }
+    return missingCount;
+}
+
+/**
+ * Get GAMS status from the complex GAMS object.
+ * Returns the highest priority task status or 'N/A'.
+ */
+function getGAMSStatus(uid) {
+    if (!window.GAMS || !window.GAMS[uid]) return 'N/A';
+    const g = window.GAMS[uid];
+    if (typeof g === 'string') return g;
+    
+    // Priority order: status > p0_status > p1_status > p2_status
+    let status = g.status || g.gams_status || g.p0_status || g.p1_status || g.p2_status;
+    if (status === undefined || status === null || String(status).toLowerCase() === 'nan') {
+        return 'N/A';
+    }
+    
+    return String(status);
 }

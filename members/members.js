@@ -8,10 +8,15 @@ function renderTable(){
   
   let data = [...filteredUIDs];
   const fn = {
-    name:u=>ATT[u].name.toLowerCase(), uid:u=>u,
-    batch:u=>FTE_DETAILS[u]?.batch||'', present:u=>ATT[u].present,
-    absent:u=>ATT[u].absent, leave:u=>ATT[u].leave, weekoff:u=>ATT[u].weekoff,
-    attRate:u=>attRate(ATT[u]), totalAH:u=>totalAH(u), gams:u=>GAMS[u]||''
+    name: u => ATT[u].name,
+    uid: u => u,
+    batch: u => FTE_DETAILS[u]?.batch || 'N/A',
+    present: u => ATT[u].present,
+    absent: u => ATT[u].absent,
+    leave: u => ATT[u].leave,
+    attRate: u => attRate(ATT[u]),
+    totalAH: u => totalAH(u),
+    gams: u => getGAMSStatus(u)
   };
   const sortFn = fn[sortKey]||fn.present;
   data.sort((a,b)=>{
@@ -28,7 +33,7 @@ function renderTable(){
 
   tbody.innerHTML = data.map(uid=>{
     const m=ATT[uid], rate=attRate(m), ah=totalAH(uid);
-    const gams=GAMS[uid]||'N/A';
+    const gams = getGAMSStatus(uid);
     const rateClr=rate===100?'#22c55e':rate>=90?P.p:'#f59e0b';
     const gpill=gams==='Applied'?'pa':gams==='Endorsed'?'pb':'pp';
     const statusNote=Object.values(m.days).some(d=>d.toLowerCase().includes('resign'))?'<span class="pill pr" style="margin-left:4px;font-size:11px">Resigned</span>':'';
@@ -56,4 +61,33 @@ function quickProfileRow(uid){
   document.getElementById('filterMember').value=uid;
   applyFilters();
   window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function exportMemberTable() {
+  let data = [...filteredUIDs];
+  const fn = {
+    name:u=>ATT[u].name, uid:u=>u,
+    batch:u=>FTE_DETAILS[u]?.batch||'N/A', present:u=>ATT[u].present,
+    absent:u=>ATT[u].absent, leave:u=>ATT[u].leave, weekoff:u=>ATT[u].weekoff,
+    attRate:u=>attRate(ATT[u]), totalAH:u=>totalAH(u), 
+    gams:u=> getGAMSStatus(u)
+  };
+  const sortFn = fn[sortKey]||fn.present;
+  data.sort((a,b)=>{
+    const av=sortFn(a),bv=sortFn(b);
+    if(typeof av==='string') return sortAsc?av.localeCompare(bv):bv.localeCompare(av);
+    return sortAsc?av-bv:bv-av;
+  });
+
+  const rows = [];
+  rows.push(["Name", "User ID", "Batch", "Present", "Absent", "Leave", "Week-Off", "Att. Rate(%)", "Total AH", "GAMS Status"]);
+  data.forEach(uid => {
+    rows.push([
+      fn.name(uid), fn.uid(uid), fn.batch(uid), fn.present(uid),
+      fn.absent(uid), fn.leave(uid), fn.weekoff(uid), fn.attRate(uid),
+      fn.totalAH(uid), fn.gams(uid)
+    ]);
+  });
+  
+  exportToCSV(rows, `Team_Abhinav_Roster_${activeMonth}.csv`);
 }

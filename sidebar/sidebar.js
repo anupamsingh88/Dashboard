@@ -4,20 +4,31 @@
 
 function initSidebar() {
   const mSel = document.getElementById('filterMember');
-  Object.keys(ATT).sort((a,b)=>ATT[a].name.localeCompare(ATT[b].name)).forEach(uid=>{
+  if (!mSel) return;
+  
+  // Clear existing except first
+  mSel.innerHTML = '<option value="all">All Members</option>';
+  
+  const currentATT = window.ATT || {};
+  Object.keys(currentATT).sort((a,b)=>currentATT[a].name.localeCompare(currentATT[b].name)).forEach(uid=>{
     const o = document.createElement('option'); 
     o.value=uid; 
-    o.textContent=ATT[uid].name; 
+    o.textContent=currentATT[uid].name; 
     mSel.appendChild(o);
   });
+
   const bSel = document.getElementById('filterBatch');
-  const batches = [...new Set(Object.values(FTE_DETAILS).map(f=>f.batch))].sort();
-  batches.forEach(b=>{ 
-    const o=document.createElement('option');
-    o.value=b;
-    o.textContent=b;
-    bSel.appendChild(o); 
-  });
+  if (bSel) {
+    bSel.innerHTML = '<option value="all">All Batches</option>';
+    const currentFTE = window.FTE_DETAILS || {};
+    const batches = [...new Set(Object.values(currentFTE).map(f=>f.batch))].filter(b => b && b !== 'nan').sort();
+    batches.forEach(b=>{ 
+      const o=document.createElement('option');
+      o.value=b;
+      o.textContent=b;
+      bSel.appendChild(o); 
+    });
+  }
 }
 
 /* ─── Mobile sidebar toggle ─── */
@@ -67,45 +78,116 @@ function applyFilters(){
   if (window.innerWidth <= 768) closeSidebar();
 
   if(mf !== 'all'){
-    currentMemberUID = mf;
+    window.currentMemberUID = mf;
     if (typeof showMemberProfile === 'function') {
       showMemberProfile(mf);
     }
     return;
   }
-  currentMemberUID = null;
-  document.getElementById('view-all').style.display = '';
-  document.getElementById('member-profile').style.display = 'none';
-  document.getElementById('hdr-title').textContent = 'Team Abhinav — Attendance & Productivity';
+  window.currentMemberUID = null;
+  const viewAll = document.getElementById('view-all');
+  const memberProfile = document.getElementById('member-profile');
+  if (viewAll) viewAll.style.display = '';
+  if (memberProfile) memberProfile.style.display = 'none';
   
-  const activeFTEs = Object.keys(window.ATT).length;
-  document.getElementById('hdr-sub').textContent = `${activeMonth} 2026 · ${activeFTEs} Active FTEs · All Shifts 8AM–4PM`;
+  const hdrTitle = document.getElementById('hdr-title');
+  if (hdrTitle) hdrTitle.textContent = 'Team Abhinav — Attendance & Productivity';
+  
+  const activeATT = window.ATT || {};
+  const activeFTEs = Object.keys(activeATT).length;
+  const hdrSub = document.getElementById('hdr-sub');
+  if (hdrSub) hdrSub.textContent = `${activeMonth} 2026 · ${activeFTEs} Active FTEs · All Shifts 8AM–4PM`;
 
-  filteredUIDs = Object.keys(ATT).filter(uid=>{
-    const m = ATT[uid];
+  window.filteredUIDs = Object.keys(activeATT).filter(uid=>{
+    const m = activeATT[uid];
     if(sf==='perfect' && (m.absent>0||m.leave>0)) return false;
     if(sf==='absent' && m.absent===0) return false;
     if(sf==='leave' && m.leave===0) return false;
-    if(bf!=='all' && (FTE_DETAILS[uid]?.batch||'N/A')!==bf) return false;
+    if(bf!=='all' && (window.FTE_DETAILS[uid]?.batch||'N/A')!==bf) return false;
     return true;
   });
-  updateKPIs(); updateCharts(); renderTable();
+  
+  updateKPIs(); 
+  if (typeof updateCharts === 'function') updateCharts(); 
+  if (typeof renderTable === 'function') renderTable();
+  if (typeof renderQueue === 'function') renderQueue();
+  if (typeof renderAssessments === 'function') renderAssessments();
 }
 
 function resetFilters(){
-  document.getElementById('filterMember').value='all';
-  document.getElementById('filterStatus').value='all';
-  document.getElementById('filterBatch').value='all';
-  filteredUIDs = Object.keys(ATT);
-  currentMemberUID = null;
-  document.getElementById('view-all').style.display='';
-  document.getElementById('member-profile').style.display='none';
-  document.getElementById('hdr-title').textContent='Team Abhinav — Attendance & Productivity';
+  const mf = document.getElementById('filterMember');
+  const sf = document.getElementById('filterStatus');
+  const bf = document.getElementById('filterBatch');
+  if (mf) mf.value='all';
+  if (sf) sf.value='all';
+  if (bf) bf.value='all';
   
-  const activeFTEs = Object.keys(window.ATT).length;
-  document.getElementById('hdr-sub').textContent = `${activeMonth} 2026 · ${activeFTEs} Active FTEs · All Shifts 8AM–4PM`;
-  updateKPIs(); updateCharts(); renderTable();
+  window.filteredUIDs = Object.keys(window.ATT || {});
+  window.currentMemberUID = null;
+  
+  const viewAll = document.getElementById('view-all');
+  const memberProfile = document.getElementById('member-profile');
+  if (viewAll) viewAll.style.display='';
+  if (memberProfile) memberProfile.style.display='none';
+  
+  const hdrTitle = document.getElementById('hdr-title');
+  if (hdrTitle) hdrTitle.textContent='Team Abhinav — Attendance & Productivity';
+  
+  const activeFTEs = Object.keys(window.ATT || {}).length;
+  const hdrSub = document.getElementById('hdr-sub');
+  if (hdrSub) hdrSub.textContent = `${activeMonth} 2026 · ${activeFTEs} Active FTEs · All Shifts 8AM–4PM`;
+  
+  updateKPIs(); 
+  if (typeof updateCharts === 'function') updateCharts(); 
+  if (typeof renderTable === 'function') renderTable();
+  if (typeof renderQueue === 'function') renderQueue();
+  if (typeof renderAssessments === 'function') renderAssessments();
 
   // Auto-close sidebar on mobile after reset
   if (window.innerWidth <= 768) closeSidebar();
+}
+
+/**
+ * Sync sidebar active state with scroll position
+ */
+function initScrollspy() {
+  const sections = [
+    { id: 'overview-container', nav: 'overview' },
+    { id: 'attendance-container', nav: 'attendance' },
+    { id: 'productivity-container', nav: 'productivity' },
+    { id: 'gams-container', nav: 'gams' },
+    { id: 'queue-container', nav: 'queue' },
+    { id: 'assessments-container', nav: 'assessments' }
+  ];
+
+  let scrollTimeout;
+  window.addEventListener('scroll', () => {
+    // If tracking member profile, don't update scrollspy
+    if (window.currentMemberUID) return;
+    
+    if (scrollTimeout) clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(() => {
+      let activeNav = 'overview'; // Default to first
+      
+      // Find the lowest section that has scrolled past the upper 40% of the viewport
+      for (const s of sections) {
+        const el = document.getElementById(s.id);
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= window.innerHeight * 0.4) {
+            activeNav = s.nav;
+          }
+        }
+      }
+      updateActiveNavItem(activeNav);
+    }, 50); // Small debounce for performance
+  });
+}
+
+function updateActiveNavItem(navName) {
+  const items = document.querySelectorAll('.nav-item');
+  items.forEach(item => {
+    const isMatch = item.getAttribute('data-section') === navName;
+    item.classList.toggle('active', isMatch);
+  });
 }

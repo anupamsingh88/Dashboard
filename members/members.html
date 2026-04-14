@@ -3,7 +3,10 @@
   <div class="tbl-card">
     <div class="tbl-hdr">
       <div><div class="cc-title">Full Member Table</div><div class="cc-sub">Click headers to sort · Click a row to view profile</div></div>
-      <div id="tbl-count" class="cc-badge">35 members</div>
+      <div style="display:flex; gap: 8px; align-items:center;">
+        <button onclick="exportMemberTable()" class="btn-primary" style="font-size:12px; padding:6px 12px">Export CSV</button>
+        <div id="tbl-count" class="cc-badge">35 members</div>
+      </div>
     </div>
     <div class="tbl-wrap">
       <table id="memberTable">

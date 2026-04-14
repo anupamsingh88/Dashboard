@@ -1,0 +1,33 @@
+<div id="ah-view" style="display:none; padding:24px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+        <div class="sec-lbl" style="font-size:24px;">Additional Hours (AH) Overview</div>
+        <button onclick="exportAH()" class="btn-primary" style="font-size:12px; padding:6px 12px">Export CSV</button>
+    </div>
+    
+    <div class="b-row" style="margin-bottom:24px">
+        <div class="card" style="flex:1">
+            <div class="cc-hdr">
+                <div class="cc-title">Total AH Contributed</div>
+            </div>
+            <div class="kpi-val" style="color:var(--txt1)"><span id="ah-total">0</span> <span style="font-size:16px;font-weight:400;color:var(--txt3)">hrs</span></div>
+            <div style="font-size:13px; color:var(--txt3); margin-top:8px">Across all members in selected month</div>
+        </div>
+        <div class="card" style="flex:1">
+            <div class="cc-hdr">
+                <div class="cc-title">Members Clocking AH</div>
+            </div>
+            <div class="kpi-val" id="ah-members-count">0</div>
+        </div>
+    </div>
+
+    <!-- Chart Row -->
+    <div class="b-row" style="height:350px">
+        <div class="card" style="flex:1">
+            <div class="cc-hdr">
+                <div class="cc-title">AH Trend (Weekly)</div>
+                <div class="cc-sub">Weekly breakdown of extra hours logged</div>
+            </div>
+            <div class="ch-wrap"><canvas id="ahWeekChart"></canvas></div>
+        </div>
+    </div>
+</div>

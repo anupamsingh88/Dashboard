@@ -1,0 +1,42 @@
+<div id="queue-view" style="padding:24px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+        <div class="sec-lbl" style="font-size:24px;">Queue Allocation</div>
+        <button onclick="exportQueue()" class="btn-primary" style="font-size:12px; padding:6px 12px">Export CSV</button>
+    </div>
+    
+    <div style="display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap:16px; margin-bottom:24px;">
+        <div class="kpi-card" style="background:#fff; border-radius:12px; padding:16px; border:1px solid var(--border);">
+            <div style="color:var(--txt3); font-size:12px; margin-bottom:8px">Users on P0</div>
+            <div id="q-p0" style="font-size:28px; font-weight:700; color:var(--txt1)">0</div>
+        </div>
+        <div class="kpi-card" style="background:#fff; border-radius:12px; padding:16px; border:1px solid var(--border);">
+            <div style="color:var(--txt3); font-size:12px; margin-bottom:8px">Users on P1</div>
+            <div id="q-p1" style="font-size:28px; font-weight:700; color:var(--txt1)">0</div>
+        </div>
+        <div class="kpi-card" style="background:#fff; border-radius:12px; padding:16px; border:1px solid var(--border);">
+            <div style="color:var(--txt3); font-size:12px; margin-bottom:8px">Users on P2</div>
+            <div id="q-p2" style="font-size:28px; font-weight:700; color:var(--txt1)">0</div>
+        </div>
+        <div class="kpi-card" style="background:#fff; border-radius:12px; padding:16px; border:1px solid var(--border);">
+            <div style="color:var(--txt3); font-size:12px; margin-bottom:8px">Queue Not Visible</div>
+            <div id="q-missing" style="font-size:28px; font-weight:700; color:var(--txt1)">0</div>
+        </div>
+    </div>
+    
+    <div class="tbl-card">
+      <div class="tbl-hdr">
+        <div><div class="cc-title">Agent Queue Status</div></div>
+      </div>
+      <div class="tbl-wrap">
+        <table id="queueTable">
+          <thead><tr>
+            <th>Member</th>
+            <th>P0 Status</th>
+            <th>P1 Status</th>
+            <th>P2 Status</th>
+          </tr></thead>
+          <tbody id="queueTblBody"></tbody>
+        </table>
+      </div>
+    </div>
+</div>

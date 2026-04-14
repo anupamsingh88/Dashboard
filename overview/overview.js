@@ -5,20 +5,36 @@ function updateKPIs(){
   const totalLeave = filteredUIDs.reduce((a,u)=>a+ATT[u].leave,0);
   const totalWorking = filteredUIDs.reduce((a,u)=>a+(ATT[u].present+ATT[u].absent+ATT[u].leave),0);
   const rate = totalWorking?Math.round(totalPresent/totalWorking*100):0;
-  const avgP = n?(totalPresent/n):0;
+  
+  // Calculate Missing Access
+  let missingAccessCount = 0;
+  filteredUIDs.forEach(uid => {
+      const fte = FTE_DETAILS[uid];
+      if (fte) {
+          if (fte.gams_access?.toLowerCase() !== 'done' || 
+              fte.ia_access?.toLowerCase() !== 'done' || 
+              fte.zoho_access?.toLowerCase() !== 'done') {
+              missingAccessCount++;
+          }
+      }
+  });
+
+  // Calculate Missing Attendance
+  // using utility function
+  const missingAttCount = typeof getMissingAttendanceCount === 'function' ? getMissingAttendanceCount() : 0;
   
   if (typeof animateCount === 'function') {
     animateCount(document.getElementById('k-members'),n);
-    animateCount(document.getElementById('k-avgp'),avgP,1);
+    animateCount(document.getElementById('k-access'),missingAccessCount);
+    animateCount(document.getElementById('k-missing-att'),missingAttCount);
     animateCount(document.getElementById('k-rate'),rate,0,'%');
     animateCount(document.getElementById('k-leave'),totalLeave);
-    animateCount(document.getElementById('k-absent'),totalAbsent);
   } else {
     document.getElementById('k-members').textContent = n;
-    document.getElementById('k-avgp').textContent = avgP.toFixed(1);
+    document.getElementById('k-access').textContent = missingAccessCount;
+    document.getElementById('k-missing-att').textContent = missingAttCount;
     document.getElementById('k-rate').textContent = rate + '%';
     document.getElementById('k-leave').textContent = totalLeave;
-    document.getElementById('k-absent').textContent = totalAbsent;
   }
 
   // Render Leaderboards

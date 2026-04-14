@@ -118,9 +118,28 @@ function exportCSV(){
 }
 
 function navTo(id){
-  document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
-  const idx={overview:0,attendance:1,productivity:2,members:3,assessments:4};
-  if(idx[id]!==undefined) document.querySelectorAll('.nav-item')[idx[id]].classList.add('active');
-  const el=document.getElementById(id);
-  if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+  // 1. Update active state in sidebar
+  document.querySelectorAll('.nav-item').forEach(n => {
+    n.classList.remove('active');
+    // Check if the onclick attribute contains the id
+    if (n.getAttribute('onclick')?.includes(`'${id}'`)) {
+      n.classList.add('active');
+    }
+  });
+
+  // 2. Scroll to the matching container
+  // Expected IDs: overview, attendance, productivity, gams, queue, assessments
+  const containerId = id + (id === 'overview' ? '-container' : '-container'); 
+  // Wait, index.html has specific IDs like attendance-container, assessments-container, etc.
+  // Exception: 'gams' will trigger gams-container (to be added)
+  const target = document.getElementById(id + '-container') || document.getElementById(id);
+  
+  if (target) {
+    target.scrollIntoView({behavior:'smooth',block:'start'});
+    
+    // Auto-close sidebar on mobile
+    if (window.innerWidth <= 768 && typeof closeSidebar === 'function') {
+      closeSidebar();
+    }
+  }
 }

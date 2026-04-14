@@ -98,6 +98,68 @@ function openModal(type){
         </div>`;
       }).join('')}
     </div>`;
+  } else if(type==='missing_access'){
+    title.textContent='Access Pending — Breakdown';
+    sub.textContent='Members with one or more pending access types';
+    const sorted=filteredUIDs.filter(u=>{
+      const f=FTE_DETAILS[u];
+      return f && (f.gams_access?.toLowerCase()!=='done' || f.ia_access?.toLowerCase()!=='done' || f.zoho_access?.toLowerCase()!=='done');
+    });
+    if(!sorted.length){body.innerHTML='<p style="padding:20px;text-align:center;color:var(--txt3)">✅ All members have full access!</p>';bg.classList.add('open');return;}
+    modalExportData=sorted.map(u=>({Name:FTE_DETAILS[u].name,UID:u,GAMS:FTE_DETAILS[u].gams_access,IA:FTE_DETAILS[u].ia_access,Zoho:FTE_DETAILS[u].zoho_access}));
+    body.innerHTML=`<table style="width:100%;border-collapse:collapse">
+      <thead><tr style="background:var(--bg)">
+        <th style="padding:8px 12px;text-align:left;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">Member</th>
+        <th style="padding:8px 12px;text-align:center;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">GAMS</th>
+        <th style="padding:8px 12px;text-align:center;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">IA</th>
+        <th style="padding:8px 12px;text-align:center;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">Zoho</th>
+      </tr></thead>
+      <tbody>${sorted.map(u=>{
+        const f=FTE_DETAILS[u];
+        const badge=(s)=>`<span style="background:${s?.toLowerCase()==='done'?'#dcfce7':'#fee2e2'};color:${s?.toLowerCase()==='done'?'#166534':'#991b1b'};padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700">${s||'Pending'}</span>`;
+        return `<tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:9px 12px;font-size:13px;font-weight:600">${f.name}<div style="font-size:11px;color:var(--txt3);margin-top:2px">${u} · ${f.batch||'N/A'}</div></td>
+          <td style="padding:9px 12px;text-align:center">${badge(f.gams_access)}</td>
+          <td style="padding:9px 12px;text-align:center">${badge(f.ia_access)}</td>
+          <td style="padding:9px 12px;text-align:center">${badge(f.zoho_access)}</td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>`;
+  } else if(type==='missing_att'){
+    title.textContent='Missing Attendance — Detailed List';
+    sub.textContent='Members who have empty attendance slots for past dates';
+    
+    // Calculate missing list
+    const today = new Date();
+    const offset = today.getTimezoneOffset() * 60000;
+    const todayStr = new Date(today.getTime() - offset).toISOString().split('T')[0];
+    
+    const missingList = [];
+    filteredUIDs.forEach(u => {
+      if(!ATT[u] || !ATT[u].days) return;
+      const missingDates = Object.entries(ATT[u].days)
+        .filter(([d,s]) => d < todayStr && (!s || s.trim()==='' || s.trim().toLowerCase()==='nan'))
+        .map(([d]) => d)
+        .sort();
+      if(missingDates.length > 0) missingList.push({uid:u, name:ATT[u].name, batch:FTE_DETAILS[u]?.batch||'N/A', dates:missingDates});
+    });
+
+    if(!missingList.length){body.innerHTML='<p style="padding:20px;text-align:center;color:var(--txt3)">✅ No missing attendance detected!</p>';bg.classList.add('open');return;}
+    modalExportData=missingList.map(m=>({Name:m.name,UID:m.uid,Dates:m.dates.join(', ')}));
+    body.innerHTML=`<table style="width:100%;border-collapse:collapse">
+      <thead><tr style="background:var(--bg)">
+        <th style="padding:8px 12px;text-align:left;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">Member</th>
+        <th style="padding:8px 12px;text-align:center;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">Missing Count</th>
+        <th style="padding:8px 12px;text-align:left;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">Dates</th>
+      </tr></thead>
+      <tbody>${missingList.map(m=>{
+        return `<tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:9px 12px;font-size:13px;font-weight:600">${m.name}<div style="font-size:11px;color:var(--txt3);margin-top:2px">${m.uid} · ${m.batch}</div></td>
+          <td style="padding:9px 12px;text-align:center"><span style="background:#fee2e2;color:#991b1b;padding:4px 12px;border-radius:20px;font-size:13px;font-weight:800">${m.dates.length}</span></td>
+          <td style="padding:9px 12px;font-size:12px;color:#991b1b;line-height:1.4">${m.dates.map(d=>d.split('-').slice(1).reverse().join('/')).join(', ')}</td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>`;
   }
 
   bg.classList.add('open');

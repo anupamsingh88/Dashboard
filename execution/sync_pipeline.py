@@ -13,7 +13,7 @@ TEMP_FILE = 'temp_tracker.xlsx'
 DATA_FILE = 'shared/data.js'
 VERSION_FILE = 'shared/version.json'
 
-MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+MONTHS = ["January", "February", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 def download_excel(url, output_path):
     print(f"Downloading from SharePoint...")
@@ -322,17 +322,18 @@ def process_tracker(input_file, output_js, version_file):
     os.makedirs(os.path.dirname(output_js), exist_ok=True)
     with open(output_js, 'w', encoding='utf-8') as f:
         f.write(f"// Generated on {datetime.now().isoformat()}\n")
-        f.write(f"const FTE_DETAILS = {json.dumps(fte_data, indent=2)};\n\n")
-        f.write(f"const PROJECT_DATA = {json.dumps(all_monthly_data, indent=2)};\n\n")
+        f.write(f"window.FTE_DETAILS = {json.dumps(fte_data, indent=2)};\n\n")
+        f.write(f"window.PROJECT_DATA = {json.dumps(all_monthly_data, indent=2)};\n\n")
         
         latest_month = list(all_monthly_data.keys())[-1] if all_monthly_data else None
         if latest_month:
-            f.write(f"let ATT = PROJECT_DATA['{latest_month}'].ATT;\n")
-            f.write(f"let PROD = PROJECT_DATA['{latest_month}'].PROD;\n")
-            f.write(f"let GAMS = PROJECT_DATA['{latest_month}'].GAMS;\n")
-            f.write(f"let DAILY_PRESENT = PROJECT_DATA['{latest_month}'].DAILY_PRESENT;\n")
-            f.write(f"let LEADERBOARD = PROJECT_DATA['{latest_month}'].LEADERBOARD;\n")
-            f.write(f"let QUEUE = PROJECT_DATA['{latest_month}'].QUEUE;\n")
+            f.write(f"window.ATT = window.PROJECT_DATA['{latest_month}'].ATT;\n")
+            f.write(f"window.PROD = window.PROJECT_DATA['{latest_month}'].PROD;\n")
+            f.write(f"window.GAMS = window.PROJECT_DATA['{latest_month}'].GAMS;\n")
+            f.write(f"window.DAILY_PRESENT = window.PROJECT_DATA['{latest_month}'].DAILY_PRESENT;\n")
+            f.write(f"window.LEADERBOARD = window.PROJECT_DATA['{latest_month}'].LEADERBOARD;\n")
+            f.write(f"window.QUEUE = window.PROJECT_DATA['{latest_month}'].QUEUE;\n")
+            f.write(f"window.ASSESSMENTS = window.PROJECT_DATA['{latest_month}'].ASSESSMENTS;\n")
 
     version = {
         "timestamp": datetime.now().isoformat(), 

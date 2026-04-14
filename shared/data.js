@@ -1,4 +1,4 @@
-// Generated on 2026-04-14T13:36:06.378665
+// Generated on 2026-04-14T15:00:45.998977
 const FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",

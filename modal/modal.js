@@ -1,4 +1,4 @@
-function openModal(type){
+function openModal(type, extra = null){
   if(currentMemberUID) return; 
   const modal=document.getElementById('modal');
   const bg=document.getElementById('modalBg');
@@ -7,7 +7,58 @@ function openModal(type){
   const sub=document.getElementById('modalSub');
   modalExportData=[];
 
-  if(type==='present'){
+  if(type==='daily_drilldown' && extra) {
+    const { date, statusLabel } = extra;
+    const dt = new Date(date);
+    const dateStr = `${dt.getDate().toString().padStart(2, '0')} ${MONTHS_SHORT[dt.getMonth()]} 2026`;
+    
+    let statusFull = 'Present';
+    if(statusLabel === 'PL') statusFull = 'Planned Leave';
+    else if(statusLabel === 'UPL') statusFull = 'Unplanned Leave';
+    else if(statusLabel === 'A') statusFull = 'Absent / Off';
+
+    title.textContent = `Members ${statusFull} — ${dateStr}`;
+    sub.textContent = `List of members matching '${statusLabel}' status on this date`;
+
+    const members = filteredUIDs.filter(uid => {
+      const s = (ATT[uid].days[date] || '').toUpperCase();
+      if (statusLabel === 'P') return s === 'P' || s === 'PRESENT';
+      if (statusLabel === 'PL') return s.includes('PL');
+      if (statusLabel === 'UPL') return s.includes('UPL') || s === 'U';
+      if (statusLabel === 'A') return s === 'A' || s === 'ABSENT' || s === 'OFF';
+      return false;
+    }).sort((a,b) => ATT[a].name.localeCompare(ATT[b].name));
+
+    if(!members.length){
+      body.innerHTML = `<p style="padding:40px;text-align:center;color:var(--txt3)">No members found with status '${statusLabel}' for this date.</p>`;
+    } else {
+      modalExportData = members.map(u => ({
+        Name: ATT[u].name,
+        UID: u,
+        Batch: FTE_DETAILS[u]?.batch || 'N/A',
+        Shift: FTE_DETAILS[u]?.shift || 'N/A',
+        Status: statusLabel
+      }));
+
+      body.innerHTML = `<table style="width:100%;border-collapse:collapse">
+        <thead><tr style="background:var(--bg)">
+          <th style="padding:8px 12px;text-align:left;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">Member</th>
+          <th style="padding:8px 12px;text-align:left;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">User ID</th>
+          <th style="padding:8px 12px;text-align:center;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">Batch</th>
+          <th style="padding:8px 12px;text-align:center;font-size:12px;font-weight:700;color:var(--txt3);text-transform:uppercase">Shift</th>
+        </tr></thead>
+        <tbody>${members.map(u => {
+          const detail = FTE_DETAILS[u];
+          return `<tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px 12px;font-size:13px;font-weight:600">${ATT[u].name}</td>
+            <td style="padding:10px 12px;font-size:12px;font-family:'JetBrains Mono',monospace;color:var(--p)">${u}</td>
+            <td style="padding:10px 12px;text-align:center;font-size:13px;color:var(--txt2)">${detail?.batch || '—'}</td>
+            <td style="padding:10px 12px;text-align:center;font-size:13px;color:var(--txt2)">${detail?.shift || '—'}</td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table>`;
+    }
+  } else if(type==='present'){
     title.textContent='Attendance Detail — All Members';
     sub.textContent='Sorted by days present, highest to lowest';
     const sorted=[...filteredUIDs].sort((a,b)=>ATT[b].present-ATT[a].present);

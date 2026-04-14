@@ -181,5 +181,23 @@ function updateDonutForDate(stats) {
     chart.update();
 }
 
+function onStatusClick(statusLabel) {
+    const sel = document.getElementById('attendanceDate');
+    const date = sel.value;
+    
+    if (date === 'all') {
+        // Optional: show monthly summary modal or just do nothing
+        // For now, let's just trigger the existing modal types if it's 'all'
+        if (statusLabel === 'P') openModal('present');
+        else if (statusLabel === 'PL') openModal('leave');
+        else if (statusLabel === 'A') openModal('absent');
+        return;
+    }
+    
+    // Open specialized daily drilldown modal
+    openModal('daily_drilldown', { date, statusLabel });
+}
+
 window.onDateChange = onDateChange;
 window.initAttendanceFilter = initAttendanceFilter;
+window.onStatusClick = onStatusClick;

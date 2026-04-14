@@ -1,4 +1,4 @@
-// Generated on 2026-04-14T10:44:57.257881
+// Generated on 2026-04-14T11:56:34.267761
 const FTE_DETAILS = {
   "IN7947": {
     "batch": "N/A",
@@ -4740,7 +4740,7 @@ const PROJECT_DATA = {
       "IN4989": "Applied",
       "IN5104": "Applied",
       "IN5127": "Applied",
-      "IN8009": "Applied",
+      "IN8009": "Approved",
       "IN5002": "Approved",
       "IN5008": "Approved",
       "IN5811": "Approved",

@@ -1,4 +1,4 @@
-// Generated on 2026-04-14T05:10:12.540501
+// Generated on 2026-04-14T07:07:21.950671
 const FTE_DETAILS = {
   "IN7947": {
     "batch": "N/A",
@@ -2396,7 +2396,7 @@ const PROJECT_DATA = {
           "2026-04-11": "nan",
           "2026-04-12": "nan",
           "2026-04-13": "nan",
-          "2026-04-14": "nan",
+          "2026-04-14": "Present",
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -2414,7 +2414,7 @@ const PROJECT_DATA = {
           "2026-04-29": "nan",
           "2026-04-30": "nan"
         },
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "leave": 0,
         "weekoff": 2,
@@ -4743,7 +4743,7 @@ const PROJECT_DATA = {
       "IN8009": "Applied",
       "IN5002": "Approved",
       "IN5008": "Approved",
-      "IN5811": "Applied",
+      "IN5811": "Approved",
       "IN4657": "Approved",
       "IN5120": "Approved"
     },
@@ -4758,7 +4758,7 @@ const PROJECT_DATA = {
       "2026-04-10": 32,
       "2026-04-11": 32,
       "2026-04-13": 32,
-      "2026-04-14": 34
+      "2026-04-14": 35
     },
     "LEADERBOARD": {
       "top": [

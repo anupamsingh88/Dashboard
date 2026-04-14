@@ -1,5 +1,32 @@
-<div id="attendance">
   <div class="sec-lbl">Attendance Analysis</div>
+
+  <!-- Daily Drill-down Section -->
+  <div class="dd-row animate-fade-in">
+    <div class="dd-ctrl">
+      <div class="dd-lbl">View Single Day:</div>
+      <select id="attendanceDate" class="dd-sel" onchange="onDateChange(this.value)">
+        <option value="all">Full Month Summary</option>
+      </select>
+    </div>
+    <div class="dd-stats" id="dailyStats">
+      <div class="dd-card p">
+        <div class="dd-card-val" id="d-present">0</div>
+        <div class="dd-card-lbl">Present</div>
+      </div>
+      <div class="dd-card pl">
+        <div class="dd-card-val" id="d-pl">0</div>
+        <div class="dd-card-lbl">PL</div>
+      </div>
+      <div class="dd-card upl">
+        <div class="dd-card-val" id="d-upl">0</div>
+        <div class="dd-card-lbl">UPL</div>
+      </div>
+      <div class="dd-card r">
+        <div class="dd-card-val" id="d-absent">0</div>
+        <div class="dd-card-lbl">Absent</div>
+      </div>
+    </div>
+  </div>
   <div class="chart-row cr3">
     <div class="cc">
       <div class="cc-hdr">

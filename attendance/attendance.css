@@ -1,0 +1,91 @@
+.dd-row {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+}
+
+.dd-ctrl {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.dd-lbl {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--txt2);
+}
+
+.dd-sel {
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: white;
+    font-family: inherit;
+    font-size: 14px;
+    color: var(--txt);
+    outline: none;
+    transition: border-color 0.2s;
+    min-width: 200px;
+}
+
+.dd-sel:focus {
+    border-color: var(--p);
+}
+
+.dd-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.dd-card {
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.dd-card:hover {
+    transform: translateY(-2px);
+}
+
+.dd-card-val {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.dd-card-lbl {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+/* Status Colors */
+.dd-card.p { background: rgba(37, 99, 235, 0.1); color: #2563eb; border: 1px solid rgba(37, 99, 235, 0.2); }
+.dd-card.pl { background: rgba(245, 158, 11, 0.1); color: #d97706; border: 1px solid rgba(245, 158, 11, 0.2); }
+.dd-card.upl { background: rgba(220, 38, 38, 0.1); color: #dc2626; border: 1px solid rgba(220, 38, 38, 0.2); }
+.dd-card.r { background: rgba(107, 114, 128, 0.1); color: #4b5563; border: 1px solid rgba(107, 114, 128, 0.2); }
+
+@media (max-width: 768px) {
+    .dd-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .dd-ctrl {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .dd-sel {
+        width: 100%;
+    }
+}

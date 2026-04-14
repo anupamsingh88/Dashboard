@@ -1,4 +1,4 @@
-// Generated on 2026-04-14T16:18:30.227847
+// Generated on 2026-04-14T22:11:07.104265
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -83,7 +83,7 @@ window.FTE_DETAILS = {
   },
   "IN8182": {
     "name": "Meenakshi Rawat",
-    "batch": "Batch 17",
+    "batch": "nan",
     "shift": "8AM - 4PM",
     "zoho_id": "nan",
     "gams_access": "DONE",
@@ -1060,7 +1060,7 @@ window.PROJECT_DATA = {
           "2026-04-11": "nan",
           "2026-04-12": "nan",
           "2026-04-13": "nan",
-          "2026-04-14": "Present",
+          "2026-04-14": "nan",
           "2026-04-15": "nan",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
@@ -1079,7 +1079,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "leave": 0,
         "weekoff": 2,
@@ -3466,8 +3466,8 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN8182": {
-        "status": "Applied",
-        "approver": "BHATIA, BHASKAR  [IN5195]"
+        "status": "nan",
+        "approver": "nan"
       },
       "IN5003": {
         "status": "Approved",
@@ -3550,7 +3550,7 @@ window.PROJECT_DATA = {
         "approver": "GAHLYAN, SHWETA  [IN2449]\t"
       },
       "IN8009": {
-        "status": "Approved",
+        "status": "Applied",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN5002": {
@@ -3562,7 +3562,7 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN5811": {
-        "status": "Approved",
+        "status": "Applied",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4657": {
@@ -3585,7 +3585,7 @@ window.PROJECT_DATA = {
       "2026-04-10": 32,
       "2026-04-11": 32,
       "2026-04-13": 32,
-      "2026-04-14": 35
+      "2026-04-14": 34
     },
     "LEADERBOARD": {
       "top": [
@@ -3660,7 +3660,7 @@ window.PROJECT_DATA = {
         "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Not Visible",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Empty Queue"
+        "p2_status": "Working"
       },
       "IN8181": {
         "name": "Arpit Aggarwal",
@@ -3705,7 +3705,7 @@ window.PROJECT_DATA = {
         "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "nan",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5103": {
         "name": "Kuvvarapu Vikranth",
@@ -3813,7 +3813,7 @@ window.PROJECT_DATA = {
         "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "nan",
         "p2": "nan",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5498": {
         "name": "Pratik Mahadev More",
@@ -3894,7 +3894,7 @@ window.PROJECT_DATA = {
         "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Empty Queue"
+        "p2_status": "Working"
       },
       "IN5104": {
         "name": "Simran Bheda",

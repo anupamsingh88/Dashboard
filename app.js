@@ -104,6 +104,7 @@ function switchMonth(month) {
     if (typeof renderAH === 'function') try { renderAH(); } catch(e) {}
     if (typeof renderAssessments === 'function') try { renderAssessments(); } catch(e) {}
     if (typeof buildWeekTabs === 'function') try { buildWeekTabs(); } catch(e) {}
+    if (typeof initAttendanceFilter === 'function') try { initAttendanceFilter(); } catch(e) {}
 
     // Charts
     if (typeof initDailyChart === 'function') initDailyChart();

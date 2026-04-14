@@ -1,4 +1,4 @@
-// Generated on 2026-04-14T17:43:10.244619
+// Generated on 2026-04-14T19:10:55.302027
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -1647,7 +1647,7 @@ window.PROJECT_DATA = {
           "2026-04-10": "Present",
           "2026-04-11": "Present",
           "2026-04-12": "Week Off",
-          "2026-04-13": "PL",
+          "2026-04-13": "UPL",
           "2026-04-14": "Absent",
           "2026-04-15": "nan",
           "2026-04-16": "nan",
@@ -1862,7 +1862,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 5.72,
           "2026-04-11": 4.82,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 9.47,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -1884,7 +1884,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 32.14,
         "ww15": 40.73,
-        "ww16": 4.82,
+        "ww16": 14.29,
         "ww17": 0.0
       },
       "IN4996": {
@@ -1906,7 +1906,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 9.63,
           "2026-04-11": 4.6,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 13.57,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -1928,7 +1928,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 38.98,
         "ww15": 48.08,
-        "ww16": 4.6,
+        "ww16": 18.17,
         "ww17": 0.0
       },
       "IN8181": {
@@ -1994,7 +1994,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 8.83,
           "2026-04-11": 5.02,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 13.02,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2016,7 +2016,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 30.84,
         "ww15": 53.46,
-        "ww16": 5.02,
+        "ww16": 18.04,
         "ww17": 0.0
       },
       "IN5107": {
@@ -2038,7 +2038,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 7.24,
           "2026-04-11": 3.79,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 7.84,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2060,7 +2060,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 86.1,
         "ww15": 52.25,
-        "ww16": 3.79,
+        "ww16": 11.63,
         "ww17": 0.0
       },
       "IN4995": {
@@ -2082,7 +2082,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 12.98,
           "2026-04-11": 8.07,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 13.02,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2104,7 +2104,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 11.94,
         "ww15": 25.08,
-        "ww16": 8.07,
+        "ww16": 21.09,
         "ww17": 0.0
       },
       "IN5010": {
@@ -2126,7 +2126,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 9.16,
           "2026-04-11": 5.69,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 10.57,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2148,7 +2148,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 48.46,
         "ww15": 64.28,
-        "ww16": 5.69,
+        "ww16": 16.26,
         "ww17": 0.0
       },
       "IN5103": {
@@ -2170,7 +2170,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 0.0,
           "2026-04-11": 6.97,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 0.0,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2214,7 +2214,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 4.42,
           "2026-04-11": 1.61,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 3.29,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2236,7 +2236,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 8.33,
         "ww15": 23.6,
-        "ww16": 1.61,
+        "ww16": 4.9,
         "ww17": 0.0
       },
       "IN8182": {
@@ -2302,7 +2302,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 9.45,
           "2026-04-11": 0.0,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 8.35,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2324,7 +2324,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 72.19,
         "ww15": 93.71,
-        "ww16": 0.0,
+        "ww16": 8.35,
         "ww17": 0.0
       },
       "IN4986": {
@@ -2346,7 +2346,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 10.96,
           "2026-04-11": 9.11,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 19.99,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2368,7 +2368,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 60.13,
         "ww15": 49.4,
-        "ww16": 9.11,
+        "ww16": 29.1,
         "ww17": 0.0
       },
       "IN4988": {
@@ -2390,7 +2390,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 0.0,
           "2026-04-11": 0.0,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 5.53,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2412,7 +2412,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 39.99,
         "ww15": 38.49,
-        "ww16": 0.0,
+        "ww16": 5.53,
         "ww17": 0.0
       },
       "IN5116": {
@@ -2434,7 +2434,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 8.31,
           "2026-04-11": 5.68,
           "2026-04-12": 1.98,
-          "2026-04-13": 0,
+          "2026-04-13": 4.91,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2456,7 +2456,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 28.49,
         "ww15": 45.02,
-        "ww16": 7.66,
+        "ww16": 12.57,
         "ww17": 0.0
       },
       "IN5000": {
@@ -2478,7 +2478,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 5.35,
           "2026-04-11": 4.18,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 8.91,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2500,7 +2500,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 27.29,
         "ww15": 36.09,
-        "ww16": 4.18,
+        "ww16": 13.09,
         "ww17": 0.0
       },
       "IN4993": {
@@ -2522,7 +2522,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 10.83,
           "2026-04-11": 5.31,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 7.88,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2544,7 +2544,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 26.75,
         "ww15": 47.91,
-        "ww16": 5.31,
+        "ww16": 13.19,
         "ww17": 0.0
       },
       "IN5005": {
@@ -2566,7 +2566,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 4.76,
           "2026-04-11": 0.0,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 0.0,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2654,7 +2654,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 2.28,
           "2026-04-11": 2.21,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 3.57,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2676,7 +2676,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 12.29,
         "ww15": 2.28,
-        "ww16": 2.21,
+        "ww16": 5.78,
         "ww17": 0.0
       },
       "IN5498": {
@@ -2698,7 +2698,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 8.39,
           "2026-04-11": 4.76,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 11.22,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2720,7 +2720,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 41.97,
         "ww15": 45.23,
-        "ww16": 4.76,
+        "ww16": 15.98,
         "ww17": 0.0
       },
       "IN5122": {
@@ -2742,7 +2742,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 12.87,
           "2026-04-11": 3.55,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 8.81,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2764,7 +2764,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 49.3,
         "ww15": 86.87,
-        "ww16": 3.55,
+        "ww16": 12.36,
         "ww17": 0.0
       },
       "IN5009": {
@@ -2786,7 +2786,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 8.1,
           "2026-04-11": 5.73,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 13.42,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2808,7 +2808,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 22.61,
         "ww15": 50.97,
-        "ww16": 5.73,
+        "ww16": 19.15,
         "ww17": 0.0
       },
       "IN5108": {
@@ -2830,7 +2830,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 7.74,
           "2026-04-11": 7.21,
           "2026-04-12": 6.72,
-          "2026-04-13": 0,
+          "2026-04-13": 6.36,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2852,7 +2852,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 86.65,
         "ww15": 80.55,
-        "ww16": 13.93,
+        "ww16": 20.29,
         "ww17": 0.0
       },
       "IN5677": {
@@ -2874,7 +2874,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 5.75,
           "2026-04-11": 0.78,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 0.0,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2918,7 +2918,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 4.54,
           "2026-04-11": 3.57,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 9.33,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2940,7 +2940,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 4.79,
         "ww15": 34.58,
-        "ww16": 3.57,
+        "ww16": 12.9,
         "ww17": 0.0
       },
       "IN5801": {
@@ -2962,7 +2962,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 2.76,
           "2026-04-11": 4.18,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 11.17,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -2984,7 +2984,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 55.0,
         "ww15": 38.67,
-        "ww16": 4.18,
+        "ww16": 15.35,
         "ww17": 0.0
       },
       "IN4987": {
@@ -3006,7 +3006,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 10.55,
           "2026-04-11": 9.74,
           "2026-04-12": 5.77,
-          "2026-04-13": 0,
+          "2026-04-13": 19.49,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -3028,7 +3028,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 55.45,
         "ww15": 55.97,
-        "ww16": 15.51,
+        "ww16": 35.0,
         "ww17": 0.0
       },
       "IN4989": {
@@ -3050,7 +3050,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 1.56,
           "2026-04-11": 2.13,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 7.03,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -3072,7 +3072,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 19.93,
         "ww15": 26.78,
-        "ww16": 2.13,
+        "ww16": 9.16,
         "ww17": 0.0
       },
       "IN5104": {
@@ -3094,7 +3094,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 5.97,
           "2026-04-11": 1.53,
           "2026-04-12": 1.41,
-          "2026-04-13": 0,
+          "2026-04-13": 3.51,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -3116,7 +3116,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 4.33,
         "ww15": 14.16,
-        "ww16": 2.94,
+        "ww16": 6.45,
         "ww17": 0.0
       },
       "IN5127": {
@@ -3138,7 +3138,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 6.05,
           "2026-04-11": 4.61,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 9.85,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -3160,7 +3160,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 35.14,
         "ww15": 39.41,
-        "ww16": 4.61,
+        "ww16": 14.46,
         "ww17": 0.0
       },
       "IN8009": {
@@ -3182,7 +3182,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 4.9,
           "2026-04-11": 3.08,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 4.99,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -3204,7 +3204,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 32.61,
         "ww15": 38.63,
-        "ww16": 3.08,
+        "ww16": 8.07,
         "ww17": 0.0
       },
       "IN5002": {
@@ -3226,7 +3226,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 2.15,
           "2026-04-11": 2.66,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 0.0,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -3270,7 +3270,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 7.28,
           "2026-04-11": 0.0,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 15.02,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -3292,7 +3292,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 61.05,
         "ww15": 60.14,
-        "ww16": 0.0,
+        "ww16": 15.02,
         "ww17": 0.0
       },
       "IN5811": {
@@ -3314,7 +3314,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 0.0,
           "2026-04-11": 1.95,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 3.61,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -3336,7 +3336,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 21.08,
         "ww15": 24.52,
-        "ww16": 1.95,
+        "ww16": 5.56,
         "ww17": 0.0
       },
       "IN4657": {
@@ -3358,7 +3358,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 7.42,
           "2026-04-11": 4.42,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 10.87,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -3380,7 +3380,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 23.38,
         "ww15": 34.15,
-        "ww16": 4.42,
+        "ww16": 15.29,
         "ww17": 0.0
       },
       "IN5120": {
@@ -3402,7 +3402,7 @@ window.PROJECT_DATA = {
           "2026-04-10": 3.58,
           "2026-04-11": 2.95,
           "2026-04-12": 0.0,
-          "2026-04-13": 0,
+          "2026-04-13": 5.59,
           "2026-04-14": 0,
           "2026-04-15": 0,
           "2026-04-16": 0,
@@ -3424,7 +3424,7 @@ window.PROJECT_DATA = {
         "ah": {},
         "ww14": 32.47,
         "ww15": 23.34,
-        "ww16": 2.95,
+        "ww16": 8.54,
         "ww17": 0.0
       }
     },
@@ -3592,39 +3592,34 @@ window.PROJECT_DATA = {
         {
           "uid": "IN5108",
           "name": "Pummy Kumari singh",
-          "score": 181.13
+          "score": 187.49
         },
         {
           "uid": "IN5003",
           "name": "Mudimala Chandrashaker",
-          "score": 165.9
+          "score": 174.25
         },
         {
           "uid": "IN5107",
           "name": "Duddeda Pooja",
-          "score": 142.14
+          "score": 149.98
         },
         {
           "uid": "IN5122",
           "name": "Prince Patel",
-          "score": 139.72
+          "score": 148.53
         },
         {
           "uid": "IN4987",
           "name": "Shubhasmita Sahoo",
-          "score": 126.93
+          "score": 146.42
         }
       ],
       "bottom": [
         {
           "uid": "IN5115",
           "name": "Prashant ojha",
-          "score": 16.78
-        },
-        {
-          "uid": "IN5104",
-          "name": "Simran Bheda",
-          "score": 21.43
+          "score": 20.35
         },
         {
           "uid": "IN5002",
@@ -3632,14 +3627,19 @@ window.PROJECT_DATA = {
           "score": 24.78
         },
         {
-          "uid": "IN4784",
-          "name": "M. Sai Prasad Naik",
-          "score": 33.54
+          "uid": "IN5104",
+          "name": "Simran Bheda",
+          "score": 24.94
         },
         {
           "uid": "IN5005",
           "name": "Paniganti Saraswathi",
           "score": 36.45
+        },
+        {
+          "uid": "IN4784",
+          "name": "M. Sai Prasad Naik",
+          "score": 36.83
         }
       ]
     },
@@ -3647,20 +3647,20 @@ window.PROJECT_DATA = {
       "IN7947": {
         "name": "ADITI",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Working",
+        "p1_status": "nan",
         "p2": "nan",
         "p2_status": "nan"
       },
       "IN4996": {
         "name": "Arogya Painuly",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Empty Queue"
+        "p2_status": "nan"
       },
       "IN8181": {
         "name": "Arpit Aggarwal",
@@ -3674,7 +3674,7 @@ window.PROJECT_DATA = {
       "IN4997": {
         "name": "BRAJ PAL SINGH",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Working",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
@@ -3683,7 +3683,7 @@ window.PROJECT_DATA = {
       "IN5107": {
         "name": "Duddeda Pooja",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Working",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
@@ -3692,7 +3692,7 @@ window.PROJECT_DATA = {
       "IN4995": {
         "name": "Katikela Sreeharsha Kishore",
         "p0": "260310-live-s2s-elo",
-        "p0_status": "Working",
+        "p0_status": "nan",
         "p1": "260124-text-image-to-text-h2h",
         "p1_status": "nan",
         "p2": "260209-omni-s2s-elo",
@@ -3705,21 +3705,21 @@ window.PROJECT_DATA = {
         "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "nan",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5103": {
         "name": "Kuvvarapu Vikranth",
         "p0": "260407-High-res-dense-rich-ref-expression",
         "p0_status": "nan",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Working",
+        "p1_status": "nan",
         "p2": "260310-live-s2s-elo",
         "p2_status": "nan"
       },
       "IN4784": {
         "name": "M. Sai Prasad Naik",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Working",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
@@ -3737,34 +3737,34 @@ window.PROJECT_DATA = {
       "IN5003": {
         "name": "Mudimala Chandrashaker",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Working"
+        "p2_status": "nan"
       },
       "IN4986": {
         "name": "Murtaza Mustafa Zafar",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Working",
+        "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
         "p2_status": "nan"
       },
       "IN4988": {
         "name": "Musfira",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5116": {
         "name": "Nisarga Suresh Kapde",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "Working",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
@@ -3773,7 +3773,7 @@ window.PROJECT_DATA = {
       "IN5000": {
         "name": "Nishtha Sharma",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Working",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
@@ -3782,9 +3782,9 @@ window.PROJECT_DATA = {
       "IN4993": {
         "name": "P. Omkar",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Working",
+        "p1_status": "nan",
         "p2": "260310-live-s2s-elo",
         "p2_status": "nan"
       },
@@ -3793,7 +3793,7 @@ window.PROJECT_DATA = {
         "p0": "260407-High-res-dense-rich-ref-expression",
         "p0_status": "nan",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Working",
+        "p1_status": "nan",
         "p2": "nan",
         "p2_status": "nan"
       },
@@ -3813,12 +3813,12 @@ window.PROJECT_DATA = {
         "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "nan",
         "p2": "nan",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5498": {
         "name": "Pratik Mahadev More",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Working",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
@@ -3827,101 +3827,101 @@ window.PROJECT_DATA = {
       "IN5122": {
         "name": "Prince Patel",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5009": {
         "name": "Priyata M",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Working"
+        "p2_status": "nan"
       },
       "IN5108": {
         "name": "Pummy Kumari singh",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Working",
+        "p1_status": "nan",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5677": {
         "name": "Sahil Kiran",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260407-High-res-dense-rich-ref-expression",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN4998": {
         "name": "Saransh Kumar",
         "p0": "260310-live-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5801": {
         "name": "Saurabh Barua",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Working"
+        "p2_status": "nan"
       },
       "IN4987": {
         "name": "Shubhasmita Sahoo",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "Queue Error: Task Loading Fail",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Error: Task Loading Fail",
+        "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN4989": {
         "name": "Siddharth Kumar",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Error: Task Loading Fail",
+        "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Empty Queue"
+        "p2_status": "nan"
       },
       "IN5104": {
         "name": "Simran Bheda",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Error: Task Loading Fail",
+        "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5127": {
         "name": "Sripuram Pravara Sujesvi",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "Working",
+        "p0_status": "nan",
         "p1": "260209-omni-s2s-elo",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN8009": {
         "name": "Suragani Eswar teja",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5002": {
         "name": "Suyash Bhavsar",
@@ -3935,38 +3935,38 @@ window.PROJECT_DATA = {
       "IN5008": {
         "name": "Tabish Karim",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Working"
+        "p2_status": "nan"
       },
       "IN5811": {
         "name": "Urhan Ahmad Khan",
         "p0": "260209-omni-s2s-elo",
         "p0_status": "nan",
         "p1": "vs-1773981673-full-pixel-perfect-pattern-extraction",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "Queue Error: Task Loading Fail"
+        "p2_status": "nan"
       },
       "IN4657": {
         "name": "Vishnudas S Menon",
         "p0": "260318-furniture-removal-multiturn",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260310-perception-long-video-shot-correction",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "Queue Error: Task Loading Fail"
+        "p2_status": "nan"
       },
       "IN5120": {
         "name": "Zoya Nawaz Khan",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "vs-1773981673-full-pixel-perfect-pattern-extraction",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "Working"
+        "p2_status": "nan"
       }
     },
     "ASSESSMENTS": [

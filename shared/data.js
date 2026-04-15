@@ -1,4 +1,4 @@
-// Generated on 2026-04-15T05:30:19.818749
+// Generated on 2026-04-15T07:08:24.576492
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3650,7 +3650,7 @@ window.PROJECT_DATA = {
         "p0": "260407-High-res-dense-rich-ref-expression",
         "p0_status": "Queue Not Visible",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Queue Error: Task Loading Fail",
+        "p1_status": "Working",
         "p2": "0",
         "p2_status": "nan"
       },
@@ -3668,7 +3668,7 @@ window.PROJECT_DATA = {
         "p0": "260124-text-image-to-text-h2h",
         "p0_status": "Queue Error: Task Loading Fail",
         "p1": "Omni S2s Elo",
-        "p1_status": "nan",
+        "p1_status": "Working",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
         "p2_status": "nan"
       },
@@ -3684,7 +3684,7 @@ window.PROJECT_DATA = {
       "IN5107": {
         "name": "Duddeda Pooja",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "nan",
+        "p0_status": "Working",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
@@ -3729,9 +3729,9 @@ window.PROJECT_DATA = {
       "IN8182": {
         "name": "Meenakshi Rawat",
         "p0": "260124-text-image-to-text-h2h",
-        "p0_status": "Queue Error: Task Loading Fail",
+        "p0_status": "Empty Queue",
         "p1": "Omni S2s Elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
         "p2_status": "nan"
       },
@@ -3774,7 +3774,7 @@ window.PROJECT_DATA = {
       "IN5000": {
         "name": "Nishtha Sharma",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Error: Task Loading Fail",
+        "p0_status": "Working",
         "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260124-text-image-to-text-h2h",
@@ -3801,11 +3801,11 @@ window.PROJECT_DATA = {
       "IN8183": {
         "name": "Poonam Anurag Kohli",
         "p0": "260124-text-image-to-text-h2h",
-        "p0_status": "nan",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "Omni S2s Elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
-        "p2_status": "nan"
+        "p2_status": "Working"
       },
       "IN5115": {
         "name": "Prashant ojha",
@@ -3891,11 +3891,11 @@ window.PROJECT_DATA = {
       "IN4989": {
         "name": "Siddharth Kumar",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Error: Task Loading Fail",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Queue Error: Task Loading Fail"
+        "p2_status": "Empty Queue"
       },
       "IN5104": {
         "name": "Simran Bheda",
@@ -3927,9 +3927,9 @@ window.PROJECT_DATA = {
       "IN5002": {
         "name": "Suyash Bhavsar",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "nan",
+        "p1_status": "Working",
         "p2": "260310-live-s2s-elo",
         "p2_status": "nan"
       },
@@ -3954,11 +3954,11 @@ window.PROJECT_DATA = {
       "IN4657": {
         "name": "Vishnudas S Menon",
         "p0": "260318-furniture-removal-multiturn",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-perception-long-video-shot-correction",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5120": {
         "name": "Zoya Nawaz Khan",
@@ -3967,7 +3967,7 @@ window.PROJECT_DATA = {
         "p1": "vs-1773981673-full-pixel-perfect-pattern-extraction",
         "p1_status": "Queue Not Visible",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "Working"
+        "p2_status": "Queue Error: Task Loading Fail"
       }
     },
     "ASSESSMENTS": [

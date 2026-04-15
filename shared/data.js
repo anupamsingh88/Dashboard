@@ -1,4 +1,4 @@
-// Generated on 2026-04-15T04:28:35.105292
+// Generated on 2026-04-15T05:10:30.370402
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3650,7 +3650,7 @@ window.PROJECT_DATA = {
         "p0": "260407-High-res-dense-rich-ref-expression",
         "p0_status": "Queue Not Visible",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Working",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "0",
         "p2_status": "nan"
       },
@@ -3666,7 +3666,7 @@ window.PROJECT_DATA = {
       "IN8181": {
         "name": "Arpit Aggarwal",
         "p0": "260124-text-image-to-text-h2h",
-        "p0_status": "nan",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "Omni S2s Elo",
         "p1_status": "nan",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
@@ -3729,7 +3729,7 @@ window.PROJECT_DATA = {
       "IN8182": {
         "name": "Meenakshi Rawat",
         "p0": "260124-text-image-to-text-h2h",
-        "p0_status": "nan",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "Omni S2s Elo",
         "p1_status": "nan",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
@@ -3774,11 +3774,11 @@ window.PROJECT_DATA = {
       "IN5000": {
         "name": "Nishtha Sharma",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Working",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "nan"
+        "p2_status": "Empty Queue"
       },
       "IN4993": {
         "name": "P. Omkar",
@@ -3794,7 +3794,7 @@ window.PROJECT_DATA = {
         "p0": "260407-High-res-dense-rich-ref-expression",
         "p0_status": "nan",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Working",
+        "p1_status": "Queue Not Visible",
         "p2": "0",
         "p2_status": "nan"
       },
@@ -3819,7 +3819,7 @@ window.PROJECT_DATA = {
       "IN5498": {
         "name": "Pratik Mahadev More",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "nan",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
@@ -3864,11 +3864,11 @@ window.PROJECT_DATA = {
       "IN4998": {
         "name": "Saransh Kumar",
         "p0": "260310-live-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5801": {
         "name": "Saurabh Barua",
@@ -3886,16 +3886,16 @@ window.PROJECT_DATA = {
         "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN4989": {
         "name": "Siddharth Kumar",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "nan",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "nan"
+        "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5104": {
         "name": "Simran Bheda",
@@ -3909,7 +3909,7 @@ window.PROJECT_DATA = {
       "IN5127": {
         "name": "Sripuram Pravara Sujesvi",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "Working",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "260209-omni-s2s-elo",
         "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",
@@ -3920,9 +3920,9 @@ window.PROJECT_DATA = {
         "p0": "260209-omni-s2s-elo",
         "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5002": {
         "name": "Suyash Bhavsar",
@@ -3945,7 +3945,7 @@ window.PROJECT_DATA = {
       "IN5811": {
         "name": "Urhan Ahmad Khan",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "vs-1773981673-full-pixel-perfect-pattern-extraction",
         "p1_status": "Queue Not Visible",
         "p2": "260310-live-s2s-elo",

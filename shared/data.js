@@ -1,4 +1,4 @@
-// Generated on 2026-04-15T22:09:25.376716
+// Generated on 2026-04-15T23:09:45.842855
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -558,7 +558,7 @@ window.PROJECT_DATA = {
           "2026-04-13": "Present",
           "2026-04-14": "Present",
           "2026-04-15": "Present",
-          "2026-04-16": "nan",
+          "2026-04-16": "Present",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
           "2026-04-19": "Week Off",
@@ -575,7 +575,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 11,
+        "present": 12,
         "absent": 0,
         "leave": 1,
         "weekoff": 4,
@@ -3586,7 +3586,8 @@ window.PROJECT_DATA = {
       "2026-04-11": 32,
       "2026-04-13": 32,
       "2026-04-14": 35,
-      "2026-04-15": 35
+      "2026-04-15": 35,
+      "2026-04-16": 1
     },
     "LEADERBOARD": {
       "top": [
@@ -3695,7 +3696,7 @@ window.PROJECT_DATA = {
         "p0": "260310-live-s2s-elo",
         "p0_status": "Queue Error: Task Loading Fail",
         "p1": "260124-text-image-to-text-h2h",
-        "p1_status": "nan",
+        "p1_status": "Empty Queue",
         "p2": "260209-omni-s2s-elo",
         "p2_status": "Working"
       },

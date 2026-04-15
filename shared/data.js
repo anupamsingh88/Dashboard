@@ -1,4 +1,4 @@
-// Generated on 2026-04-15T05:11:23.721029
+// Generated on 2026-04-15T05:30:19.818749
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -20,7 +20,7 @@ window.FTE_DETAILS = {
   },
   "IN8181": {
     "name": "Arpit Aggarwal",
-    "batch": "nan",
+    "batch": "Batch 17",
     "shift": "8AM - 4PM",
     "zoho_id": "nan",
     "gams_access": "DONE",
@@ -3438,7 +3438,7 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN8181": {
-        "status": "nan",
+        "status": "Applied",
         "approver": "nan"
       },
       "IN4997": {
@@ -3819,7 +3819,7 @@ window.PROJECT_DATA = {
       "IN5498": {
         "name": "Pratik Mahadev More",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Error: Task Loading Fail",
+        "p0_status": "Working",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260124-text-image-to-text-h2h",

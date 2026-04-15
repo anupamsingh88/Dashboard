@@ -1,4 +1,4 @@
-// Generated on 2026-04-14T23:40:27.419913
+// Generated on 2026-04-15T02:11:35.039203
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -557,7 +557,7 @@ window.PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
-          "2026-04-15": "nan",
+          "2026-04-15": "Present",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
@@ -575,7 +575,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 10,
+        "present": 11,
         "absent": 0,
         "leave": 1,
         "weekoff": 4,
@@ -641,7 +641,7 @@ window.PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "PL",
           "2026-04-14": "Present",
-          "2026-04-15": "nan",
+          "2026-04-15": "Present",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
@@ -659,7 +659,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 10,
+        "present": 11,
         "absent": 0,
         "leave": 1,
         "weekoff": 4,
@@ -683,7 +683,7 @@ window.PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
-          "2026-04-15": "nan",
+          "2026-04-15": "Present",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
@@ -701,7 +701,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 11,
+        "present": 12,
         "absent": 0,
         "leave": 0,
         "weekoff": 4,
@@ -809,8 +809,8 @@ window.PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
-          "2026-04-15": "nan",
-          "2026-04-16": "nan",
+          "2026-04-15": "PL",
+          "2026-04-16": "PL",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
           "2026-04-19": "Week Off",
@@ -829,7 +829,7 @@ window.PROJECT_DATA = {
         "daily_log": {},
         "present": 11,
         "absent": 0,
-        "leave": 0,
+        "leave": 2,
         "weekoff": 4,
         "holiday": 1
       },
@@ -893,7 +893,7 @@ window.PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
-          "2026-04-15": "nan",
+          "2026-04-15": "Present",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
@@ -911,7 +911,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 10,
+        "present": 11,
         "absent": 0,
         "leave": 1,
         "weekoff": 4,
@@ -1187,7 +1187,7 @@ window.PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
-          "2026-04-15": "nan",
+          "2026-04-15": "Present",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
@@ -1205,7 +1205,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 11,
+        "present": 12,
         "absent": 0,
         "leave": 0,
         "weekoff": 4,
@@ -1271,7 +1271,7 @@ window.PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
-          "2026-04-15": "nan",
+          "2026-04-15": "Present",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
@@ -1289,7 +1289,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 11,
+        "present": 12,
         "absent": 0,
         "leave": 0,
         "weekoff": 4,
@@ -1355,7 +1355,7 @@ window.PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
-          "2026-04-15": "nan",
+          "2026-04-15": "Present",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
@@ -1373,7 +1373,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 11,
+        "present": 12,
         "absent": 0,
         "leave": 0,
         "weekoff": 4,
@@ -1397,7 +1397,7 @@ window.PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
-          "2026-04-15": "nan",
+          "2026-04-15": "Present",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
@@ -1415,7 +1415,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 10,
+        "present": 11,
         "absent": 0,
         "leave": 1,
         "weekoff": 4,
@@ -1691,7 +1691,7 @@ window.PROJECT_DATA = {
           "2026-04-12": "Week Off",
           "2026-04-13": "Present",
           "2026-04-14": "Present",
-          "2026-04-15": "nan",
+          "2026-04-15": "Present",
           "2026-04-16": "nan",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
@@ -1709,7 +1709,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 10,
+        "present": 11,
         "absent": 0,
         "leave": 1,
         "weekoff": 4,
@@ -3585,7 +3585,8 @@ window.PROJECT_DATA = {
       "2026-04-10": 32,
       "2026-04-11": 32,
       "2026-04-13": 32,
-      "2026-04-14": 35
+      "2026-04-14": 35,
+      "2026-04-15": 9
     },
     "LEADERBOARD": {
       "top": [
@@ -3845,11 +3846,11 @@ window.PROJECT_DATA = {
       "IN5108": {
         "name": "Pummy Kumari singh",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "nan",
+        "p1_status": "Working",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5677": {
         "name": "Sahil Kiran",

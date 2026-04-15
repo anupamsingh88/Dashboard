@@ -29,3 +29,8 @@ requirements.txt.lock
 # Temporary files
 temp/
 tmp/
+
+# MD files
+Agents.md
+CLAUDE.md
+GEMINI.md

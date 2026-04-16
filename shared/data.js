@@ -1,4 +1,4 @@
-// Generated on 2026-04-16T06:00:27.277405
+// Generated on 2026-04-16T08:01:17.131028
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3901,7 +3901,7 @@ window.PROJECT_DATA = {
       "IN5104": {
         "name": "Simran Bheda",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",

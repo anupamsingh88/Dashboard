@@ -1,4 +1,4 @@
-// Generated on 2026-04-16T08:01:17.131028
+// Generated on 2026-04-16T09:55:51.461362
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3653,7 +3653,7 @@ window.PROJECT_DATA = {
         "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "Working",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN4996": {
         "name": "Arogya Painuly",
@@ -3662,7 +3662,7 @@ window.PROJECT_DATA = {
         "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Not Visible",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
-        "p2_status": "Working"
+        "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN8181": {
         "name": "Arpit Aggarwal",
@@ -3703,7 +3703,7 @@ window.PROJECT_DATA = {
       "IN5010": {
         "name": "KUMKUM RAWAT",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "nan",
+        "p0_status": "Working",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "nan",
         "p2": "260410-dense-structured-grounding",
@@ -3770,7 +3770,7 @@ window.PROJECT_DATA = {
         "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "Working",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "nan"
+        "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5000": {
         "name": "Nishtha Sharma",
@@ -3795,7 +3795,7 @@ window.PROJECT_DATA = {
         "p0": "260410-dense-structured-grounding",
         "p0_status": "nan",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "nan",
+        "p1_status": "Working",
         "p2": "260407-High-res-dense-rich-ref-expression",
         "p2_status": "nan"
       },
@@ -3932,7 +3932,7 @@ window.PROJECT_DATA = {
         "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Queue Not Visible",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
-        "p2_status": "Working"
+        "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5008": {
         "name": "Tabish Karim",

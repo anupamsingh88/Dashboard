@@ -1,4 +1,4 @@
-// Generated on 2026-04-16T09:55:51.461362
+// Generated on 2026-04-16T11:00:53.399768
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -160,7 +160,7 @@ window.FTE_DETAILS = {
     "zoho_id": "PKohli@IC.Innodata.com",
     "gams_access": "DONE",
     "ia_access": "PENDING",
-    "zoho_access": "PENDING"
+    "zoho_access": "DONE"
   },
   "IN5115": {
     "name": "Prashant ojha",
@@ -3775,11 +3775,11 @@ window.PROJECT_DATA = {
       "IN5000": {
         "name": "Nishtha Sharma",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Working",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN4993": {
         "name": "P. Omkar",
@@ -3820,11 +3820,11 @@ window.PROJECT_DATA = {
       "IN5498": {
         "name": "Pratik Mahadev More",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Working",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5122": {
         "name": "Prince Patel",
@@ -3903,9 +3903,9 @@ window.PROJECT_DATA = {
         "p0": "260209-omni-s2s-elo",
         "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5127": {
         "name": "Sripuram Pravara Sujesvi",

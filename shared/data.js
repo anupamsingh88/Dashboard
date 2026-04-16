@@ -1,4 +1,4 @@
-// Generated on 2026-04-16T03:53:34.339192
+// Generated on 2026-04-16T06:00:27.277405
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -25,7 +25,7 @@ window.FTE_DETAILS = {
     "zoho_id": "AAggarwal@IC.Innodata.com",
     "gams_access": "DONE",
     "ia_access": "PENDING",
-    "zoho_access": "PENDING"
+    "zoho_access": "DONE"
   },
   "IN4997": {
     "name": "BRAJ PAL SINGH",
@@ -88,7 +88,7 @@ window.FTE_DETAILS = {
     "zoho_id": "MRawat1@IC.Innodata.com",
     "gams_access": "DONE",
     "ia_access": "PENDING",
-    "zoho_access": "PENDING"
+    "zoho_access": "DONE"
   },
   "IN5003": {
     "name": "Mudimala Chandrashaker",
@@ -1650,7 +1650,7 @@ window.PROJECT_DATA = {
           "2026-04-13": "UPL",
           "2026-04-14": "UPL",
           "2026-04-15": "Present",
-          "2026-04-16": "nan",
+          "2026-04-16": "Present",
           "2026-04-17": "nan",
           "2026-04-18": "nan",
           "2026-04-19": "Week Off",
@@ -1667,7 +1667,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 10,
+        "present": 11,
         "absent": 0,
         "leave": 2,
         "weekoff": 4,
@@ -3498,7 +3498,7 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN8183": {
-        "status": "nan",
+        "status": "Applied",
         "approver": "nan"
       },
       "IN5115": {
@@ -3587,7 +3587,7 @@ window.PROJECT_DATA = {
       "2026-04-13": 32,
       "2026-04-14": 35,
       "2026-04-15": 35,
-      "2026-04-16": 34
+      "2026-04-16": 35
     },
     "LEADERBOARD": {
       "top": [
@@ -3732,9 +3732,9 @@ window.PROJECT_DATA = {
         "p0": "260209-omni-s2s-elo",
         "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Working",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5003": {
         "name": "Mudimala Chandrashaker",
@@ -3806,7 +3806,7 @@ window.PROJECT_DATA = {
         "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5115": {
         "name": "Prashant ojha",
@@ -3847,11 +3847,11 @@ window.PROJECT_DATA = {
       "IN5108": {
         "name": "Pummy Kumari singh",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "nan",
+        "p1_status": "Working",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5677": {
         "name": "Sahil Kiran",
@@ -3928,11 +3928,11 @@ window.PROJECT_DATA = {
       "IN5002": {
         "name": "Suyash Bhavsar",
         "p0": "260410-dense-structured-grounding",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260407-High-res-dense-rich-ref-expression",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
-        "p2_status": "nan"
+        "p2_status": "Working"
       },
       "IN5008": {
         "name": "Tabish Karim",

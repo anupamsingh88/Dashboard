@@ -1,4 +1,4 @@
-// Generated on 2026-04-16T11:00:53.399768
+// Generated on 2026-04-16T12:14:49.983718
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -22,7 +22,7 @@ window.FTE_DETAILS = {
     "name": "Arpit Aggarwal",
     "batch": "Batch 17",
     "shift": "8AM - 4PM",
-    "zoho_id": "AAggarwal@IC.Innodata.com",
+    "zoho_id": "AAggarwal@ic.innodata.com",
     "gams_access": "DONE",
     "ia_access": "PENDING",
     "zoho_access": "DONE"
@@ -85,7 +85,7 @@ window.FTE_DETAILS = {
     "name": "Meenakshi Rawat",
     "batch": "26-Batch 17",
     "shift": "8AM - 4PM",
-    "zoho_id": "MRawat1@IC.Innodata.com",
+    "zoho_id": "MRawat1@ic.innodata.com",
     "gams_access": "DONE",
     "ia_access": "PENDING",
     "zoho_access": "DONE"
@@ -157,7 +157,7 @@ window.FTE_DETAILS = {
     "name": "Poonam Anurag Kohli",
     "batch": "Batch 17",
     "shift": "8AM - 4PM",
-    "zoho_id": "PKohli@IC.Innodata.com",
+    "zoho_id": "PKohli@ic.innodata.com",
     "gams_access": "DONE",
     "ia_access": "PENDING",
     "zoho_access": "DONE"
@@ -3648,326 +3648,326 @@ window.PROJECT_DATA = {
     "QUEUE": {
       "IN7947": {
         "name": "ADITI",
-        "p0": "260407-High-res-dense-rich-ref-expression",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "Queue Not Visible",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "Working",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "Queue Not Visible"
       },
       "IN4996": {
         "name": "Arogya Painuly",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "nan",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Queue Not Visible",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN8181": {
         "name": "Arpit Aggarwal",
         "p0": "260209-omni-s2s-elo",
         "p0_status": "Working",
-        "p1": "260310-live-s2s-elo",
+        "p1": "260209-omni-s2s-elo",
         "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
         "p2_status": "nan"
       },
       "IN4997": {
         "name": "BRAJ PAL SINGH",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "Working",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "nan",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "nan"
       },
       "IN5107": {
         "name": "Duddeda Pooja",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Working",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "nan",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "nan"
       },
       "IN4995": {
         "name": "Katikela Sreeharsha Kishore",
-        "p0": "260310-live-s2s-elo",
-        "p0_status": "Working",
-        "p1": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
+        "p0_status": "In Training",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "nan",
-        "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
+        "p2_status": "nan"
       },
       "IN5010": {
         "name": "KUMKUM RAWAT",
-        "p0": "260407-High-res-dense-rich-ref-expression",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "Working",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "nan",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "nan"
       },
       "IN5103": {
         "name": "Kuvvarapu Vikranth",
-        "p0": "260407-High-res-dense-rich-ref-expression",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "nan",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Working",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Not Visible"
       },
       "IN4784": {
         "name": "M. Sai Prasad Naik",
-        "p0": "260410-dense-structured-grounding",
-        "p0_status": "nan",
-        "p1": "260209-omni-s2s-elo",
-        "p1_status": "Working",
-        "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
+        "p0_status": "Queue Not Visible",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
+        "p1_status": "Queue Not Visible",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
+        "p2_status": "Queue Not Visible"
       },
       "IN8182": {
         "name": "Meenakshi Rawat",
         "p0": "260209-omni-s2s-elo",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "260209-omni-s2s-elo",
         "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260407-High-res-dense-rich-ref-expression",
         "p2_status": "Queue Not Visible"
       },
       "IN5003": {
         "name": "Mudimala Chandrashaker",
-        "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
-        "p2": "260410-dense-structured-grounding",
-        "p2_status": "Queue Not Visible"
+        "p0": "Vs-260414-counting-constrained-counting",
+        "p0_status": "Working",
+        "p1": "Vs-260414-counting-constrained-counting",
+        "p1_status": "nan",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
+        "p2_status": "nan"
       },
       "IN4986": {
         "name": "Murtaza Mustafa Zafar",
-        "p0": "260310-live-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "nan",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "nan",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "nan"
       },
       "IN4988": {
         "name": "Musfira",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Not Visible"
       },
       "IN5116": {
         "name": "Nisarga Suresh Kapde",
-        "p0": "260410-dense-structured-grounding",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Working",
-        "p2": "260310-live-s2s-elo",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5000": {
         "name": "Nishtha Sharma",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Queue Not Visible",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Not Visible"
       },
       "IN4993": {
         "name": "P. Omkar",
-        "p0": "260410-dense-structured-grounding",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "260407-High-res-dense-rich-ref-expression",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Queue Not Visible",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Working"
       },
       "IN5005": {
         "name": "Paniganti Saraswathi",
-        "p0": "260410-dense-structured-grounding",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "nan",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "Working",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "nan"
       },
       "IN8183": {
         "name": "Poonam Anurag Kohli",
         "p0": "260209-omni-s2s-elo",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "260209-omni-s2s-elo",
         "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
         "p2_status": "Queue Not Visible"
       },
       "IN5115": {
         "name": "Prashant ojha",
-        "p0": "260410-dense-structured-grounding",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "nan",
-        "p1": "260407-High-res-dense-rich-ref-expression",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "nan",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "nan"
       },
       "IN5498": {
         "name": "Pratik Mahadev More",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "Queue Not Visible"
       },
       "IN5122": {
         "name": "Prince Patel",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Not Visible"
       },
       "IN5009": {
         "name": "Priyata M",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Queue Not Visible",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Not Visible"
       },
       "IN5108": {
         "name": "Pummy Kumari singh",
-        "p0": "260407-High-res-dense-rich-ref-expression",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "Working",
-        "p2": "260410-dense-structured-grounding",
+        "p1": "Vs-260414-counting-constrained-counting",
+        "p1_status": "Queue Not Visible",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Not Visible"
       },
       "IN5677": {
         "name": "Sahil Kiran",
-        "p0": "260407-High-res-dense-rich-ref-expression",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "Queue Not Visible",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "Queue Not Visible",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "Queue Not Visible"
       },
       "IN4998": {
         "name": "Saransh Kumar",
-        "p0": "260310-live-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "Queue Not Visible",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "Queue Not Visible"
       },
       "IN5801": {
         "name": "Saurabh Barua",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Queue Not Visible",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Working"
       },
       "IN4987": {
         "name": "Shubhasmita Sahoo",
-        "p0": "260310-live-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "Queue Error: Task Loading Fail",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "Queue Error: Task Loading Fail",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN4989": {
         "name": "Siddharth Kumar",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "Queue Error: Task Loading Fail",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5104": {
         "name": "Simran Bheda",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Queue Error: Task Loading Fail",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Not Visible"
       },
       "IN5127": {
         "name": "Sripuram Pravara Sujesvi",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "Queue Not Visible",
-        "p1": "vs-1773859868-251107-image-edit-region-v2",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "Working",
-        "p2": "260310-live-s2s-elo",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "nan"
       },
       "IN8009": {
         "name": "Suragani Eswar teja",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5002": {
         "name": "Suyash Bhavsar",
-        "p0": "260410-dense-structured-grounding",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "260407-High-res-dense-rich-ref-expression",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Queue Not Visible",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5008": {
         "name": "Tabish Karim",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-counting-constrained-counting",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "Vs-260414-counting-constrained-counting",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "Queue Not Visible"
       },
       "IN5811": {
         "name": "Urhan Ahmad Khan",
-        "p0": "260209-omni-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
         "p0_status": "nan",
-        "p1": "vs-1773981673-full-pixel-perfect-pattern-extraction",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
         "p1_status": "Queue Not Visible",
-        "p2": "260310-live-s2s-elo",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN4657": {
         "name": "Vishnudas S Menon",
-        "p0": "260318-furniture-removal-multiturn",
+        "p0": "Vs-260414-temporarl-localization-single-moment",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-perception-long-video-shot-correction",
+        "p1": "Vs-260414-temporarl-localization-single-moment",
         "p1_status": "Queue Not Visible",
-        "p2": "260310-live-s2s-elo",
+        "p2": "Vs-260414-temporal-localization-medium-time-windows",
         "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5120": {
         "name": "Zoya Nawaz Khan",
-        "p0": "260209-omni-s2s-elo",
-        "p0_status": "Queue Not Visible",
-        "p1": "vs-1773981673-full-pixel-perfect-pattern-extraction",
-        "p1_status": "Queue Not Visible",
-        "p2": "260310-live-s2s-elo",
+        "p0": "Vs-260414-action-motion-finegrained-discrimination",
+        "p0_status": "Queue Error: Task Loading Fail",
+        "p1": "Vs-260414-action-motion-finegrained-discrimination",
+        "p1_status": "Queue Error: Task Loading Fail",
+        "p2": "Vs-260414-action-motion-subtle-microdetection",
         "p2_status": "Queue Error: Task Loading Fail"
       }
     },
@@ -3980,9 +3980,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Passed",
         "Unnamed: 5": "Failed",
         "Derendering Website Design": "Passed",
-        "Unnamed: 7": "Failed",
-        "Video Quality Compare": "Passed",
-        "Unnamed: 9": "Failed"
+        "Unnamed: 7": "Failed"
       },
       {
         "Omni-s2s-Elo": "ADITI",
@@ -3992,9 +3990,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "ADITI",
         "Unnamed: 5": "Kuvvarapu Vikranth",
         "Derendering Website Design": "Katikela Sreeharsha Kishore",
-        "Unnamed: 7": "Siddharth Kumar",
-        "Video Quality Compare": "Saurabh Barua",
-        "Unnamed: 9": NaN
+        "Unnamed: 7": "Siddharth Kumar"
       },
       {
         "Omni-s2s-Elo": "Arogya Painuly",
@@ -4004,9 +4000,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Arogya Painuly",
         "Unnamed: 5": "Nishtha Sharma",
         "Derendering Website Design": "Musfira",
-        "Unnamed: 7": "Simran Bheda",
-        "Video Quality Compare": "Siddharth Kumar",
-        "Unnamed: 9": NaN
+        "Unnamed: 7": "Simran Bheda"
       },
       {
         "Omni-s2s-Elo": "Murtaza Mustafa Zafar",
@@ -4016,9 +4010,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Duddeda Pooja",
         "Unnamed: 5": "Saransh Kumar",
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Musfira",
@@ -4028,9 +4020,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Katikela Sreeharsha Kishore",
         "Unnamed: 5": "Urhan Ahmad Khan",
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Nisarga Suresh Kapde",
@@ -4040,9 +4030,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "M. Sai Prasad Naik",
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Pratik Mahadev More",
@@ -4052,9 +4040,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Mudimala Chandrashaker",
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Prince Patel",
@@ -4064,9 +4050,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Murtaza Mustafa Zafar",
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Sahil Kiran",
@@ -4076,9 +4060,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Nisarga Suresh Kapde",
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Saurabh Barua",
@@ -4088,9 +4070,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "P. Omkar",
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Siddharth Kumar",
@@ -4100,9 +4080,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Shubhasmita Sahoo",
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Suragani Eswar Teja",
@@ -4112,9 +4090,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Siddharth Kumar",
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Tabish Karim",
@@ -4124,9 +4100,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Simran Bheda",
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Vishnudas S Menon",
@@ -4136,9 +4110,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Suragani Eswar Teja",
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Zoya Nawaz Khan",
@@ -4148,9 +4120,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": "Vishnudas S Menon",
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Katikela Sreeharsha Kishore",
@@ -4160,9 +4130,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": NaN,
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "P. Omkar",
@@ -4172,9 +4140,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": NaN,
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Shubhasmita Sahoo",
@@ -4184,9 +4150,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": NaN,
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Simran Bheda",
@@ -4196,9 +4160,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": NaN,
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Mudimala Chandrashaker",
@@ -4208,9 +4170,7 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": NaN,
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
       },
       {
         "Omni-s2s-Elo": "Duddeda Pooja",
@@ -4220,9 +4180,57 @@ window.PROJECT_DATA = {
         "Full Pixel Perfect Pattern Extraction": NaN,
         "Unnamed: 5": NaN,
         "Derendering Website Design": NaN,
-        "Unnamed: 7": NaN,
-        "Video Quality Compare": NaN,
-        "Unnamed: 9": NaN
+        "Unnamed: 7": NaN
+      },
+      {
+        "Omni-s2s-Elo": NaN,
+        "Unnamed: 1": NaN,
+        "Mask-Milo": NaN,
+        "Unnamed: 3": NaN,
+        "Full Pixel Perfect Pattern Extraction": NaN,
+        "Unnamed: 5": NaN,
+        "Derendering Website Design": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Omni-s2s-Elo": "Video Quality Compare",
+        "Unnamed: 1": NaN,
+        "Mask-Milo": "Audio-Visual Queues",
+        "Unnamed: 3": NaN,
+        "Full Pixel Perfect Pattern Extraction": NaN,
+        "Unnamed: 5": NaN,
+        "Derendering Website Design": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Omni-s2s-Elo": "Passed",
+        "Unnamed: 1": "Failed",
+        "Mask-Milo": "Passed",
+        "Unnamed: 3": "Failed",
+        "Full Pixel Perfect Pattern Extraction": NaN,
+        "Unnamed: 5": NaN,
+        "Derendering Website Design": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Omni-s2s-Elo": "Saurabh Barua",
+        "Unnamed: 1": NaN,
+        "Mask-Milo": "Musfira",
+        "Unnamed: 3": "Siddharth Kumar",
+        "Full Pixel Perfect Pattern Extraction": NaN,
+        "Unnamed: 5": NaN,
+        "Derendering Website Design": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Omni-s2s-Elo": "Siddharth Kumar",
+        "Unnamed: 1": NaN,
+        "Mask-Milo": "Katikela Sreeharsha Kishore",
+        "Unnamed: 3": "Simran Bheda",
+        "Full Pixel Perfect Pattern Extraction": NaN,
+        "Unnamed: 5": NaN,
+        "Derendering Website Design": NaN,
+        "Unnamed: 7": NaN
       }
     ]
   }

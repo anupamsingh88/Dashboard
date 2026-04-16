@@ -1,4 +1,4 @@
-// Generated on 2026-04-16T12:14:49.983718
+// Generated on 2026-04-16T14:20:13.554096
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3530,7 +3530,7 @@ window.PROJECT_DATA = {
         "approver": "., ALIUDDIN [IN3036]"
       },
       "IN5801": {
-        "status": "Approved",
+        "status": "Applied",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4987": {
@@ -3685,20 +3685,20 @@ window.PROJECT_DATA = {
       "IN5107": {
         "name": "Duddeda Pooja",
         "p0": "Vs-260414-counting-constrained-counting",
-        "p0_status": "Working",
+        "p0_status": "Queue Not Visible",
         "p1": "Vs-260414-counting-constrained-counting",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "Vs-260414-counting-multi-entity-tracking",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN4995": {
         "name": "Katikela Sreeharsha Kishore",
         "p0": "Vs-260414-action-motion-finegrained-discrimination",
-        "p0_status": "In Training",
+        "p0_status": "Queue Not Visible",
         "p1": "Vs-260414-action-motion-finegrained-discrimination",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "Vs-260414-action-motion-subtle-microdetection",
-        "p2_status": "nan"
+        "p2_status": "Working"
       },
       "IN5010": {
         "name": "KUMKUM RAWAT",
@@ -3739,9 +3739,9 @@ window.PROJECT_DATA = {
       "IN5003": {
         "name": "Mudimala Chandrashaker",
         "p0": "Vs-260414-counting-constrained-counting",
-        "p0_status": "Working",
+        "p0_status": "Queue Not Visible",
         "p1": "Vs-260414-counting-constrained-counting",
-        "p1_status": "nan",
+        "p1_status": "Working",
         "p2": "Vs-260414-counting-multi-entity-tracking",
         "p2_status": "nan"
       },
@@ -3955,11 +3955,11 @@ window.PROJECT_DATA = {
       "IN4657": {
         "name": "Vishnudas S Menon",
         "p0": "Vs-260414-temporarl-localization-single-moment",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "Working",
         "p1": "Vs-260414-temporarl-localization-single-moment",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "Vs-260414-temporal-localization-medium-time-windows",
-        "p2_status": "Queue Error: Task Loading Fail"
+        "p2_status": "nan"
       },
       "IN5120": {
         "name": "Zoya Nawaz Khan",

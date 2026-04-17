@@ -1,4 +1,4 @@
-// Generated on 2026-04-17T08:11:58.932079
+// Generated on 2026-04-17T09:53:51.560790
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3670,9 +3670,9 @@ window.PROJECT_DATA = {
         "p0": "260209-omni-s2s-elo",
         "p0_status": "Queue Error: Task Loading Fail",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN4997": {
         "name": "BRAJ PAL SINGH",
@@ -3825,7 +3825,7 @@ window.PROJECT_DATA = {
         "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p2_status": "Working"
       },
       "IN5122": {
         "name": "Prince Patel",
@@ -3857,11 +3857,11 @@ window.PROJECT_DATA = {
       "IN5677": {
         "name": "Sahil Kiran",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260407-High-res-dense-rich-ref-expression",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN4998": {
         "name": "Saransh Kumar",
@@ -4274,78 +4274,6 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Video Quality Compare",
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Audio-Visual Queues",
@@ -4387,7 +4315,19 @@ window.PROJECT_DATA = {
         "Unnamed: 2": "Katikela Sreeharsha Kishore",
         "Unnamed: 3": "Simran Bheda",
         "Unnamed: 4": "Saurabh Barua",
-        "Unnamed: 5": NaN,
+        "Unnamed: 5": "ADITI",
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": "Duddeda Pooja",
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN,
         "Unnamed: 8": NaN,

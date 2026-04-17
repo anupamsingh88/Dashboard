@@ -1,4 +1,4 @@
-// Generated on 2026-04-17T10:53:44.960672
+// Generated on 2026-04-17T11:50:56.040742
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3450,7 +3450,7 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4995": {
-        "status": "Applied",
+        "status": "Endorsed",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN5010": {
@@ -3697,7 +3697,7 @@ window.PROJECT_DATA = {
         "p0": "260310-live-s2s-elo",
         "p0_status": "nan",
         "p1": "260409-video-ref-expression-seed",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260209-omni-s2s-elo",
         "p2_status": "Working"
       },
@@ -3726,7 +3726,7 @@ window.PROJECT_DATA = {
         "p1": "260410-dense-structured-grounding",
         "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260209-omni-s2s-elo",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN8182": {
         "name": "Meenakshi Rawat",

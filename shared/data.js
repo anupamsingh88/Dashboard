@@ -1,4 +1,4 @@
-// Generated on 2026-04-18T10:38:08.959246
+// Generated on 2026-04-18T11:33:02.445691
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3514,7 +3514,7 @@ window.PROJECT_DATA = {
         "approver": " ALIUDDIN .. . [IN3036]"
       },
       "IN5009": {
-        "status": "Applied",
+        "status": "Endorsed",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN5108": {

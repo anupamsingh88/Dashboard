@@ -1,4 +1,4 @@
-// Generated on 2026-04-18T06:12:17.945446
+// Generated on 2026-04-18T07:41:19.168165
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -1568,7 +1568,7 @@ window.PROJECT_DATA = {
           "2026-04-15": "Present",
           "2026-04-16": "Present",
           "2026-04-17": "Present",
-          "2026-04-18": "nan",
+          "2026-04-18": "PL",
           "2026-04-19": "Week Off",
           "2026-04-20": "nan",
           "2026-04-21": "nan",
@@ -1585,7 +1585,7 @@ window.PROJECT_DATA = {
         "daily_log": {},
         "present": 14,
         "absent": 0,
-        "leave": 0,
+        "leave": 1,
         "weekoff": 4,
         "holiday": 1
       },
@@ -1610,7 +1610,7 @@ window.PROJECT_DATA = {
           "2026-04-15": "Present",
           "2026-04-16": "Present",
           "2026-04-17": "PL",
-          "2026-04-18": "nan",
+          "2026-04-18": "PL",
           "2026-04-19": "Week Off",
           "2026-04-20": "nan",
           "2026-04-21": "nan",
@@ -1627,7 +1627,7 @@ window.PROJECT_DATA = {
         "daily_log": {},
         "present": 13,
         "absent": 0,
-        "leave": 1,
+        "leave": 2,
         "weekoff": 4,
         "holiday": 1
       },
@@ -3534,7 +3534,7 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4987": {
-        "status": "Applied",
+        "status": "Endorsed",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4989": {
@@ -3653,7 +3653,7 @@ window.PROJECT_DATA = {
         "p0": "260407-High-res-dense-rich-ref-expression",
         "p0_status": "Queue Not Visible",
         "p1": "260409-video-ref-expression-seed",
-        "p1_status": "Working",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
         "p2_status": "Queue Not Visible"
       },
@@ -4316,7 +4316,7 @@ window.PROJECT_DATA = {
         "Unnamed: 2": "Katikela Sreeharsha Kishore",
         "Unnamed: 3": "Simran Bheda",
         "Unnamed: 4": "Saurabh Barua",
-        "Unnamed: 5": NaN,
+        "Unnamed: 5": "Nisarga Suresh Kapde",
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN,
         "Unnamed: 8": NaN,
@@ -4328,7 +4328,7 @@ window.PROJECT_DATA = {
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Duddeda Pooja",
-        "Unnamed: 5": NaN,
+        "Unnamed: 5": "Simran Bheda",
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN,
         "Unnamed: 8": NaN,
@@ -4340,6 +4340,42 @@ window.PROJECT_DATA = {
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Mudimala Chandrashaker",
+        "Unnamed: 5": "Zoya Nawaz Khan",
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "Priyata M",
+        "Unnamed: 5": "Arpit Aggarwal",
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "Musfira",
+        "Unnamed: 5": "Meenakshi Rawat",
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "Katikela Sreeharsha Kishore",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN,

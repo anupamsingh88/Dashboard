@@ -1,4 +1,4 @@
-// Generated on 2026-04-19T19:59:40.268539
+// Generated on 2026-04-19T20:49:36.576618
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -1822,7 +1822,7 @@ window.PROJECT_DATA = {
           "2026-04-17": "Present",
           "2026-04-18": "Present",
           "2026-04-19": "Week Off",
-          "2026-04-20": "nan",
+          "2026-04-20": "Present",
           "2026-04-21": "nan",
           "2026-04-22": "nan",
           "2026-04-23": "nan",
@@ -1835,7 +1835,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 15,
+        "present": 16,
         "absent": 0,
         "leave": 0,
         "weekoff": 4,
@@ -3589,7 +3589,8 @@ window.PROJECT_DATA = {
       "2026-04-15": 35,
       "2026-04-16": 35,
       "2026-04-17": 35,
-      "2026-04-18": 34
+      "2026-04-18": 34,
+      "2026-04-20": 1
     },
     "LEADERBOARD": {
       "top": [

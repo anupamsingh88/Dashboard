@@ -1,4 +1,4 @@
-// Generated on 2026-04-21T03:50:49.659104
+// Generated on 2026-04-21T06:01:21.883134
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -395,7 +395,7 @@ window.PROJECT_DATA = {
           "2026-04-18": "Present",
           "2026-04-19": "Week Off",
           "2026-04-20": "Present",
-          "2026-04-21": "nan",
+          "2026-04-21": "Present",
           "2026-04-22": "nan",
           "2026-04-23": "nan",
           "2026-04-24": "nan",
@@ -407,7 +407,7 @@ window.PROJECT_DATA = {
           "2026-04-30": "nan"
         },
         "daily_log": {},
-        "present": 15,
+        "present": 16,
         "absent": 0,
         "leave": 1,
         "weekoff": 4,
@@ -3591,7 +3591,7 @@ window.PROJECT_DATA = {
       "2026-04-17": 35,
       "2026-04-18": 34,
       "2026-04-20": 33,
-      "2026-04-21": 35
+      "2026-04-21": 36
     },
     "LEADERBOARD": {
       "top": [
@@ -3662,20 +3662,20 @@ window.PROJECT_DATA = {
       "IN4996": {
         "name": "Arogya Painuly",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN8181": {
         "name": "Arpit Aggarwal",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "nan",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN4997": {
         "name": "BRAJ PAL SINGH",
@@ -3689,7 +3689,7 @@ window.PROJECT_DATA = {
       "IN5107": {
         "name": "Duddeda Pooja",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "Working",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
@@ -3752,11 +3752,11 @@ window.PROJECT_DATA = {
       "IN4986": {
         "name": "Murtaza Mustafa Zafar",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN4988": {
         "name": "Musfira",
@@ -3819,7 +3819,7 @@ window.PROJECT_DATA = {
         "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "nan",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
-        "p2_status": "nan"
+        "p2_status": "Working"
       },
       "IN5498": {
         "name": "Pratik Mahadev More",
@@ -3851,11 +3851,11 @@ window.PROJECT_DATA = {
       "IN5108": {
         "name": "Pummy Kumari singh",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260407-High-res-dense-rich-ref-expression",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "nan"
+        "p2_status": "Working"
       },
       "IN5677": {
         "name": "Sahil Kiran",
@@ -3952,7 +3952,7 @@ window.PROJECT_DATA = {
         "p0": "260209-omni-s2s-elo",
         "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260407-High-res-dense-rich-ref-expression",
         "p2_status": "Queue Not Visible"
       },
@@ -3968,11 +3968,11 @@ window.PROJECT_DATA = {
       "IN5120": {
         "name": "Zoya Nawaz Khan",
         "p0": "260209-omni-s2s-elo",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       }
     },
     "ASSESSMENTS": [
@@ -4283,7 +4283,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Video Ref Expression Seed",
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "CUA General Grounding",
         "Unnamed: 7": NaN,
         "Unnamed: 8": NaN,
         "Unnamed: 9": NaN
@@ -4295,8 +4295,8 @@ window.PROJECT_DATA = {
         "Unnamed: 3": "Failed",
         "Unnamed: 4": "Passed",
         "Unnamed: 5": "Failed",
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
+        "Unnamed: 6": "Passed",
+        "Unnamed: 7": "Failed",
         "Unnamed: 8": NaN,
         "Unnamed: 9": NaN
       },
@@ -4306,9 +4306,9 @@ window.PROJECT_DATA = {
         "Unnamed: 2": "Musfira",
         "Unnamed: 3": "Siddharth Kumar",
         "Unnamed: 4": "Murtaza Mustafa Zafar",
-        "Unnamed: 5": "ADITI",
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
+        "Unnamed: 5": "Nisarga Suresh Kapde",
+        "Unnamed: 6": "Duddeda Pooja",
+        "Unnamed: 7": "Priyata M",
         "Unnamed: 8": NaN,
         "Unnamed: 9": NaN
       },
@@ -4318,18 +4318,6 @@ window.PROJECT_DATA = {
         "Unnamed: 2": "Katikela Sreeharsha Kishore",
         "Unnamed: 3": "Simran Bheda",
         "Unnamed: 4": "Saurabh Barua",
-        "Unnamed: 5": "Nisarga Suresh Kapde",
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": "Duddeda Pooja",
         "Unnamed: 5": "Simran Bheda",
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN,
@@ -4341,31 +4329,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Mudimala Chandrashaker",
-        "Unnamed: 5": "Zoya Nawaz Khan",
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": "Priyata M",
-        "Unnamed: 5": "Arpit Aggarwal",
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": "Musfira",
+        "Unnamed: 4": "Duddeda Pooja",
         "Unnamed: 5": "Meenakshi Rawat",
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN,
@@ -4377,7 +4341,91 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
+        "Unnamed: 4": "Mudimala Chandrashaker",
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "Priyata M",
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "Musfira",
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
         "Unnamed: 4": "Katikela Sreeharsha Kishore",
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "KUMKUM RAWAT",
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "ADITI",
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "Zoya Nawaz Khan",
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "Arpit Aggarwal",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN,

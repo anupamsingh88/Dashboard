@@ -1,4 +1,4 @@
-// Generated on 2026-04-22T05:11:54.587311
+// Generated on 2026-04-22T07:11:33.335513
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3664,16 +3664,16 @@ window.PROJECT_DATA = {
         "name": "Arogya Painuly",
         "p0": "082025-video-quality-compare",
         "p0_status": "Queue Not Visible",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       },
       "IN8181": {
         "name": "Arpit Aggarwal",
         "p0": "082025-video-quality-compare",
         "p0_status": "nan",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "0",
         "p1_status": "nan",
         "p2": "0",
         "p2_status": "nan"
@@ -3682,27 +3682,27 @@ window.PROJECT_DATA = {
         "name": "BRAJ PAL SINGH",
         "p0": "082025-video-quality-compare",
         "p0_status": "In Training",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "Queue Error: Task Loading Fail",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "0",
         "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN5107": {
         "name": "Duddeda Pooja",
         "p0": "082025-video-quality-compare",
         "p0_status": "Queue Not Visible",
-        "p1": "260209-omni-s2s-elo",
-        "p1_status": "Queue Error: Task Loading Fail",
-        "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p1": "260407-High-res-dense-rich-ref-expression",
+        "p1_status": "Queue Not Visible",
+        "p2": "0",
+        "p2_status": "nan"
       },
       "IN4995": {
         "name": "Katikela Sreeharsha Kishore",
         "p0": "260413-cua-general-grounding",
         "p0_status": "nan",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "nan",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "0",
         "p2_status": "nan"
       },
       "IN5010": {
@@ -3726,17 +3726,17 @@ window.PROJECT_DATA = {
       "IN4784": {
         "name": "M. Sai Prasad Naik",
         "p0": "260413-cua-general-grounding",
-        "p0_status": "Working",
+        "p0_status": "Queue Not Visible",
         "p1": "260410-dense-structured-grounding",
-        "p1_status": "nan",
-        "p2": "260209-omni-s2s-elo",
-        "p2_status": "nan"
+        "p1_status": "Queue Not Visible",
+        "p2": "0",
+        "p2_status": "Queue Not Visible"
       },
       "IN8182": {
         "name": "Meenakshi Rawat",
         "p0": "082025-video-quality-compare",
         "p0_status": "Working",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "0",
         "p1_status": "nan",
         "p2": "0",
         "p2_status": "nan"
@@ -3745,9 +3745,9 @@ window.PROJECT_DATA = {
         "name": "Mudimala Chandrashaker",
         "p0": "082025-video-quality-compare",
         "p0_status": "Queue Not Visible",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260410-dense-structured-grounding",
         "p1_status": "Queue Not Visible",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       },
       "IN4986": {
@@ -3763,9 +3763,9 @@ window.PROJECT_DATA = {
         "name": "Musfira",
         "p0": "082025-video-quality-compare",
         "p0_status": "Working",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       },
       "IN5116": {
@@ -3781,9 +3781,9 @@ window.PROJECT_DATA = {
         "name": "Nishtha Sharma",
         "p0": "082025-video-quality-compare",
         "p0_status": "Working",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260410-dense-structured-grounding",
         "p1_status": "Queue Error: Task Loading Fail",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       },
       "IN4993": {
@@ -3806,10 +3806,10 @@ window.PROJECT_DATA = {
       },
       "IN8183": {
         "name": "Poonam Anurag Kohli",
-        "p0": "260209-omni-s2s-elo",
-        "p0_status": "nan",
-        "p1": "082025-video-quality-compare",
-        "p1_status": "nan",
+        "p0": "082025-video-quality-compare",
+        "p0_status": "Queue Not Visible",
+        "p1": "0",
+        "p1_status": "Working",
         "p2": "0",
         "p2_status": "nan"
       },
@@ -3826,27 +3826,27 @@ window.PROJECT_DATA = {
         "name": "Pratik Mahadev More",
         "p0": "082025-video-quality-compare",
         "p0_status": "Working",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260413-cua-general-grounding",
         "p1_status": "Queue Error: Task Loading Fail",
-        "p2": "260413-cua-general-grounding",
+        "p2": "0",
         "p2_status": "nan"
       },
       "IN5122": {
         "name": "Prince Patel",
         "p0": "082025-video-quality-compare",
         "p0_status": "Working",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       },
       "IN5009": {
         "name": "Priyata M",
         "p0": "082025-video-quality-compare",
         "p0_status": "Working",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260410-dense-structured-grounding",
         "p1_status": "nan",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "0",
         "p2_status": "nan"
       },
       "IN5108": {
@@ -3880,9 +3880,9 @@ window.PROJECT_DATA = {
         "name": "Saurabh Barua",
         "p0": "082025-video-quality-compare",
         "p0_status": "Queue Not Visible",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "Queue Not Visible",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       },
       "IN4987": {
@@ -3898,18 +3898,18 @@ window.PROJECT_DATA = {
         "name": "Siddharth Kumar",
         "p0": "082025-video-quality-compare",
         "p0_status": "nan",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "Queue Not Visible",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "0",
         "p2_status": "Working"
       },
       "IN5104": {
         "name": "Simran Bheda",
         "p0": "082025-video-quality-compare",
         "p0_status": "Working",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       },
       "IN5127": {
@@ -3918,16 +3918,16 @@ window.PROJECT_DATA = {
         "p0_status": "nan",
         "p1": "082025-video-quality-compare",
         "p1_status": "nan",
-        "p2": "260209-omni-s2s-elo",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       },
       "IN8009": {
         "name": "Suragani Eswar teja",
         "p0": "082025-video-quality-compare",
         "p0_status": "nan",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "nan",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "0",
         "p2_status": "nan"
       },
       "IN5002": {
@@ -3943,18 +3943,18 @@ window.PROJECT_DATA = {
         "name": "Tabish Karim",
         "p0": "082025-video-quality-compare",
         "p0_status": "Queue Not Visible",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       },
       "IN5811": {
         "name": "Urhan Ahmad Khan",
         "p0": "082025-video-quality-compare",
         "p0_status": "Working",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Queue Not Visible",
-        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       },
       "IN4657": {
@@ -3970,9 +3970,9 @@ window.PROJECT_DATA = {
         "name": "Zoya Nawaz Khan",
         "p0": "082025-video-quality-compare",
         "p0_status": "Working",
-        "p1": "260209-omni-s2s-elo",
+        "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "Queue Not Visible",
-        "p2": "vs-1773859868-251107-image-edit-region-v2",
+        "p2": "0",
         "p2_status": "Queue Not Visible"
       }
     },
@@ -4315,7 +4315,7 @@ window.PROJECT_DATA = {
       },
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Pratik Mahadev More",
-        "Unnamed: 1": NaN,
+        "Unnamed: 1": "Poonam Anurag Kohli",
         "Unnamed: 2": "Katikela Sreeharsha Kishore",
         "Unnamed: 3": "Simran Bheda",
         "Unnamed: 4": "Saurabh Barua",
@@ -4362,7 +4362,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "ADITI",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4374,7 +4374,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "BRAJ PAL SINGH",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4386,7 +4386,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Duddeda Pooja",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4566,7 +4566,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Video Quality Compare",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4580,30 +4580,6 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Passed",
         "Unnamed: 1": "Failed",
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Saurabh Barua",
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
-        "Unnamed: 8": NaN,
-        "Unnamed: 9": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Siddharth Kumar",
-        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

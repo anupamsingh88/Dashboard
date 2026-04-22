@@ -1,4 +1,4 @@
-// Generated on 2026-04-22T07:11:33.335513
+// Generated on 2026-04-22T09:05:22.101881
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3672,7 +3672,7 @@ window.PROJECT_DATA = {
       "IN8181": {
         "name": "Arpit Aggarwal",
         "p0": "082025-video-quality-compare",
-        "p0_status": "nan",
+        "p0_status": "On Hold",
         "p1": "0",
         "p1_status": "nan",
         "p2": "0",

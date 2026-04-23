@@ -1,4 +1,4 @@
-// Generated on 2026-04-23T03:53:41.396654
+// Generated on 2026-04-23T06:04:54.085937
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3684,7 +3684,7 @@ window.PROJECT_DATA = {
         "p0": "260310-live-s2s-elo",
         "p0_status": "Queue Not Visible",
         "p1": "082025-video-quality-compare",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
         "p2_status": "Queue Not Visible"
       },
@@ -3702,7 +3702,7 @@ window.PROJECT_DATA = {
         "p0": "260413-cua-general-grounding",
         "p0_status": "nan",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Working",
         "p2": "vs-1773859868-251107-image-edit-region-v2",
         "p2_status": "nan"
       },
@@ -3848,14 +3848,14 @@ window.PROJECT_DATA = {
         "p1": "082025-video-quality-compare",
         "p1_status": "Working",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "nan"
+        "p2_status": "Working"
       },
       "IN5108": {
         "name": "Pummy Kumari singh",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "nan",
+        "p0_status": "Queue Error: Task Loading Fail",
         "p1": "vs-1773859868-251107-image-edit-region-v2",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "nan"
       },
@@ -3925,9 +3925,9 @@ window.PROJECT_DATA = {
       "IN8009": {
         "name": "Suragani Eswar teja",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260407-High-res-dense-rich-ref-expression",
-        "p1_status": "nan",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "nan"
       },
@@ -3961,11 +3961,11 @@ window.PROJECT_DATA = {
       "IN4657": {
         "name": "Vishnudas S Menon",
         "p0": "vs-1773859868-251107-image-edit-region-v2",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260413-cua-general-grounding",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5120": {
         "name": "Zoya Nawaz Khan",
@@ -4303,7 +4303,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": "Failed"
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Katikela Sreeharsha Kishore",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "ADITI",
         "Unnamed: 1": "P. Omkar",
         "Unnamed: 2": "Musfira",
         "Unnamed: 3": "Siddharth Kumar",
@@ -4315,7 +4315,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": "P. Omkar"
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Pratik Mahadev More",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Arogya Painuly",
         "Unnamed: 1": "Poonam Anurag Kohli",
         "Unnamed: 2": "Katikela Sreeharsha Kishore",
         "Unnamed: 3": "Simran Bheda",
@@ -4327,7 +4327,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": "ADITI"
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Saurabh Barua",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "BRAJ PAL SINGH",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4339,7 +4339,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": "Priyata M"
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Shubhasmita Sahoo",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Duddeda Pooja",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4351,7 +4351,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": "Sripuram Pravara Sujesvi"
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Siddharth Kumar",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Katikela Sreeharsha Kishore",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4363,7 +4363,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "ADITI",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "KUMKUM RAWAT",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4375,7 +4375,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "BRAJ PAL SINGH",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Pratik Mahadev More",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4387,7 +4387,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Duddeda Pooja",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Prince Patel",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4399,7 +4399,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Saurabh Barua",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4411,7 +4411,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Shubhasmita Sahoo",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4423,7 +4423,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Siddharth Kumar",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4435,7 +4435,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Vishnudas S Menon",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -4447,7 +4447,7 @@ window.PROJECT_DATA = {
         "Unnamed: 9": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Meenakshi Rawat",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,

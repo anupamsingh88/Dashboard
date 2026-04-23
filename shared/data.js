@@ -1,4 +1,4 @@
-// Generated on 2026-04-23T08:18:11.577986
+// Generated on 2026-04-23T10:04:38.154722
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -1165,7 +1165,7 @@ window.PROJECT_DATA = {
         "ww14": 0,
         "ww15": 0,
         "ww16": 1.78,
-        "ww17": 0
+        "ww17": 3.52
       },
       "IN5003": {
         "name": "Mudimala Chandrashaker",
@@ -2494,14 +2494,14 @@ window.PROJECT_DATA = {
           "score": 1.0
         },
         {
-          "uid": "IN8182",
-          "name": "Meenakshi Rawat",
-          "score": 1.78
-        },
-        {
           "uid": "IN8181",
           "name": "Arpit Aggarwal",
           "score": 4.25
+        },
+        {
+          "uid": "IN8182",
+          "name": "Meenakshi Rawat",
+          "score": 5.3
         },
         {
           "uid": "IN5115",
@@ -3469,6 +3469,30 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": "Prince Patel",
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": "Saurabh Barua",
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": "Urhan Ahmad Khan",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

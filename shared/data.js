@@ -1,4 +1,4 @@
-// Generated on 2026-04-24T13:19:48.830626
+// Generated on 2026-04-24T14:52:46.510309
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2555,11 +2555,11 @@ window.PROJECT_DATA = {
       "IN5107": {
         "name": "Duddeda Pooja",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260410-dense-structured-grounding",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260413-cua-general-grounding",
-        "p2_status": "Working"
+        "p2_status": "Queue Error: Task Loading Fail"
       },
       "IN4995": {
         "name": "Katikela Sreeharsha Kishore",

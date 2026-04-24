@@ -1,4 +1,4 @@
-// Generated on 2026-04-23T23:42:23.696194
+// Generated on 2026-04-24T02:26:05.218826
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2530,18 +2530,18 @@ window.PROJECT_DATA = {
         "p0": "260310-live-s2s-elo",
         "p0_status": "Queue Not Visible",
         "p1": "082025-video-quality-compare",
-        "p1_status": "Working",
+        "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN8181": {
         "name": "Arpit Aggarwal",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "082025-video-quality-compare",
-        "p1_status": "Working",
+        "p1_status": "Queue Not Visible",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "nan"
+        "p2_status": "Working"
       },
       "IN4997": {
         "name": "BRAJ PAL SINGH",
@@ -2591,11 +2591,11 @@ window.PROJECT_DATA = {
       "IN4784": {
         "name": "M. Sai Prasad Naik",
         "p0": "260413-cua-general-grounding",
-        "p0_status": "Working",
+        "p0_status": "nan",
         "p1": "260410-dense-structured-grounding",
         "p1_status": "nan",
         "p2": "082025-video-quality-compare",
-        "p2_status": "nan"
+        "p2_status": "Working"
       },
       "IN8182": {
         "name": "Meenakshi Rawat",
@@ -2721,7 +2721,7 @@ window.PROJECT_DATA = {
         "p1": "vs-1773859868-251107-image-edit-region-v2",
         "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5677": {
         "name": "Sahil Kiran",

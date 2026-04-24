@@ -1,4 +1,4 @@
-// Generated on 2026-04-24T05:20:50.268846
+// Generated on 2026-04-24T07:16:58.596611
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2717,11 +2717,11 @@ window.PROJECT_DATA = {
       "IN5108": {
         "name": "Pummy Kumari singh",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260410-dense-structured-grounding",
-        "p1_status": "nan",
+        "p1_status": "Working",
         "p2": "260413-cua-general-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5677": {
         "name": "Sahil Kiran",
@@ -2825,11 +2825,11 @@ window.PROJECT_DATA = {
       "IN4657": {
         "name": "Vishnudas S Menon",
         "p0": "260413-cua-general-grounding",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5120": {
         "name": "Zoya Nawaz Khan",
@@ -3433,7 +3433,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Video Segmentation",
         "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "Live S2S Elo",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
@@ -3445,8 +3445,8 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Passed",
         "Unnamed: 1": "Failed",
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
+        "Unnamed: 2": "Passed",
+        "Unnamed: 3": "Failed",
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
@@ -3457,8 +3457,8 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": "P. Omkar",
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
+        "Unnamed: 2": "Katikela Sreeharsha Kishore",
+        "Unnamed: 3": "Duddeda Pooja",
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
@@ -3469,8 +3469,8 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": "Prince Patel",
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
+        "Unnamed: 2": "Siddharth Kumar",
+        "Unnamed: 3": "Prince Patel",
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
@@ -3481,8 +3481,8 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": "Saurabh Barua",
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
+        "Unnamed: 2": "Vishnudas S Menon",
+        "Unnamed: 3": "Arpit Aggarwal",
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
@@ -3493,7 +3493,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": "Urhan Ahmad Khan",
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "Meenakshi Rawat",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,

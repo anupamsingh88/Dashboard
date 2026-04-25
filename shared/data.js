@@ -1,4 +1,4 @@
-// Generated on 2026-04-25T00:03:33.699148
+// Generated on 2026-04-25T03:38:50.971991
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2744,7 +2744,7 @@ window.PROJECT_DATA = {
       "IN5801": {
         "name": "Saurabh Barua",
         "p0": "082025-video-quality-compare",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Not Visible",
         "p2": "260413-cua-general-grounding",
@@ -2780,7 +2780,7 @@ window.PROJECT_DATA = {
       "IN5127": {
         "name": "Sripuram Pravara Sujesvi",
         "p0": "082025-video-quality-compare",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
         "p1_status": "nan",
         "p2": "260410-dense-structured-grounding",
@@ -2834,11 +2834,11 @@ window.PROJECT_DATA = {
       "IN5120": {
         "name": "Zoya Nawaz Khan",
         "p0": "082025-video-quality-compare",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p1_status": "Queue Error: Task Loading Fail",
         "p2": "260413-cua-general-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       }
     },
     "ASSESSMENTS": [

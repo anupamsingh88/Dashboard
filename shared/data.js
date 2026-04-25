@@ -1,4 +1,4 @@
-// Generated on 2026-04-25T10:40:33.110193
+// Generated on 2026-04-25T11:36:20.068436
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2434,7 +2434,7 @@ window.PROJECT_DATA = {
         "approver": "GAHLYAN, SHWETA  [IN2449]\t"
       },
       "IN8009": {
-        "status": "Applied",
+        "status": "Endorsed",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN5002": {

@@ -1,4 +1,4 @@
-// Generated on 2026-04-27T07:13:35.682752
+// Generated on 2026-04-27T09:37:01.126073
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2663,7 +2663,7 @@ window.PROJECT_DATA = {
       "IN5005": {
         "name": "Paniganti Saraswathi",
         "p0": "260410-dense-structured-grounding",
-        "p0_status": "nan",
+        "p0_status": "Working",
         "p1": "260413-cua-general-grounding",
         "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
@@ -2703,7 +2703,7 @@ window.PROJECT_DATA = {
         "p1": "260410-dense-structured-grounding",
         "p1_status": "Queue Not Visible",
         "p2": "260310-live-s2s-elo",
-        "p2_status": "Empty Queue"
+        "p2_status": "Queue Not Visible"
       },
       "IN5009": {
         "name": "Priyata M",
@@ -3174,7 +3174,7 @@ window.PROJECT_DATA = {
         "Unnamed: 4": "Murtaza Mustafa Zafar",
         "Unnamed: 5": "Nisarga Suresh Kapde",
         "Unnamed: 6": "Duddeda Pooja",
-        "Unnamed: 7": NaN,
+        "Unnamed: 7": "Prince Patel",
         "Unnamed: 8": "Musfira",
         "Unnamed: 9": "P. Omkar"
       },
@@ -3185,8 +3185,8 @@ window.PROJECT_DATA = {
         "Unnamed: 3": "Simran Bheda",
         "Unnamed: 4": "Saurabh Barua",
         "Unnamed: 5": "Simran Bheda",
-        "Unnamed: 6": "Arpit Aggarwal",
-        "Unnamed: 7": NaN,
+        "Unnamed: 6": "Katikela Sreeharsha Kishore",
+        "Unnamed: 7": "Siddharth Kumar",
         "Unnamed: 8": "Saurabh Barua",
         "Unnamed: 9": "ADITI"
       },
@@ -3197,7 +3197,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Duddeda Pooja",
         "Unnamed: 5": "Meenakshi Rawat",
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "KUMKUM RAWAT",
         "Unnamed: 7": NaN,
         "Unnamed: 8": "Meenakshi Rawat",
         "Unnamed: 9": "Priyata M"
@@ -3209,7 +3209,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Mudimala Chandrashaker",
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Simran Bheda",
         "Unnamed: 7": NaN,
         "Unnamed: 8": NaN,
         "Unnamed: 9": "Sripuram Pravara Sujesvi"
@@ -3221,7 +3221,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Priyata M",
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Arpit Aggarwal",
         "Unnamed: 7": NaN,
         "Unnamed: 8": NaN,
         "Unnamed: 9": NaN
@@ -3435,9 +3435,9 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Live S2S Elo",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "high-res-dense-rich-ref-expression",
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Dense Structured Grounding",
         "Unnamed: 7": NaN,
         "Unnamed: 8": NaN,
         "Unnamed: 9": NaN
@@ -3447,10 +3447,10 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Failed",
         "Unnamed: 2": "Passed",
         "Unnamed: 3": "Failed",
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
+        "Unnamed: 4": "Passed",
+        "Unnamed: 5": "Failed",
+        "Unnamed: 6": "Passed",
+        "Unnamed: 7": "Failed",
         "Unnamed: 8": NaN,
         "Unnamed: 9": NaN
       },
@@ -3459,19 +3459,19 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "P. Omkar",
         "Unnamed: 2": "Katikela Sreeharsha Kishore",
         "Unnamed: 3": "Duddeda Pooja",
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN,
+        "Unnamed: 4": "BRAJ PAL SINGH",
+        "Unnamed: 5": "suyash bhavsar",
+        "Unnamed: 6": "M. Sai Prasad Naik",
+        "Unnamed: 7": "BRAJ PAL SINGH",
         "Unnamed: 8": NaN,
         "Unnamed: 9": NaN
       },
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": "Prince Patel",
-        "Unnamed: 2": "Siddharth Kumar",
+        "Unnamed: 2": "Shubhasmita Sahoo",
         "Unnamed: 3": "Prince Patel",
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Duddeda Pooja",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN,
@@ -3481,9 +3481,9 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": "Saurabh Barua",
-        "Unnamed: 2": "Vishnudas S Menon",
+        "Unnamed: 2": "Siddharth Kumar",
         "Unnamed: 3": "Arpit Aggarwal",
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Kuvvarapu Vikranth",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN,
@@ -3493,9 +3493,33 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": "Urhan Ahmad Khan",
+        "Unnamed: 2": "Vishnudas S Menon",
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "Pratik Mahadev More",
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
         "Unnamed: 2": "Meenakshi Rawat",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Meenakshi Rawat",
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": "Poonam Anurag Kohli",
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "Poonam Anurag Kohli",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN,

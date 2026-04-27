@@ -1,4 +1,4 @@
-// Generated on 2026-04-27T00:03:53.787317
+// Generated on 2026-04-27T04:06:29.444643
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -24,7 +24,7 @@ window.FTE_DETAILS = {
     "shift": "8AM - 4PM",
     "zoho_id": "AAggarwal@ic.innodata.com",
     "gams_access": "DONE",
-    "ia_access": "PENDING",
+    "ia_access": "DONE",
     "zoho_access": "DONE"
   },
   "IN4997": {
@@ -87,7 +87,7 @@ window.FTE_DETAILS = {
     "shift": "8AM - 4PM",
     "zoho_id": "MRawat1@ic.innodata.com",
     "gams_access": "DONE",
-    "ia_access": "PENDING",
+    "ia_access": "DONE",
     "zoho_access": "DONE"
   },
   "IN5003": {
@@ -159,7 +159,7 @@ window.FTE_DETAILS = {
     "shift": "8AM - 4PM",
     "zoho_id": "PKohli@ic.innodata.com",
     "gams_access": "DONE",
-    "ia_access": "PENDING",
+    "ia_access": "DONE",
     "zoho_access": "DONE"
   },
   "IN5115": {
@@ -2414,7 +2414,7 @@ window.PROJECT_DATA = {
         "approver": "., ALIUDDIN [IN3036]"
       },
       "IN5801": {
-        "status": "Applied",
+        "status": "Endorsed",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4987": {
@@ -2527,9 +2527,9 @@ window.PROJECT_DATA = {
       },
       "IN4996": {
         "name": "Arogya Painuly",
-        "p0": "082025-video-quality-compare",
+        "p0": "260310-live-s2s-elo",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "Queue Not Visible"
@@ -2537,7 +2537,7 @@ window.PROJECT_DATA = {
       "IN8181": {
         "name": "Arpit Aggarwal",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260410-dense-structured-grounding",
         "p1_status": "Working",
         "p2": "260413-cua-general-grounding",
@@ -2545,10 +2545,10 @@ window.PROJECT_DATA = {
       },
       "IN4997": {
         "name": "BRAJ PAL SINGH",
-        "p0": "082025-video-quality-compare",
-        "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Error: Task Loading Fail",
+        "p0": "260310-live-s2s-elo",
+        "p0_status": "Queue Error: Task Loading Fail",
+        "p1": "260407-High-res-dense-rich-ref-expression",
+        "p1_status": "Working",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "Queue Not Visible"
       },
@@ -2563,17 +2563,17 @@ window.PROJECT_DATA = {
       },
       "IN4995": {
         "name": "Katikela Sreeharsha Kishore",
-        "p0": "260413-cua-general-grounding",
-        "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
-        "p1_status": "Working",
+        "p0": "260310-live-s2s-elo",
+        "p0_status": "Working",
+        "p1": "260413-cua-general-grounding",
+        "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "nan"
       },
       "IN5010": {
         "name": "KUMKUM RAWAT",
         "p0": "260413-cua-general-grounding",
-        "p0_status": "nan",
+        "p0_status": "Working",
         "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "nan",
         "p2": "260410-dense-structured-grounding",
@@ -2591,18 +2591,18 @@ window.PROJECT_DATA = {
       "IN4784": {
         "name": "M. Sai Prasad Naik",
         "p0": "260410-dense-structured-grounding",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260413-cua-general-grounding",
-        "p1_status": "Queue Not Visible",
-        "p2": "082025-video-quality-compare",
-        "p2_status": "Queue Not Visible"
+        "p1_status": "nan",
+        "p2": "260407-High-res-dense-rich-ref-expression",
+        "p2_status": "Working"
       },
       "IN8182": {
         "name": "Meenakshi Rawat",
-        "p0": "082025-video-quality-compare",
-        "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Error: Task Loading Fail",
+        "p0": "260310-live-s2s-elo",
+        "p0_status": "Working",
+        "p1": "0",
+        "p1_status": "nan",
         "p2": "0",
         "p2_status": "nan"
       },
@@ -2610,19 +2610,19 @@ window.PROJECT_DATA = {
         "name": "Mudimala Chandrashaker",
         "p0": "260410-dense-structured-grounding",
         "p0_status": "Queue Not Visible",
-        "p1": "082025-video-quality-compare",
+        "p1": "260310-live-s2s-elo",
         "p1_status": "Queue Not Visible",
-        "p2": "260310-live-s2s-elo",
+        "p2": "260413-cua-general-grounding",
         "p2_status": "Queue Not Visible"
       },
       "IN4986": {
         "name": "Murtaza Mustafa Zafar",
         "p0": "260310-live-s2s-elo",
-        "p0_status": "nan",
+        "p0_status": "Queue Not Visible",
         "p1": "260413-cua-general-grounding",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "nan"
+        "p2_status": "Working"
       },
       "IN4988": {
         "name": "Musfira",
@@ -2644,11 +2644,11 @@ window.PROJECT_DATA = {
       },
       "IN5000": {
         "name": "Nishtha Sharma",
-        "p0": "082025-video-quality-compare",
+        "p0": "260310-live-s2s-elo",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "260410-dense-structured-grounding",
         "p1_status": "Queue Not Visible",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "260407-High-res-dense-rich-ref-expression",
         "p2_status": "Queue Not Visible"
       },
       "IN4993": {
@@ -2663,7 +2663,7 @@ window.PROJECT_DATA = {
       "IN5005": {
         "name": "Paniganti Saraswathi",
         "p0": "260410-dense-structured-grounding",
-        "p0_status": "Working",
+        "p0_status": "nan",
         "p1": "260413-cua-general-grounding",
         "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
@@ -2671,12 +2671,12 @@ window.PROJECT_DATA = {
       },
       "IN8183": {
         "name": "Poonam Anurag Kohli",
-        "p0": "082025-video-quality-compare",
+        "p0": "260310-live-s2s-elo",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Not Visible",
-        "p2": "260124-text-image-to-text-h2h",
-        "p2_status": "Empty Queue"
+        "p1": "0",
+        "p1_status": "nan",
+        "p2": "0",
+        "p2_status": "nan"
       },
       "IN5115": {
         "name": "Prashant ojha",
@@ -2689,11 +2689,11 @@ window.PROJECT_DATA = {
       },
       "IN5498": {
         "name": "Pratik Mahadev More",
-        "p0": "082025-video-quality-compare",
+        "p0": "260310-live-s2s-elo",
         "p0_status": "Queue Not Visible",
         "p1": "260413-cua-general-grounding",
         "p1_status": "Queue Not Visible",
-        "p2": "260310-live-s2s-elo",
+        "p2": "260410-dense-structured-grounding",
         "p2_status": "Queue Not Visible"
       },
       "IN5122": {
@@ -2702,52 +2702,52 @@ window.PROJECT_DATA = {
         "p0_status": "Queue Not Visible",
         "p1": "260410-dense-structured-grounding",
         "p1_status": "Queue Not Visible",
-        "p2": "082025-video-quality-compare",
-        "p2_status": "Queue Not Visible"
+        "p2": "260310-live-s2s-elo",
+        "p2_status": "Empty Queue"
       },
       "IN5009": {
         "name": "Priyata M",
-        "p0": "082025-video-quality-compare",
+        "p0": "260310-live-s2s-elo",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "260410-dense-structured-grounding",
         "p1_status": "Queue Not Visible",
-        "p2": "260410-dense-structured-grounding",
+        "p2": "260407-High-res-dense-rich-ref-expression",
         "p2_status": "Queue Not Visible"
       },
       "IN5108": {
         "name": "Pummy Kumari singh",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260410-dense-structured-grounding",
-        "p1_status": "Working",
+        "p1_status": "nan",
         "p2": "260413-cua-general-grounding",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5677": {
         "name": "Sahil Kiran",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "No Allocation",
+        "p0_status": "Queue Not Visible",
         "p1": "260410-dense-structured-grounding",
         "p1_status": "Queue Not Visible",
         "p2": "260413-cua-general-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN4998": {
         "name": "Saransh Kumar",
-        "p0": "260413-cua-general-grounding",
+        "p0": "260310-live-s2s-elo",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "260413-cua-general-grounding",
         "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "Queue Not Visible"
       },
       "IN5801": {
         "name": "Saurabh Barua",
-        "p0": "082025-video-quality-compare",
+        "p0": "260310-live-s2s-elo",
         "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
+        "p1": "260413-cua-general-grounding",
         "p1_status": "Queue Not Visible",
-        "p2": "260413-cua-general-grounding",
+        "p2": "260410-dense-structured-grounding",
         "p2_status": "Queue Not Visible"
       },
       "IN4987": {
@@ -2761,12 +2761,12 @@ window.PROJECT_DATA = {
       },
       "IN4989": {
         "name": "Siddharth Kumar",
-        "p0": "082025-video-quality-compare",
-        "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Error: Task Loading Fail",
-        "p2": "260413-cua-general-grounding",
-        "p2_status": "Queue Not Visible"
+        "p0": "260310-live-s2s-elo",
+        "p0_status": "Working",
+        "p1": "260413-cua-general-grounding",
+        "p1_status": "nan",
+        "p2": "260410-dense-structured-grounding",
+        "p2_status": "nan"
       },
       "IN5104": {
         "name": "Simran Bheda",
@@ -2779,10 +2779,10 @@ window.PROJECT_DATA = {
       },
       "IN5127": {
         "name": "Sripuram Pravara Sujesvi",
-        "p0": "082025-video-quality-compare",
-        "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
-        "p1_status": "Working",
+        "p0": "260310-live-s2s-elo",
+        "p0_status": "nan",
+        "p1": "260407-High-res-dense-rich-ref-expression",
+        "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "Queue Not Visible"
       },
@@ -2793,7 +2793,7 @@ window.PROJECT_DATA = {
         "p1": "260410-dense-structured-grounding",
         "p1_status": "Queue Not Visible",
         "p2": "260413-cua-general-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5002": {
         "name": "Suyash Bhavsar",
@@ -2806,38 +2806,38 @@ window.PROJECT_DATA = {
       },
       "IN5008": {
         "name": "Tabish Karim",
-        "p0": "082025-video-quality-compare",
-        "p0_status": "nan",
-        "p1": "260310-live-s2s-elo",
-        "p1_status": "nan",
+        "p0": "260310-live-s2s-elo",
+        "p0_status": "Queue Not Visible",
+        "p1": "260407-High-res-dense-rich-ref-expression",
+        "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN5811": {
         "name": "Urhan Ahmad Khan",
         "p0": "260407-High-res-dense-rich-ref-expression",
         "p0_status": "Queue Not Visible",
-        "p1": "082025-video-quality-compare",
-        "p1_status": "Queue Not Visible",
-        "p2": "260310-live-s2s-elo",
-        "p2_status": "Queue Error: Task Loading Fail"
+        "p1": "260310-live-s2s-elo",
+        "p1_status": "Queue Error: Task Loading Fail",
+        "p2": "260413-cua-general-grounding",
+        "p2_status": "Queue Not Visible"
       },
       "IN4657": {
         "name": "Vishnudas S Menon",
         "p0": "260413-cua-general-grounding",
         "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Error: Task Loading Fail",
+        "p1_status": "Working",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "Queue Not Visible"
       },
       "IN5120": {
         "name": "Zoya Nawaz Khan",
-        "p0": "082025-video-quality-compare",
-        "p0_status": "Queue Not Visible",
-        "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Error: Task Loading Fail",
-        "p2": "260413-cua-general-grounding",
+        "p0": "260310-live-s2s-elo",
+        "p0_status": "Queue Error: Task Loading Fail",
+        "p1": "260413-cua-general-grounding",
+        "p1_status": "Queue Not Visible",
+        "p2": "260410-dense-structured-grounding",
         "p2_status": "Queue Not Visible"
       }
     },

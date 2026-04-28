@@ -1,4 +1,4 @@
-// Generated on 2026-04-28T02:40:18.971173
+// Generated on 2026-04-28T05:57:17.674066
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2546,27 +2546,27 @@ window.PROJECT_DATA = {
       "IN4997": {
         "name": "BRAJ PAL SINGH",
         "p0": "260310-live-s2s-elo",
-        "p0_status": "Queue Error: Task Loading Fail",
+        "p0_status": "nan",
         "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Working",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5107": {
         "name": "Duddeda Pooja",
-        "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "Queue Not Visible",
+        "p0": "vs-1773621861-image-editing-conversation-v2",
+        "p0_status": "Working",
         "p1": "260410-dense-structured-grounding",
         "p1_status": "Queue Not Visible",
         "p2": "260413-cua-general-grounding",
-        "p2_status": "Working"
+        "p2_status": "nan"
       },
       "IN4995": {
         "name": "Katikela Sreeharsha Kishore",
         "p0": "260310-live-s2s-elo",
         "p0_status": "Working",
         "p1": "260413-cua-general-grounding",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "nan"
       },
@@ -2582,25 +2582,25 @@ window.PROJECT_DATA = {
       "IN5103": {
         "name": "Kuvvarapu Vikranth",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "Working",
+        "p0_status": "Queue Not Visible",
         "p1": "260410-dense-structured-grounding",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260413-cua-general-grounding",
-        "p2_status": "nan"
+        "p2_status": "Queue Not Visible"
       },
       "IN4784": {
         "name": "M. Sai Prasad Naik",
         "p0": "260410-dense-structured-grounding",
-        "p0_status": "nan",
+        "p0_status": "Working",
         "p1": "260413-cua-general-grounding",
-        "p1_status": "nan",
+        "p1_status": "Queue Not Visible",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Empty Queue"
+        "p2_status": "Queue Not Visible"
       },
       "IN8182": {
         "name": "Meenakshi Rawat",
         "p0": "260310-live-s2s-elo",
-        "p0_status": "Queue Error: Task Loading Fail",
+        "p0_status": "Working",
         "p1": "0",
         "p1_status": "nan",
         "p2": "0",
@@ -2618,11 +2618,11 @@ window.PROJECT_DATA = {
       "IN4986": {
         "name": "Murtaza Mustafa Zafar",
         "p0": "260310-live-s2s-elo",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260413-cua-general-grounding",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260410-dense-structured-grounding",
-        "p2_status": "Working"
+        "p2_status": "nan"
       },
       "IN4988": {
         "name": "Musfira",
@@ -2654,11 +2654,11 @@ window.PROJECT_DATA = {
       "IN4993": {
         "name": "P. Omkar",
         "p0": "260410-dense-structured-grounding",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260413-cua-general-grounding",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260407-High-res-dense-rich-ref-expression",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN5005": {
         "name": "Paniganti Saraswathi",
@@ -2671,10 +2671,10 @@ window.PROJECT_DATA = {
       },
       "IN8183": {
         "name": "Poonam Anurag Kohli",
-        "p0": "260310-live-s2s-elo",
+        "p0": "082025-video-quality-compare",
         "p0_status": "Queue Not Visible",
-        "p1": "0",
-        "p1_status": "nan",
+        "p1": "260310-live-s2s-elo",
+        "p1_status": "Queue Not Visible",
         "p2": "0",
         "p2_status": "nan"
       },
@@ -2719,22 +2719,22 @@ window.PROJECT_DATA = {
         "p0": "260407-High-res-dense-rich-ref-expression",
         "p0_status": "Queue Not Visible",
         "p1": "260410-dense-structured-grounding",
-        "p1_status": "Working",
+        "p1_status": "Queue Not Visible",
         "p2": "260413-cua-general-grounding",
         "p2_status": "Queue Not Visible"
       },
       "IN5677": {
         "name": "Sahil Kiran",
         "p0": "260407-High-res-dense-rich-ref-expression",
-        "p0_status": "Queue Not Visible",
+        "p0_status": "nan",
         "p1": "260410-dense-structured-grounding",
-        "p1_status": "Queue Not Visible",
+        "p1_status": "nan",
         "p2": "260413-cua-general-grounding",
-        "p2_status": "Queue Not Visible"
+        "p2_status": "nan"
       },
       "IN4998": {
         "name": "Saransh Kumar",
-        "p0": "260310-live-s2s-elo",
+        "p0": "vs-1773621861-image-editing-conversation-v2",
         "p0_status": "Queue Not Visible",
         "p1": "260413-cua-general-grounding",
         "p1_status": "Queue Not Visible",
@@ -2780,7 +2780,7 @@ window.PROJECT_DATA = {
       "IN5127": {
         "name": "Sripuram Pravara Sujesvi",
         "p0": "260310-live-s2s-elo",
-        "p0_status": "nan",
+        "p0_status": "Working",
         "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
@@ -2818,7 +2818,7 @@ window.PROJECT_DATA = {
         "p0": "260407-High-res-dense-rich-ref-expression",
         "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Queue Error: Task Loading Fail",
+        "p1_status": "Queue Not Visible",
         "p2": "260413-cua-general-grounding",
         "p2_status": "Queue Not Visible"
       },
@@ -2827,18 +2827,27 @@ window.PROJECT_DATA = {
         "p0": "260413-cua-general-grounding",
         "p0_status": "Queue Not Visible",
         "p1": "260310-live-s2s-elo",
-        "p1_status": "Working",
+        "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "Queue Not Visible"
       },
       "IN5120": {
         "name": "Zoya Nawaz Khan",
         "p0": "260310-live-s2s-elo",
-        "p0_status": "Queue Error: Task Loading Fail",
+        "p0_status": "Working",
         "p1": "260413-cua-general-grounding",
         "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",
         "p2_status": "Queue Not Visible"
+      },
+      "Queue Allocation 28/04/2026": {
+        "name": "Queue Allocation 28/04/2026",
+        "p0": "nan",
+        "p0_status": "nan",
+        "p1": "nan",
+        "p1_status": "nan",
+        "p2": "nan",
+        "p2_status": "nan"
       }
     },
     "ASSESSMENTS": [
@@ -3579,7 +3588,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Image Editing Conversation V2",
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Text-Image-To-Text H2H",
         "Unnamed: 7": NaN
       },
       {
@@ -3589,8 +3598,8 @@ window.PROJECT_DATA = {
         "Unnamed: 3": "Failed",
         "Unnamed: 4": "Passed",
         "Unnamed: 5": "Failed",
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
+        "Unnamed: 6": "Passed",
+        "Unnamed: 7": "Failed"
       },
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Katikela Sreeharsha Kishore",
@@ -3599,7 +3608,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": "P. Omkar",
         "Unnamed: 4": "Duddeda Pooja",
         "Unnamed: 5": "Nishtha Sharma",
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "ADITI",
         "Unnamed: 7": NaN
       },
       {
@@ -3609,7 +3618,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": "ADITI",
         "Unnamed: 4": "Saransh Kumar",
         "Unnamed: 5": "P. Omkar",
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "P. Omkar",
         "Unnamed: 7": NaN
       },
       {
@@ -3619,7 +3628,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": "Priyata M",
         "Unnamed: 4": "Shubhasmita Sahoo",
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Saurabh Barua",
         "Unnamed: 7": NaN
       },
       {
@@ -3629,7 +3638,17 @@ window.PROJECT_DATA = {
         "Unnamed: 3": "Sripuram Pravara Sujesvi",
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Arpit Aggarwal",
+        "Unnamed: 7": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": "Meenakshi Rawat",
         "Unnamed: 7": NaN
       }
     ]

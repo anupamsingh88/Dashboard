@@ -1,4 +1,4 @@
-// Generated on 2026-04-29T05:52:50.369431
+// Generated on 2026-04-29T08:12:18.611806
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2858,7 +2858,7 @@ window.PROJECT_DATA = {
         "Unnamed: 7": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Pratik Mahadev More",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Nishtha Sharma",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -2868,7 +2868,7 @@ window.PROJECT_DATA = {
         "Unnamed: 7": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Prince Patel",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Pratik Mahadev More",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -2878,7 +2878,7 @@ window.PROJECT_DATA = {
         "Unnamed: 7": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Saurabh Barua",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Prince Patel",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -2888,7 +2888,7 @@ window.PROJECT_DATA = {
         "Unnamed: 7": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Shubhasmita Sahoo",
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Saurabh Barua",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -2898,7 +2898,27 @@ window.PROJECT_DATA = {
         "Unnamed: 7": NaN
       },
       {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Shubhasmita Sahoo",
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Siddharth Kumar",
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Simran Bheda",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -2929,26 +2949,6 @@ window.PROJECT_DATA = {
       },
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Meenakshi Rawat",
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Simran Bheda",
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -3102,7 +3102,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Siddharth Kumar",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -3294,7 +3294,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": "Priyata M",
         "Unnamed: 4": "Shubhasmita Sahoo",
         "Unnamed: 5": "Prashant ojha",
-        "Unnamed: 6": "P. Omkar",
+        "Unnamed: 6": "Nishtha Sharma",
         "Unnamed: 7": NaN
       },
       {
@@ -3304,7 +3304,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": "Sripuram Pravara Sujesvi",
         "Unnamed: 4": "Musfira",
         "Unnamed: 5": NaN,
-        "Unnamed: 6": "Prince Patel",
+        "Unnamed: 6": "P. Omkar",
         "Unnamed: 7": NaN
       },
       {
@@ -3314,7 +3314,37 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": "ADITI",
         "Unnamed: 5": NaN,
+        "Unnamed: 6": "Prince Patel",
+        "Unnamed: 7": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": "Saransh Kumar",
+        "Unnamed: 7": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
         "Unnamed: 6": "Saurabh Barua",
+        "Unnamed: 7": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": "Siddharth Kumar",
         "Unnamed: 7": NaN
       },
       {
@@ -3458,36 +3488,6 @@ window.PROJECT_DATA = {
         "Unnamed: 7": NaN
       },
       {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
-        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "video-audio-caption-speech-annotation-v2",
         "Unnamed: 1": NaN,
         "Unnamed: 2": "video-audio-caption-sound-annotation-v3",
@@ -3510,8 +3510,8 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Arogya Painuly",
         "Unnamed: 1": "Pratik Mahadev More",
-        "Unnamed: 2": "Musfira",
-        "Unnamed: 3": NaN,
+        "Unnamed: 2": "Duddeda Pooja",
+        "Unnamed: 3": "Arogya Painuly",
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
@@ -3520,8 +3520,8 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "KUMKUM RAWAT",
         "Unnamed: 1": "Simran Bheda",
-        "Unnamed: 2": "Prince Patel",
-        "Unnamed: 3": NaN,
+        "Unnamed: 2": "Musfira",
+        "Unnamed: 3": "Pummy Kumari singh",
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
@@ -3530,8 +3530,8 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Musfira",
         "Unnamed: 1": NaN,
-        "Unnamed: 2": "Priyata M",
-        "Unnamed: 3": NaN,
+        "Unnamed: 2": "Nisarga Suresh Kapde",
+        "Unnamed: 3": "Tabish Karim",
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
@@ -3540,7 +3540,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Priyata M",
         "Unnamed: 1": NaN,
-        "Unnamed: 2": "Shubhasmita Sahoo",
+        "Unnamed: 2": "Prince Patel",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
@@ -3550,7 +3550,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Shubhasmita Sahoo",
         "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "Priyata M",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
@@ -3560,7 +3560,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Vishnudas S Menon",
         "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "Shubhasmita Sahoo",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
@@ -3570,7 +3570,17 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Tabish Karim",
         "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "Simran Bheda",
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": "Vishnudas S Menon",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,

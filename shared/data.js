@@ -1,4 +1,4 @@
-// Generated on 2026-04-28T23:53:43.860062
+// Generated on 2026-04-29T02:40:10.018132
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2780,7 +2780,7 @@ window.PROJECT_DATA = {
       "IN5127": {
         "name": "Sripuram Pravara Sujesvi",
         "p0": "260310-live-s2s-elo",
-        "p0_status": "Queue Error: Task Loading Fail",
+        "p0_status": "Queue Not Visible",
         "p1": "260407-High-res-dense-rich-ref-expression",
         "p1_status": "Queue Not Visible",
         "p2": "260410-dense-structured-grounding",

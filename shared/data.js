@@ -1,4 +1,4 @@
-// Generated on 2026-04-30T13:05:49.624568
+// Generated on 2026-04-30T15:27:05.506378
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2383,7 +2383,7 @@ window.PROJECT_DATA = {
       },
       "IN8183": {
         "status": "Applied",
-        "approver": "NILAKSHI BARUA (1672)"
+        "approver": "NEGI, EKTA  [IN3131]"
       },
       "IN5115": {
         "status": "nan",

@@ -1,4 +1,4 @@
-// Generated on 2026-04-30T09:33:43.904640
+// Generated on 2026-04-30T11:26:16.775492
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2334,7 +2334,7 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4995": {
-        "status": "Applied",
+        "status": "Approved",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN5010": {
@@ -2358,7 +2358,7 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4986": {
-        "status": "Applied",
+        "status": "Approved",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4988": {
@@ -2406,19 +2406,19 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN5677": {
-        "status": "nan",
-        "approver": "nan"
+        "status": "Approved",
+        "approver": "ALIUDDIN [IN3036]"
       },
       "IN4998": {
         "status": "Approved",
         "approver": "., ALIUDDIN [IN3036]"
       },
       "IN5801": {
-        "status": "Applied",
+        "status": "Endorsed",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4987": {
-        "status": "Endorsed",
+        "status": "Approved",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4989": {
@@ -3069,7 +3069,7 @@ window.PROJECT_DATA = {
       },
       {
         "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++": NaN,
-        "Unnamed: 1": NaN,
+        "Unnamed: 1": "Nisarga Suresh Kapde",
         "Unnamed: 2": "Meenakshi Rawat",
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Meenakshi Rawat",

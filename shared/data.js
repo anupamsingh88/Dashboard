@@ -1,4 +1,4 @@
-// Generated on 2026-04-30T07:08:52.493137
+// Generated on 2026-04-30T09:33:43.904640
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2350,7 +2350,7 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN8182": {
-        "status": "Applied",
+        "status": "Approved",
         "approver": "BHATIA, BHASKAR  [IN5195]"
       },
       "IN5003": {

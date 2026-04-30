@@ -1,4 +1,4 @@
-// Generated on 2026-04-30T11:26:16.775492
+// Generated on 2026-04-30T13:05:49.624568
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2323,7 +2323,7 @@ window.PROJECT_DATA = {
       },
       "IN8181": {
         "status": "Applied",
-        "approver": "Aggarwal , Arpit [IN8181]"
+        "approver": "AMS Approver :\tHAZARIKA, SHRUTIMALA [IN1706]"
       },
       "IN4997": {
         "status": "Applied",
@@ -2370,7 +2370,7 @@ window.PROJECT_DATA = {
         "approver": " ALIUDDIN [IN3036]"
       },
       "IN5000": {
-        "status": "Applied",
+        "status": "Approved",
         "approver": "nan"
       },
       "IN4993": {
@@ -2378,19 +2378,19 @@ window.PROJECT_DATA = {
         "approver": "\u00a0ALIUDDIN [IN3036]"
       },
       "IN5005": {
-        "status": "Applied",
+        "status": "Approved",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN8183": {
         "status": "Applied",
-        "approver": "nan"
+        "approver": "NILAKSHI BARUA (1672)"
       },
       "IN5115": {
         "status": "nan",
         "approver": "nan"
       },
       "IN5498": {
-        "status": "Applied",
+        "status": "Approved",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN5122": {
@@ -2422,7 +2422,7 @@ window.PROJECT_DATA = {
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN4989": {
-        "status": "Applied",
+        "status": "Endorsed",
         "approver": "ALIUDDIN [IN3036]"
       },
       "IN5104": {

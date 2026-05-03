@@ -1,7 +1,8 @@
 {
-  "timestamp": "2026-05-03T16:07:23.137778",
+  "timestamp": "2026-05-03T17:14:26.369088",
   "available_months": [
-    "April"
+    "April",
+    "May"
   ],
   "source": "Attendance Tracker Pipeline v2"
 }

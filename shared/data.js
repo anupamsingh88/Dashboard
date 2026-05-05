@@ -1,4 +1,4 @@
-// Generated on 2026-05-05T00:00:40.656662
+// Generated on 2026-05-05T03:55:42.777283
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2594,7 +2594,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Mask-Milo",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "p",
+        "Unnamed: 4": "Full Pixel Perfect Pattern Extraction",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Derendering Website Design",
         "Unnamed: 7": NaN
@@ -3162,7 +3162,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "BRAJ PAL SINGH",
         "Unnamed: 3": NaN,
         "Unnamed: 4": "P. Omkar",
         "Unnamed: 5": NaN,
@@ -3564,7 +3564,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "video-audio-caption-sound-annotation-v3",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Video Frame CUA Grounding",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -3574,8 +3574,8 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Failed",
         "Unnamed: 2": "Passed",
         "Unnamed: 3": "Failed",
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
+        "Unnamed: 4": "Passed",
+        "Unnamed: 5": "Failed",
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
       },
@@ -3584,7 +3584,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Pratik Mahadev More",
         "Unnamed: 2": "Duddeda Pooja",
         "Unnamed: 3": "Arogya Painuly",
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Nisarga Suresh Kapde",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -3594,7 +3594,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Simran Bheda",
         "Unnamed: 2": "Musfira",
         "Unnamed: 3": "Pummy Kumari singh",
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "P. Omkar",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -4094,7 +4094,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Mask-Milo",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "p",
+        "Unnamed: 4": "Full Pixel Perfect Pattern Extraction",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Derendering Website Design",
         "Unnamed: 7": NaN
@@ -4662,7 +4662,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": NaN,
         "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "BRAJ PAL SINGH",
         "Unnamed: 3": NaN,
         "Unnamed: 4": "P. Omkar",
         "Unnamed: 5": NaN,
@@ -5064,7 +5064,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "video-audio-caption-sound-annotation-v3",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Video Frame CUA Grounding",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -5074,8 +5074,8 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Failed",
         "Unnamed: 2": "Passed",
         "Unnamed: 3": "Failed",
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
+        "Unnamed: 4": "Passed",
+        "Unnamed: 5": "Failed",
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
       },
@@ -5084,7 +5084,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Pratik Mahadev More",
         "Unnamed: 2": "Duddeda Pooja",
         "Unnamed: 3": "Arogya Painuly",
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Nisarga Suresh Kapde",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -5094,7 +5094,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Simran Bheda",
         "Unnamed: 2": "Musfira",
         "Unnamed: 3": "Pummy Kumari singh",
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "P. Omkar",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN

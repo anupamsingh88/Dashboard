@@ -1,4 +1,4 @@
-// Generated on 2026-05-08T15:08:03.101661
+// Generated on 2026-05-08T16:50:25.879571
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3802,7 +3802,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "s2s-data-annotation-speech-if-v2",
         "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "omni-image-recon-elo",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
@@ -3812,8 +3812,8 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Passed",
         "Unnamed: 1": "Failed",
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
+        "Unnamed: 2": "Passed",
+        "Unnamed: 3": "Failed",
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
@@ -3822,7 +3822,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Duddeda Pooja",
         "Unnamed: 1": "Prince Patel",
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "Duddeda Pooja",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
@@ -3832,7 +3832,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "KUMKUM RAWAT",
         "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "Prince Patel",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
@@ -5552,7 +5552,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "s2s-data-annotation-speech-if-v2",
         "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "omni-image-recon-elo",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
@@ -5562,8 +5562,8 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Passed",
         "Unnamed: 1": "Failed",
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
+        "Unnamed: 2": "Passed",
+        "Unnamed: 3": "Failed",
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
@@ -5572,7 +5572,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "Duddeda Pooja",
         "Unnamed: 1": "Prince Patel",
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "Duddeda Pooja",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
@@ -5582,7 +5582,7 @@ window.PROJECT_DATA = {
       {
         "\u2193\u2193\u2193\u2193\u2193   KEEP SCROLLING DOWN FOR MORE RESULTS   \u2193\u2193\u2193\u2193\u2193": "KUMKUM RAWAT",
         "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
+        "Unnamed: 2": "Prince Patel",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,

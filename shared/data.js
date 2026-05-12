@@ -1,4 +1,4 @@
-// Generated on 2026-05-12T07:49:21.579245
+// Generated on 2026-05-12T10:29:09.134710
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3526,7 +3526,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Pummy Kumari Singh",
         "Unnamed: 7": NaN
       },
       {
@@ -5326,7 +5326,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Pummy Kumari Singh",
         "Unnamed: 7": NaN
       },
       {

@@ -1,4 +1,4 @@
-// Generated on 2026-05-13T06:45:52.941629
+// Generated on 2026-05-13T09:42:47.685697
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -230,6 +230,24 @@ window.FTE_DETAILS = {
     "batch": "Batch 15",
     "shift": "8AM - 4PM",
     "zoho_id": "sbarua@ic.innodata.com",
+    "gams_access": "DONE",
+    "ia_access": "DONE",
+    "zoho_access": "DONE"
+  },
+  "IN5702": {
+    "name": "Shama Parveen",
+    "batch": "nan",
+    "shift": "8AM - 4PM",
+    "zoho_id": "sparveen@ic.innodata.com",
+    "gams_access": "DONE",
+    "ia_access": "DONE",
+    "zoho_access": "DONE"
+  },
+  "IN6136": {
+    "name": "Shravan Kumar",
+    "batch": "nan",
+    "shift": "8AM - 4PM",
+    "zoho_id": "skumar11@ic.innodata.com ",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -2590,8 +2608,8 @@ window.PROJECT_DATA = {
     "QUEUE": {},
     "ASSESSMENTS": [
       {
-        "Search Your Result Here": "Select Name ",
-        "Unnamed: 1": "Priyata M",
+        "Search Your Result Here": "Select Name",
+        "Unnamed: 1": "Prince Patel",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2601,7 +2619,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Full Pixel Perfect Pattern Extraction",
+        "Unnamed: 1": "vs-1778050094-audio-quality-rm-s2s-v3",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2611,7 +2629,17 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": "Pending/Not Found",
+        "Unnamed: 1": "Passed",
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4269,6 +4297,28 @@ window.PROJECT_DATA = {
         "weekoff": 0,
         "holiday": 0
       },
+      "IN5702": {
+        "name": "Shama Parveen",
+        "uid": "IN5702",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
+      "IN6136": {
+        "name": "Shravan Kumar",
+        "uid": "IN6136",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
       "IN4987": {
         "name": "Shubhasmita Sahoo",
         "uid": "IN4987",
@@ -4390,8 +4440,8 @@ window.PROJECT_DATA = {
     "QUEUE": {},
     "ASSESSMENTS": [
       {
-        "Search Your Result Here": "Select Name ",
-        "Unnamed: 1": "Priyata M",
+        "Search Your Result Here": "Select Name",
+        "Unnamed: 1": "Prince Patel",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4401,7 +4451,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Full Pixel Perfect Pattern Extraction",
+        "Unnamed: 1": "vs-1778050094-audio-quality-rm-s2s-v3",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4411,7 +4461,17 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": "Pending/Not Found",
+        "Unnamed: 1": "Passed",
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

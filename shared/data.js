@@ -1,4 +1,4 @@
-// Generated on 2026-05-14T09:14:20.428335
+// Generated on 2026-05-14T11:25:34.207633
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -202,7 +202,7 @@ window.FTE_DETAILS = {
     "name": "Pummy Kumari singh",
     "batch": "Batch 10",
     "shift": "8AM - 4PM",
-    "zoho_id": "pksingh2@ic.innodata.com",
+    "zoho_id": "nan",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -211,7 +211,7 @@ window.FTE_DETAILS = {
     "name": "Sahil Kiran",
     "batch": "Batch 13",
     "shift": "8AM - 4PM",
-    "zoho_id": "skiran@ic.innodata.com",
+    "zoho_id": "Users are NOT allowed to install any software/tools on their workstation/laptop (Innodata owned ) by their own",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -220,7 +220,7 @@ window.FTE_DETAILS = {
     "name": "Saransh Kumar",
     "batch": "Batch 10",
     "shift": "8AM - 4PM",
-    "zoho_id": "skumar5@ic.innodata.com",
+    "zoho_id": "(5 Points)",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -229,7 +229,7 @@ window.FTE_DETAILS = {
     "name": "Saurabh Barua",
     "batch": "Batch 15",
     "shift": "8AM - 4PM",
-    "zoho_id": "sbarua@ic.innodata.com",
+    "zoho_id": "True statement",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -238,7 +238,7 @@ window.FTE_DETAILS = {
     "name": "Shama Parveen",
     "batch": "nan",
     "shift": "8AM - 4PM",
-    "zoho_id": "sparveen@ic.innodata.com",
+    "zoho_id": "False statement",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -247,7 +247,7 @@ window.FTE_DETAILS = {
     "name": "Shravan Kumar",
     "batch": "nan",
     "shift": "8AM - 4PM",
-    "zoho_id": "skumar11@ic.innodata.com ",
+    "zoho_id": "Can't say\u00a0",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -4196,6 +4196,16 @@ window.PROJECT_DATA = {
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": "Simran Bheda",
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
       }
     ]
   },
@@ -6212,6 +6222,16 @@ window.PROJECT_DATA = {
       {
         "Search Your Result Here": NaN,
         "Unnamed: 1": "Poonam Anurag Kohli",
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": "Simran Bheda",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

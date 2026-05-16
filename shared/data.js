@@ -1,4 +1,4 @@
-// Generated on 2026-05-16T01:17:56.870109
+// Generated on 2026-05-16T04:50:14.602388
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2619,7 +2619,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": NaN,
+        "Unnamed: 1": "Video Frame CUA Grounding",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4721,7 +4721,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": NaN,
+        "Unnamed: 1": "Video Frame CUA Grounding",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

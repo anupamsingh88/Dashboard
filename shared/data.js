@@ -1,4 +1,4 @@
-// Generated on 2026-05-18T05:49:47.260219
+// Generated on 2026-05-18T09:57:13.285117
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -32,15 +32,6 @@ window.FTE_DETAILS = {
     "batch": "Batch 10",
     "shift": "8AM - 4PM",
     "zoho_id": "bpsingh@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
-  },
-  "IN5107": {
-    "name": "Duddeda Pooja",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "dpooja@ic.innodata.com",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -338,6 +329,15 @@ window.FTE_DETAILS = {
     "batch": "Batch 10",
     "shift": "8AM - 4PM",
     "zoho_id": "zkhan@ic.innodata.com",
+    "gams_access": "DONE",
+    "ia_access": "DONE",
+    "zoho_access": "DONE"
+  },
+  "IN5107": {
+    "name": "Duddeda Pooja",
+    "batch": "Batch 10",
+    "shift": "8AM - 4PM",
+    "zoho_id": "dpooja@ic.innodata.com",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -2609,7 +2609,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Pratik Mahadev More",
+        "Unnamed: 1": "M. Sai Prasad Naik",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2619,7 +2619,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "vs-1778016225-ig-entity-tagging-v1",
+        "Unnamed: 1": "Pass Rate",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2629,7 +2629,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": "Pending/Not Found",
+        "Unnamed: 1": 0.571428571428571,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4301,6 +4301,16 @@ window.PROJECT_DATA = {
         "Search Your Result Here": NaN,
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Meenakshi Rawat",
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": "Katikela Sreeharsha Kishore",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
@@ -4741,7 +4751,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Pratik Mahadev More",
+        "Unnamed: 1": "M. Sai Prasad Naik",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4751,7 +4761,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "vs-1778016225-ig-entity-tagging-v1",
+        "Unnamed: 1": "Pass Rate",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4761,7 +4771,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": "Pending/Not Found",
+        "Unnamed: 1": 0.571428571428571,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -6433,6 +6443,16 @@ window.PROJECT_DATA = {
         "Search Your Result Here": NaN,
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Meenakshi Rawat",
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": "Katikela Sreeharsha Kishore",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,

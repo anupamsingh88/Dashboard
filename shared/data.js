@@ -1,4 +1,4 @@
-// Generated on 2026-05-18T18:29:31.332884
+// Generated on 2026-05-18T20:16:31.174217
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2609,7 +2609,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "BRAJ PAL SINGH",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2629,7 +2629,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 6,
+        "Unnamed: 1": "Pending/Not Found",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4761,7 +4761,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "BRAJ PAL SINGH",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4781,7 +4781,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 6,
+        "Unnamed: 1": "Pending/Not Found",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

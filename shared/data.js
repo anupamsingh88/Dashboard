@@ -1,4 +1,4 @@
-// Generated on 2026-05-18T09:57:13.285117
+// Generated on 2026-05-18T13:48:55.411960
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2629,7 +2629,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 0.571428571428571,
+        "Unnamed: 1": 0.5714285714285714,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4316,6 +4316,16 @@ window.PROJECT_DATA = {
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": "Shama Parveen",
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
       }
     ]
   },
@@ -4357,17 +4367,6 @@ window.PROJECT_DATA = {
       "IN4997": {
         "name": "BRAJ PAL SINGH",
         "uid": "IN4997",
-        "days": {},
-        "daily_log": {},
-        "present": 0,
-        "absent": 0,
-        "leave": 0,
-        "weekoff": 0,
-        "holiday": 0
-      },
-      "IN5107": {
-        "name": "Duddeda Pooja",
-        "uid": "IN5107",
         "days": {},
         "daily_log": {},
         "present": 0,
@@ -4738,6 +4737,17 @@ window.PROJECT_DATA = {
         "leave": 0,
         "weekoff": 0,
         "holiday": 0
+      },
+      "IN5107": {
+        "name": "Duddeda Pooja",
+        "uid": "IN5107",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
       }
     },
     "PROD": {},
@@ -4771,7 +4781,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 0.571428571428571,
+        "Unnamed: 1": 0.5714285714285714,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -6453,6 +6463,16 @@ window.PROJECT_DATA = {
         "Search Your Result Here": NaN,
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Katikela Sreeharsha Kishore",
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": "Shama Parveen",
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,

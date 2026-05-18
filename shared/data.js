@@ -1,4 +1,4 @@
-// Generated on 2026-05-18T21:45:34.475824
+// Generated on 2026-05-18T22:58:35.983746
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",

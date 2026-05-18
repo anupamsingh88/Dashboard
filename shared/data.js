@@ -1,4 +1,4 @@
-// Generated on 2026-05-18T13:48:55.411960
+// Generated on 2026-05-18T16:46:11.316272
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2609,7 +2609,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "M. Sai Prasad Naik",
+        "Unnamed: 1": "BRAJ PAL SINGH",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2619,7 +2619,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Pass Rate",
+        "Unnamed: 1": "Total Passed",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2629,7 +2629,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 0.5714285714285714,
+        "Unnamed: 1": 6,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4761,7 +4761,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "M. Sai Prasad Naik",
+        "Unnamed: 1": "BRAJ PAL SINGH",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4771,7 +4771,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Pass Rate",
+        "Unnamed: 1": "Total Passed",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4781,7 +4781,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 0.5714285714285714,
+        "Unnamed: 1": 6,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

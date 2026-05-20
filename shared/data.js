@@ -1,4 +1,4 @@
-// Generated on 2026-05-20T00:02:12.453847
+// Generated on 2026-05-20T04:44:51.744178
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2609,7 +2609,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "BRAJ PAL SINGH",
+        "Unnamed: 1": "Katikela Sreeharsha Kishore",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2619,7 +2619,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Total Passed",
+        "Unnamed: 1": "Live S2S Elo",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2629,7 +2629,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 6,
+        "Unnamed: 1": "Passed",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4761,7 +4761,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "BRAJ PAL SINGH",
+        "Unnamed: 1": "Katikela Sreeharsha Kishore",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4771,7 +4771,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Total Passed",
+        "Unnamed: 1": "Live S2S Elo",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4781,7 +4781,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 6,
+        "Unnamed: 1": "Passed",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

@@ -1,4 +1,4 @@
-// Generated on 2026-05-21T10:51:29.257269
+// Generated on 2026-05-21T14:13:18.222570
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2609,7 +2609,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Shama Parveen",
+        "Unnamed: 1": "Vishnudas S Menon",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2619,7 +2619,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Live S2S Elo",
+        "Unnamed: 1": "Omni-s2s-Elo",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2629,7 +2629,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": "Passed",
+        "Unnamed: 1": "Pending/Not Found",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4771,7 +4771,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Shama Parveen",
+        "Unnamed: 1": "Vishnudas S Menon",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4781,7 +4781,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Live S2S Elo",
+        "Unnamed: 1": "Omni-s2s-Elo",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4791,7 +4791,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": "Passed",
+        "Unnamed: 1": "Pending/Not Found",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

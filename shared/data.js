@@ -1,22 +1,22 @@
-// Generated on 2026-05-22T07:58:12.212777
+// Generated on 2026-05-22T10:55:23.940615
 window.FTE_DETAILS = {
   "IN7947": {
-    "name": "ADITI",
+    "name": "nan",
     "batch": "nan",
-    "shift": "8AM - 4PM",
-    "zoho_id": "Aditi@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN4996": {
-    "name": "Arogya Painuly",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "apainuly@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN8181": {
     "name": "Arpit Aggarwal",
@@ -28,13 +28,13 @@ window.FTE_DETAILS = {
     "zoho_access": "DONE"
   },
   "IN4997": {
-    "name": "BRAJ PAL SINGH",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "bpsingh@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN4995": {
     "name": "Katikela Sreeharsha Kishore",
@@ -55,67 +55,67 @@ window.FTE_DETAILS = {
     "zoho_access": "DONE"
   },
   "IN5103": {
-    "name": "Kuvvarapu Vikranth",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "kvikranth@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN4784": {
-    "name": "M. Sai Prasad Naik",
-    "batch": "Batch 8",
-    "shift": "8AM - 4PM",
-    "zoho_id": "mpnaik@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN8182": {
-    "name": "Meenakshi Rawat",
-    "batch": "26-Batch 17",
-    "shift": "8AM - 4PM",
-    "zoho_id": "MRawat1@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5003": {
-    "name": "Mudimala Chandrashaker",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "mshaker@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN4986": {
-    "name": "Murtaza Mustafa Zafar",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "mzafar@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN4988": {
-    "name": "Musfira",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "musfira@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5116": {
-    "name": "Nisarga Suresh Kapde",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "nkapde@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5000": {
     "name": "Nishtha Sharma",
@@ -127,13 +127,13 @@ window.FTE_DETAILS = {
     "zoho_access": "DONE"
   },
   "IN4993": {
-    "name": "P. Omkar",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "pomkar@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5005": {
     "name": "Paniganti Saraswathi",
@@ -145,13 +145,13 @@ window.FTE_DETAILS = {
     "zoho_access": "DONE"
   },
   "IN8183": {
-    "name": "Poonam Anurag Kohli",
-    "batch": "Batch 17",
-    "shift": "8AM - 4PM",
-    "zoho_id": "PKohli@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5115": {
     "name": "Prashant ojha",
@@ -163,76 +163,76 @@ window.FTE_DETAILS = {
     "zoho_access": "DONE"
   },
   "IN5498": {
-    "name": "Pratik Mahadev More",
-    "batch": "Batch 13",
-    "shift": "8AM - 4PM",
-    "zoho_id": "pmore@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5122": {
-    "name": "Prince Patel",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "ppatel2@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5009": {
-    "name": "Priyata M",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "priyatam@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5108": {
-    "name": "Pummy Kumari singh",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "pksingh2@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5677": {
-    "name": "Sahil Kiran",
-    "batch": "Batch 13",
-    "shift": "8AM - 4PM",
-    "zoho_id": "skiran@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN4998": {
-    "name": "Saransh Kumar",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "skumar5@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5801": {
-    "name": "Saurabh Barua",
-    "batch": "Batch 15",
-    "shift": "8AM - 4PM",
-    "zoho_id": "sbarua@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5702": {
-    "name": "Shama Parveen",
+    "name": "nan",
     "batch": "nan",
-    "shift": "8AM - 4PM",
-    "zoho_id": "sparveen@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN6136": {
     "name": "Shravan Kumar",
@@ -244,31 +244,31 @@ window.FTE_DETAILS = {
     "zoho_access": "DONE"
   },
   "IN4987": {
-    "name": "Shubhasmita Sahoo",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "ssahoo@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN4989": {
-    "name": "Siddharth Kumar",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "skumar6@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5104": {
-    "name": "Simran Bheda",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "sbheda@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5127": {
     "name": "Sripuram Pravara Sujesvi",
@@ -280,31 +280,31 @@ window.FTE_DETAILS = {
     "zoho_access": "DONE"
   },
   "IN8009": {
-    "name": "Suragani Eswar Teja",
-    "batch": "26/Batch 15",
-    "shift": "8AM - 4PM",
-    "zoho_id": "steja@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5002": {
-    "name": "suyash bhavsar",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "sbhavsar@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5008": {
-    "name": "Tabish Karim",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "tkarim@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   },
   "IN5811": {
     "name": "Urhan Ahmad Khan",
@@ -341,6 +341,15 @@ window.FTE_DETAILS = {
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
+  },
+  "in5000": {
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
   }
 };
 
@@ -2609,7 +2618,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Musfira",
+        "Unnamed: 1": "Simran Bheda",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2619,7 +2628,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "video-audio-caption-speech-annotation-v2",
+        "Unnamed: 1": "Total Passed",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2629,7 +2638,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": "Passed",
+        "Unnamed: 1": 10,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4781,7 +4790,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Musfira",
+        "Unnamed: 1": "Simran Bheda",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4791,7 +4800,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "video-audio-caption-speech-annotation-v2",
+        "Unnamed: 1": "Total Passed",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4801,7 +4810,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": "Passed",
+        "Unnamed: 1": 10,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

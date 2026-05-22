@@ -1,4 +1,4 @@
-// Generated on 2026-05-22T20:18:27.530051
+// Generated on 2026-05-22T21:41:37.207782
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "nan",

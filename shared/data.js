@@ -1,4 +1,4 @@
-// Generated on 2026-05-22T10:55:23.940615
+// Generated on 2026-05-22T13:29:39.342204
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "nan",
@@ -2618,7 +2618,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Simran Bheda",
+        "Unnamed: 1": "Nisarga Suresh Kapde",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2628,7 +2628,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Total Passed",
+        "Unnamed: 1": "vs-1778016225-ig-entity-tagging-v1",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2638,7 +2638,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 10,
+        "Unnamed: 1": "Pending/Not Found",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4790,7 +4790,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Simran Bheda",
+        "Unnamed: 1": "Nisarga Suresh Kapde",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4800,7 +4800,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Total Passed",
+        "Unnamed: 1": "vs-1778016225-ig-entity-tagging-v1",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4810,7 +4810,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 10,
+        "Unnamed: 1": "Pending/Not Found",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

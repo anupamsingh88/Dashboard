@@ -1,4 +1,4 @@
-// Generated on 2026-05-22T16:03:15.140184
+// Generated on 2026-05-22T18:14:25.998513
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "nan",
@@ -2628,7 +2628,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "vs-1778016225-ig-entity-tagging-v1",
+        "Unnamed: 1": "260227-omni-s2s-elo NEW",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4800,7 +4800,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "vs-1778016225-ig-entity-tagging-v1",
+        "Unnamed: 1": "260227-omni-s2s-elo NEW",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

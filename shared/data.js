@@ -1,4 +1,4 @@
-// Generated on 2026-05-23T11:58:11.991055
+// Generated on 2026-05-23T13:46:58.151006
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "nan",
@@ -2627,7 +2627,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Duddeda Pooja",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2637,7 +2637,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Total Passed",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2647,7 +2647,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 17,
+        "Unnamed: 1": "Pending/Not Found",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4799,7 +4799,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Duddeda Pooja",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4809,7 +4809,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Total Passed",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -4819,7 +4819,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": 17,
+        "Unnamed: 1": "Pending/Not Found",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

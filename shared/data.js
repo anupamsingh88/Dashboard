@@ -1,4 +1,4 @@
-// Generated on 2026-05-23T04:23:32.592262
+// Generated on 2026-05-23T07:14:23.115138
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "nan",
@@ -343,6 +343,15 @@ window.FTE_DETAILS = {
     "zoho_access": "DONE"
   },
   "in5000": {
+    "name": "nan",
+    "batch": "nan",
+    "shift": "nan",
+    "zoho_id": "nan",
+    "gams_access": "nan",
+    "ia_access": "nan",
+    "zoho_access": "nan"
+  },
+  "In4784": {
     "name": "nan",
     "batch": "nan",
     "shift": "nan",

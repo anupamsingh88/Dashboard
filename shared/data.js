@@ -1,4 +1,4 @@
-// Generated on 2026-05-28T10:53:14.493966
+// Generated on 2026-05-28T14:36:22.664870
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -900,7 +900,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Prince Patel",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -910,7 +910,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Live S2S Elo",
+        "Unnamed: 1": "Total Failed",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -920,7 +920,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": "Failed",
+        "Unnamed: 1": "Pending/Not Found",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -3432,7 +3432,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": "Prince Patel",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -3442,7 +3442,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Live S2S Elo",
+        "Unnamed: 1": "Total Failed",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -3452,7 +3452,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Result",
-        "Unnamed: 1": "Failed",
+        "Unnamed: 1": "Pending/Not Found",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

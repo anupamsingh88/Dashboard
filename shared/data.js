@@ -1,4 +1,4 @@
-// Generated on 2026-05-29T00:08:58.542279
+// Generated on 2026-05-29T04:52:09.587865
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -900,7 +900,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": NaN,
+        "Unnamed: 1": "BRAJ PAL SINGH",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -910,7 +910,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Total Failed",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -2990,6 +2990,16 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Aditi",
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": "Urhan Ahmad Khan",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
@@ -3432,7 +3442,7 @@ window.PROJECT_DATA = {
     "ASSESSMENTS": [
       {
         "Search Your Result Here": "Select Name",
-        "Unnamed: 1": NaN,
+        "Unnamed: 1": "BRAJ PAL SINGH",
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -3442,7 +3452,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "Total Failed",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -5522,6 +5532,16 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Aditi",
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": "Urhan Ahmad Khan",
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,

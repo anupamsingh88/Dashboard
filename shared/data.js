@@ -1,4 +1,4 @@
-// Generated on 2026-06-01T12:34:32.702982
+// Generated on 2026-06-01T18:36:11.364414
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -194,15 +194,6 @@ window.FTE_DETAILS = {
     "batch": "Batch 10",
     "shift": "8AM - 4PM",
     "zoho_id": "skumar6@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
-  },
-  "IN5104": {
-    "name": "Simran Bheda",
-    "batch": "Batch 10",
-    "shift": "8AM - 4PM",
-    "zoho_id": "sbheda@ic.innodata.com",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -5689,17 +5680,6 @@ window.PROJECT_DATA = {
       "IN4989": {
         "name": "Siddharth Kumar",
         "uid": "IN4989",
-        "days": {},
-        "daily_log": {},
-        "present": 0,
-        "absent": 0,
-        "leave": 0,
-        "weekoff": 0,
-        "holiday": 0
-      },
-      "IN5104": {
-        "name": "Simran Bheda",
-        "uid": "IN5104",
         "days": {},
         "daily_log": {},
         "present": 0,

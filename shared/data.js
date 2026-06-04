@@ -1,4 +1,4 @@
-// Generated on 2026-06-04T09:10:02.874678
+// Generated on 2026-06-04T12:26:31.821506
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -23,6 +23,15 @@ window.FTE_DETAILS = {
     "batch": "Batch 17",
     "shift": "8AM - 4PM",
     "zoho_id": "AAggarwal@ic.innodata.com",
+    "gams_access": "DONE",
+    "ia_access": "DONE",
+    "zoho_access": "DONE"
+  },
+  "IN5107": {
+    "name": "Duddeda Pooja",
+    "batch": "Batch 10",
+    "shift": "8AM - 4PM",
+    "zoho_id": "dpooja@ic.innodata.com",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -5479,6 +5488,17 @@ window.PROJECT_DATA = {
         "weekoff": 0,
         "holiday": 0
       },
+      "IN5107": {
+        "name": "Duddeda Pooja",
+        "uid": "IN5107",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
       "IN5010": {
         "name": "KUMKUM RAWAT",
         "uid": "IN5010",
@@ -5735,17 +5755,6 @@ window.PROJECT_DATA = {
       "IN5120": {
         "name": "Zoya Nawaz Khan",
         "uid": "IN5120",
-        "days": {},
-        "daily_log": {},
-        "present": 0,
-        "absent": 0,
-        "leave": 0,
-        "weekoff": 0,
-        "holiday": 0
-      },
-      "IN5107": {
-        "name": "Duddeda Pooja",
-        "uid": "IN5107",
         "days": {},
         "daily_log": {},
         "present": 0,

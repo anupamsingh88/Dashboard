@@ -1,4 +1,4 @@
-// Generated on 2026-06-04T23:44:23.366831
+// Generated on 2026-06-05T03:30:01.188636
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -811,7 +811,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "high-res-dense-rich-ref-expression",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -3353,7 +3353,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "high-res-dense-rich-ref-expression",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
@@ -5785,7 +5785,7 @@ window.PROJECT_DATA = {
       },
       {
         "Search Your Result Here": "Select Assessment",
-        "Unnamed: 1": "high-res-dense-rich-ref-expression",
+        "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,

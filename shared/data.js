@@ -1,4 +1,4 @@
-// Generated on 2026-06-06T02:51:25.208220
+// Generated on 2026-06-06T06:28:19.572418
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -25,6 +25,15 @@ window.FTE_DETAILS = {
     "zoho_id": "AAggarwal@ic.innodata.com",
     "gams_access": "DONE",
     "ia_access": "DONE",
+    "zoho_access": "DONE"
+  },
+  "IN9063": {
+    "name": "Benish Ali",
+    "batch": "Batch 108",
+    "shift": "8AM - 4PM",
+    "zoho_id": "BAli@IC.innodata.com",
+    "gams_access": "DONE",
+    "ia_access": "nan",
     "zoho_access": "DONE"
   },
   "IN5107": {
@@ -115,6 +124,15 @@ window.FTE_DETAILS = {
     "zoho_id": "pomkar@ic.innodata.com",
     "gams_access": "DONE",
     "ia_access": "DONE",
+    "zoho_access": "DONE"
+  },
+  "IN9036": {
+    "name": "Prachi Kumari",
+    "batch": "Batch 108",
+    "shift": "8AM - 4PM",
+    "zoho_id": "PKumari7@ic.innodata.com",
+    "gams_access": "DONE",
+    "ia_access": "nan",
     "zoho_access": "DONE"
   },
   "IN8183": {
@@ -5488,6 +5506,17 @@ window.PROJECT_DATA = {
         "weekoff": 0,
         "holiday": 0
       },
+      "IN9063": {
+        "name": "Benish Ali",
+        "uid": "IN9063",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
       "IN5107": {
         "name": "Duddeda Pooja",
         "uid": "IN5107",
@@ -5590,6 +5619,17 @@ window.PROJECT_DATA = {
       "IN4993": {
         "name": "P. Omkar",
         "uid": "IN4993",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
+      "IN9036": {
+        "name": "Prachi Kumari",
+        "uid": "IN9036",
         "days": {},
         "daily_log": {},
         "present": 0,
@@ -5755,17 +5795,6 @@ window.PROJECT_DATA = {
       "IN5120": {
         "name": "Zoya Nawaz Khan",
         "uid": "IN5120",
-        "days": {},
-        "daily_log": {},
-        "present": 0,
-        "absent": 0,
-        "leave": 0,
-        "weekoff": 0,
-        "holiday": 0
-      },
-      "IN9036": {
-        "name": "Prachi Kumari",
-        "uid": "IN9036",
         "days": {},
         "daily_log": {},
         "present": 0,

@@ -1,4 +1,4 @@
-// Generated on 2026-06-06T06:28:19.572418
+// Generated on 2026-06-06T09:08:12.131604
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -29,11 +29,11 @@ window.FTE_DETAILS = {
   },
   "IN9063": {
     "name": "Benish Ali",
-    "batch": "Batch 108",
+    "batch": "Batch 27",
     "shift": "8AM - 4PM",
-    "zoho_id": "BAli@IC.innodata.com",
+    "zoho_id": "BAli@ic.innodata.com",
     "gams_access": "DONE",
-    "ia_access": "nan",
+    "ia_access": "DONE",
     "zoho_access": "DONE"
   },
   "IN5107": {

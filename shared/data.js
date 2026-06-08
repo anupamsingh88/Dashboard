@@ -1,4 +1,4 @@
-// Generated on 2026-06-08T05:11:46.213422
+// Generated on 2026-06-08T10:01:17.722135
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -185,15 +185,6 @@ window.FTE_DETAILS = {
     "batch": "Batch 10",
     "shift": "8AM - 4PM",
     "zoho_id": "skumar5@ic.innodata.com",
-    "gams_access": "DONE",
-    "ia_access": "DONE",
-    "zoho_access": "DONE"
-  },
-  "IN5702": {
-    "name": "Shama Parveen",
-    "batch": "nan",
-    "shift": "8AM - 4PM",
-    "zoho_id": "sparveen@ic.innodata.com",
     "gams_access": "DONE",
     "ia_access": "DONE",
     "zoho_access": "DONE"
@@ -2874,7 +2865,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Saransh Kumar",
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "DUDDEDA POOJA",
         "Unnamed: 7": NaN
       },
       {
@@ -3042,7 +3033,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "emo-steer-nat-rm-data-v260602",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Audio Response/Content Style Preference",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -3052,8 +3043,8 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Failed",
         "Unnamed: 2": "Passed",
         "Unnamed: 3": "Failed",
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
+        "Unnamed: 4": "Passed",
+        "Unnamed: 5": "Failed",
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
       },
@@ -3062,7 +3053,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Arogya Painuly",
         "Unnamed: 2": "Arogya Painuly",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Arogya Painuly",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -3072,7 +3063,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "P. Omkar",
         "Unnamed: 2": "Duddeda Pooja",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Mudimala Chandrashaker",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -3082,7 +3073,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "KUMKUM RAWAT",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Benish Ali",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -5606,7 +5597,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Saransh Kumar",
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "DUDDEDA POOJA",
         "Unnamed: 7": NaN
       },
       {
@@ -5774,7 +5765,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "emo-steer-nat-rm-data-v260602",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Audio Response/Content Style Preference",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -5784,8 +5775,8 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Failed",
         "Unnamed: 2": "Passed",
         "Unnamed: 3": "Failed",
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
+        "Unnamed: 4": "Passed",
+        "Unnamed: 5": "Failed",
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
       },
@@ -5794,7 +5785,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Arogya Painuly",
         "Unnamed: 2": "Arogya Painuly",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Arogya Painuly",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -5804,7 +5795,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "P. Omkar",
         "Unnamed: 2": "Duddeda Pooja",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Mudimala Chandrashaker",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -5814,7 +5805,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "KUMKUM RAWAT",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Benish Ali",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -8250,7 +8241,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": "Saransh Kumar",
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "DUDDEDA POOJA",
         "Unnamed: 7": NaN
       },
       {
@@ -8418,7 +8409,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "emo-steer-nat-rm-data-v260602",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Audio Response/Content Style Preference",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -8428,8 +8419,8 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Failed",
         "Unnamed: 2": "Passed",
         "Unnamed: 3": "Failed",
-        "Unnamed: 4": NaN,
-        "Unnamed: 5": NaN,
+        "Unnamed: 4": "Passed",
+        "Unnamed: 5": "Failed",
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
       },
@@ -8438,7 +8429,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Arogya Painuly",
         "Unnamed: 2": "Arogya Painuly",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Arogya Painuly",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -8448,7 +8439,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "P. Omkar",
         "Unnamed: 2": "Duddeda Pooja",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Mudimala Chandrashaker",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -8458,7 +8449,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "KUMKUM RAWAT",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Benish Ali",
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN

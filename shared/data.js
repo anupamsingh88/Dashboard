@@ -1,4 +1,4 @@
-// Generated on 2026-06-09T10:32:48.288612
+// Generated on 2026-06-09T13:42:41.390494
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3043,7 +3043,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "emo-steer-nat-rm-data-v260602",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Audio Response/Content Style Preference",
+        "Unnamed: 4": "Content Style Preference",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "I2I PIXEL",
         "Unnamed: 7": NaN
@@ -3063,8 +3063,8 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Arogya Painuly",
         "Unnamed: 2": "Arogya Painuly",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Arogya Painuly",
-        "Unnamed: 5": "Priyata M",
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
         "Unnamed: 6": "Arogya Painuly",
         "Unnamed: 7": "Saransh Kumar"
       },
@@ -3073,7 +3073,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "P. Omkar",
         "Unnamed: 2": "Duddeda Pooja",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Mudimala Chandrashaker",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Poonam Anurag Kohli",
         "Unnamed: 7": NaN
@@ -3083,7 +3083,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "KUMKUM RAWAT",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Shubhasmita Sahoo",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Shubhasmita Sahoo",
         "Unnamed: 7": NaN
@@ -3093,7 +3093,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Saransh Kumar",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Siddharth Kumar",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Priyata M.",
         "Unnamed: 7": NaN
@@ -3103,9 +3103,9 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Shubhasmita Sahoo",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Tabish Karim",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Musfira",
         "Unnamed: 7": NaN
       },
       {
@@ -3113,27 +3113,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Benish Ali",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Benish Ali",
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
-        "Search Your Result Here": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": "Prachi Kumari",
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
-        "Search Your Result Here": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": "Musfira",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -5805,7 +5785,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "emo-steer-nat-rm-data-v260602",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Audio Response/Content Style Preference",
+        "Unnamed: 4": "Content Style Preference",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "I2I PIXEL",
         "Unnamed: 7": NaN
@@ -5825,8 +5805,8 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Arogya Painuly",
         "Unnamed: 2": "Arogya Painuly",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Arogya Painuly",
-        "Unnamed: 5": "Priyata M",
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
         "Unnamed: 6": "Arogya Painuly",
         "Unnamed: 7": "Saransh Kumar"
       },
@@ -5835,7 +5815,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "P. Omkar",
         "Unnamed: 2": "Duddeda Pooja",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Mudimala Chandrashaker",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Poonam Anurag Kohli",
         "Unnamed: 7": NaN
@@ -5845,7 +5825,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "KUMKUM RAWAT",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Shubhasmita Sahoo",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Shubhasmita Sahoo",
         "Unnamed: 7": NaN
@@ -5855,7 +5835,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Saransh Kumar",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Siddharth Kumar",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Priyata M.",
         "Unnamed: 7": NaN
@@ -5865,9 +5845,9 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Shubhasmita Sahoo",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Tabish Karim",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Musfira",
         "Unnamed: 7": NaN
       },
       {
@@ -5875,27 +5855,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Benish Ali",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Benish Ali",
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
-        "Search Your Result Here": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": "Prachi Kumari",
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
-        "Search Your Result Here": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": "Musfira",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN
@@ -8479,7 +8439,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "emo-steer-nat-rm-data-v260602",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Audio Response/Content Style Preference",
+        "Unnamed: 4": "Content Style Preference",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "I2I PIXEL",
         "Unnamed: 7": NaN
@@ -8499,8 +8459,8 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "Arogya Painuly",
         "Unnamed: 2": "Arogya Painuly",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Arogya Painuly",
-        "Unnamed: 5": "Priyata M",
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
         "Unnamed: 6": "Arogya Painuly",
         "Unnamed: 7": "Saransh Kumar"
       },
@@ -8509,7 +8469,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": "P. Omkar",
         "Unnamed: 2": "Duddeda Pooja",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Mudimala Chandrashaker",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Poonam Anurag Kohli",
         "Unnamed: 7": NaN
@@ -8519,7 +8479,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "KUMKUM RAWAT",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Shubhasmita Sahoo",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Shubhasmita Sahoo",
         "Unnamed: 7": NaN
@@ -8529,7 +8489,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Saransh Kumar",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Siddharth Kumar",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Priyata M.",
         "Unnamed: 7": NaN
@@ -8539,9 +8499,9 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Shubhasmita Sahoo",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Tabish Karim",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Musfira",
         "Unnamed: 7": NaN
       },
       {
@@ -8549,27 +8509,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": "Benish Ali",
         "Unnamed: 3": NaN,
-        "Unnamed: 4": "Benish Ali",
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
-        "Search Your Result Here": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": "Prachi Kumari",
-        "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
-        "Unnamed: 7": NaN
-      },
-      {
-        "Search Your Result Here": NaN,
-        "Unnamed: 1": NaN,
-        "Unnamed: 2": NaN,
-        "Unnamed: 3": NaN,
-        "Unnamed: 4": "Musfira",
+        "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": NaN,
         "Unnamed: 7": NaN

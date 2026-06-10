@@ -1,4 +1,4 @@
-// Generated on 2026-06-09T23:50:35.798177
+// Generated on 2026-06-10T03:27:11.525409
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3076,7 +3076,7 @@ window.PROJECT_DATA = {
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Poonam Anurag Kohli",
-        "Unnamed: 7": NaN
+        "Unnamed: 7": "Tabish Karim"
       },
       {
         "Search Your Result Here": NaN,
@@ -3115,7 +3115,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Prachi Kumari",
         "Unnamed: 7": NaN
       }
     ]
@@ -5818,7 +5818,7 @@ window.PROJECT_DATA = {
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Poonam Anurag Kohli",
-        "Unnamed: 7": NaN
+        "Unnamed: 7": "Tabish Karim"
       },
       {
         "Search Your Result Here": NaN,
@@ -5857,7 +5857,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Prachi Kumari",
         "Unnamed: 7": NaN
       }
     ]
@@ -8472,7 +8472,7 @@ window.PROJECT_DATA = {
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Poonam Anurag Kohli",
-        "Unnamed: 7": NaN
+        "Unnamed: 7": "Tabish Karim"
       },
       {
         "Search Your Result Here": NaN,
@@ -8511,7 +8511,7 @@ window.PROJECT_DATA = {
         "Unnamed: 3": NaN,
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
-        "Unnamed: 6": NaN,
+        "Unnamed: 6": "Prachi Kumari",
         "Unnamed: 7": NaN
       }
     ]

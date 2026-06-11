@@ -1,4 +1,4 @@
-// Generated on 2026-06-11T06:57:57.981204
+// Generated on 2026-06-11T11:24:23.829831
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -3066,7 +3066,7 @@ window.PROJECT_DATA = {
         "Unnamed: 4": "Duddeda Pooja",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Arogya Painuly",
-        "Unnamed: 7": "Saransh Kumar"
+        "Unnamed: 7": NaN
       },
       {
         "Search Your Result Here": "Prince Patel",
@@ -3196,6 +3196,26 @@ window.PROJECT_DATA = {
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Nishtha Sharma",
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": "Murtaza Mustafa Zafar",
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": "Saransh Kumar",
         "Unnamed: 7": NaN
       }
     ]
@@ -5888,7 +5908,7 @@ window.PROJECT_DATA = {
         "Unnamed: 4": "Duddeda Pooja",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Arogya Painuly",
-        "Unnamed: 7": "Saransh Kumar"
+        "Unnamed: 7": NaN
       },
       {
         "Search Your Result Here": "Prince Patel",
@@ -6018,6 +6038,26 @@ window.PROJECT_DATA = {
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Nishtha Sharma",
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": "Murtaza Mustafa Zafar",
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": "Saransh Kumar",
         "Unnamed: 7": NaN
       }
     ]
@@ -6255,17 +6295,6 @@ window.PROJECT_DATA = {
         "weekoff": 0,
         "holiday": 0
       },
-      "IN5702": {
-        "name": "Shama Parveen",
-        "uid": "IN5702",
-        "days": {},
-        "daily_log": {},
-        "present": 0,
-        "absent": 0,
-        "leave": 0,
-        "weekoff": 0,
-        "holiday": 0
-      },
       "IN6136": {
         "name": "Shravan Kumar",
         "uid": "IN6136",
@@ -6346,6 +6375,72 @@ window.PROJECT_DATA = {
       "IN5120": {
         "name": "Zoya Nawaz Khan",
         "uid": "IN5120",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
+      "Present": {
+        "name": "nan",
+        "uid": "Present",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
+      "Absent": {
+        "name": "nan",
+        "uid": "Absent",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
+      "Leave": {
+        "name": "nan",
+        "uid": "Leave",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
+      "Week Off": {
+        "name": "nan",
+        "uid": "Week Off",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
+      "Holiday": {
+        "name": "nan",
+        "uid": "Holiday",
+        "days": {},
+        "daily_log": {},
+        "present": 0,
+        "absent": 0,
+        "leave": 0,
+        "weekoff": 0,
+        "holiday": 0
+      },
+      "Blank": {
+        "name": "nan",
+        "uid": "Blank",
         "days": {},
         "daily_log": {},
         "present": 0,
@@ -8622,7 +8717,7 @@ window.PROJECT_DATA = {
         "Unnamed: 4": "Duddeda Pooja",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Arogya Painuly",
-        "Unnamed: 7": "Saransh Kumar"
+        "Unnamed: 7": NaN
       },
       {
         "Search Your Result Here": "Prince Patel",
@@ -8752,6 +8847,26 @@ window.PROJECT_DATA = {
         "Unnamed: 4": NaN,
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Nishtha Sharma",
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": "Murtaza Mustafa Zafar",
+        "Unnamed: 7": NaN
+      },
+      {
+        "Search Your Result Here": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": "Saransh Kumar",
         "Unnamed: 7": NaN
       }
     ]

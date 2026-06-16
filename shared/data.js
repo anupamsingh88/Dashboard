@@ -1,4 +1,4 @@
-// Generated on 2026-06-16T02:05:58.204112
+// Generated on 2026-06-16T08:25:40.784587
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -132,7 +132,7 @@ window.FTE_DETAILS = {
     "shift": "8AM - 4PM",
     "zoho_id": "PKumari7@ic.innodata.com",
     "gams_access": "DONE",
-    "ia_access": "nan",
+    "ia_access": "DONE",
     "zoho_access": "DONE"
   },
   "IN8183": {
@@ -3183,7 +3183,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Prince Patel",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "KUMKUM RAWAT",
         "Unnamed: 7": NaN
@@ -3193,7 +3193,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Meenakshi Rawat",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Nishtha Sharma",
         "Unnamed: 7": NaN
@@ -3203,7 +3203,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Vishnudas S Menon",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Murtaza Mustafa Zafar",
         "Unnamed: 7": NaN
@@ -6195,7 +6195,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Prince Patel",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "KUMKUM RAWAT",
         "Unnamed: 7": NaN
@@ -6205,7 +6205,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Meenakshi Rawat",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Nishtha Sharma",
         "Unnamed: 7": NaN
@@ -6215,7 +6215,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Vishnudas S Menon",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Murtaza Mustafa Zafar",
         "Unnamed: 7": NaN
@@ -9174,7 +9174,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Prince Patel",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "KUMKUM RAWAT",
         "Unnamed: 7": NaN
@@ -9184,7 +9184,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Meenakshi Rawat",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Nishtha Sharma",
         "Unnamed: 7": NaN
@@ -9194,7 +9194,7 @@ window.PROJECT_DATA = {
         "Unnamed: 1": NaN,
         "Unnamed: 2": NaN,
         "Unnamed: 3": NaN,
-        "Unnamed: 4": NaN,
+        "Unnamed: 4": "Vishnudas S Menon",
         "Unnamed: 5": NaN,
         "Unnamed: 6": "Murtaza Mustafa Zafar",
         "Unnamed: 7": NaN

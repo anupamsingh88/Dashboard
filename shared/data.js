@@ -1,4 +1,4 @@
-// Generated on 2026-06-23T05:46:23.493147
+// Generated on 2026-06-23T09:33:39.548321
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2101,7 +2101,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 17.0,
+        "Total Passed": 18.0,
         "Total Failed": 0.0,
         "Pass Rate": 1.0,
         "Task": "Content Style Preference",
@@ -2131,7 +2131,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": "Passed",
         "Suragani Eswar Teja": NaN,
         "Tabish Karim": "Passed",
-        "Urhan Ahmad Khan": NaN,
+        "Urhan Ahmad Khan": "Passed",
         "Vishnudas S Menon": "Passed"
       },
       {
@@ -2169,7 +2169,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 15.0,
+        "Total Passed": 16.0,
         "Total Failed": 0.0,
         "Pass Rate": 1.0,
         "Task": "sl-box-verification-correction + milo",
@@ -2199,7 +2199,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": NaN,
         "Suragani Eswar Teja": NaN,
         "Tabish Karim": "Passed",
-        "Urhan Ahmad Khan": NaN,
+        "Urhan Ahmad Khan": "Passed",
         "Vishnudas S Menon": "Passed"
       },
       {
@@ -2305,7 +2305,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 314.0,
+        "Total Passed": 316.0,
         "Total Failed": NaN,
         "Pass Rate": NaN,
         "Task": "Total Passed",
@@ -2335,7 +2335,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": 13,
         "Suragani Eswar Teja": 4,
         "Tabish Karim": 11,
-        "Urhan Ahmad Khan": 5,
+        "Urhan Ahmad Khan": 7,
         "Vishnudas S Menon": 12
       },
       {
@@ -2375,7 +2375,7 @@ window.PROJECT_DATA = {
       {
         "Total Passed": NaN,
         "Total Failed": NaN,
-        "Pass Rate": 0.80306905370844,
+        "Pass Rate": 0.8040712468193384,
         "Task": "Pass Rate",
         "Aditi": 0.8,
         "Arogya Painuly": 0.6923076923076923,
@@ -2403,7 +2403,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": 0.7222222222222222,
         "Suragani Eswar Teja": 0.5714285714285714,
         "Tabish Karim": 0.7857142857142857,
-        "Urhan Ahmad Khan": 0.5,
+        "Urhan Ahmad Khan": 0.5833333333333334,
         "Vishnudas S Menon": 0.8571428571428571
       },
       {
@@ -4233,7 +4233,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 17.0,
+        "Total Passed": 18.0,
         "Total Failed": 0.0,
         "Pass Rate": 1.0,
         "Task": "Content Style Preference",
@@ -4263,7 +4263,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": "Passed",
         "Suragani Eswar Teja": NaN,
         "Tabish Karim": "Passed",
-        "Urhan Ahmad Khan": NaN,
+        "Urhan Ahmad Khan": "Passed",
         "Vishnudas S Menon": "Passed"
       },
       {
@@ -4301,7 +4301,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 15.0,
+        "Total Passed": 16.0,
         "Total Failed": 0.0,
         "Pass Rate": 1.0,
         "Task": "sl-box-verification-correction + milo",
@@ -4331,7 +4331,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": NaN,
         "Suragani Eswar Teja": NaN,
         "Tabish Karim": "Passed",
-        "Urhan Ahmad Khan": NaN,
+        "Urhan Ahmad Khan": "Passed",
         "Vishnudas S Menon": "Passed"
       },
       {
@@ -4437,7 +4437,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 314.0,
+        "Total Passed": 316.0,
         "Total Failed": NaN,
         "Pass Rate": NaN,
         "Task": "Total Passed",
@@ -4467,7 +4467,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": 13,
         "Suragani Eswar Teja": 4,
         "Tabish Karim": 11,
-        "Urhan Ahmad Khan": 5,
+        "Urhan Ahmad Khan": 7,
         "Vishnudas S Menon": 12
       },
       {
@@ -4507,7 +4507,7 @@ window.PROJECT_DATA = {
       {
         "Total Passed": NaN,
         "Total Failed": NaN,
-        "Pass Rate": 0.80306905370844,
+        "Pass Rate": 0.8040712468193384,
         "Task": "Pass Rate",
         "Aditi": 0.8,
         "Arogya Painuly": 0.6923076923076923,
@@ -4535,7 +4535,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": 0.7222222222222222,
         "Suragani Eswar Teja": 0.5714285714285714,
         "Tabish Karim": 0.7857142857142857,
-        "Urhan Ahmad Khan": 0.5,
+        "Urhan Ahmad Khan": 0.5833333333333334,
         "Vishnudas S Menon": 0.8571428571428571
       },
       {
@@ -6332,7 +6332,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 17.0,
+        "Total Passed": 18.0,
         "Total Failed": 0.0,
         "Pass Rate": 1.0,
         "Task": "Content Style Preference",
@@ -6362,7 +6362,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": "Passed",
         "Suragani Eswar Teja": NaN,
         "Tabish Karim": "Passed",
-        "Urhan Ahmad Khan": NaN,
+        "Urhan Ahmad Khan": "Passed",
         "Vishnudas S Menon": "Passed"
       },
       {
@@ -6400,7 +6400,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 15.0,
+        "Total Passed": 16.0,
         "Total Failed": 0.0,
         "Pass Rate": 1.0,
         "Task": "sl-box-verification-correction + milo",
@@ -6430,7 +6430,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": NaN,
         "Suragani Eswar Teja": NaN,
         "Tabish Karim": "Passed",
-        "Urhan Ahmad Khan": NaN,
+        "Urhan Ahmad Khan": "Passed",
         "Vishnudas S Menon": "Passed"
       },
       {
@@ -6536,7 +6536,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 314.0,
+        "Total Passed": 316.0,
         "Total Failed": NaN,
         "Pass Rate": NaN,
         "Task": "Total Passed",
@@ -6566,7 +6566,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": 13,
         "Suragani Eswar Teja": 4,
         "Tabish Karim": 11,
-        "Urhan Ahmad Khan": 5,
+        "Urhan Ahmad Khan": 7,
         "Vishnudas S Menon": 12
       },
       {
@@ -6606,7 +6606,7 @@ window.PROJECT_DATA = {
       {
         "Total Passed": NaN,
         "Total Failed": NaN,
-        "Pass Rate": 0.80306905370844,
+        "Pass Rate": 0.8040712468193384,
         "Task": "Pass Rate",
         "Aditi": 0.8,
         "Arogya Painuly": 0.6923076923076923,
@@ -6634,7 +6634,7 @@ window.PROJECT_DATA = {
         "Siddharth Kumar": 0.7222222222222222,
         "Suragani Eswar Teja": 0.5714285714285714,
         "Tabish Karim": 0.7857142857142857,
-        "Urhan Ahmad Khan": 0.5,
+        "Urhan Ahmad Khan": 0.5833333333333334,
         "Vishnudas S Menon": 0.8571428571428571
       },
       {

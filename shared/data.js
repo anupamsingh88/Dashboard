@@ -1,4 +1,4 @@
-// Generated on 2026-06-25T04:43:32.167221
+// Generated on 2026-06-25T08:20:36.194866
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -1625,9 +1625,9 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 17.0,
-        "Total Failed": 2.0,
-        "Pass Rate": 0.8947368421052632,
+        "Total Passed": 16.0,
+        "Total Failed": 3.0,
+        "Pass Rate": 0.8421052631578947,
         "Task": "260512-video-ref-expression-qa",
         "Aditi": "Passed",
         "Arogya Painuly": "Failed",
@@ -1642,7 +1642,7 @@ window.PROJECT_DATA = {
         "Musfira": NaN,
         "Nisarga Suresh Kapde": NaN,
         "Nishtha Sharma": "Passed",
-        "P. Omkar": "Passed",
+        "P. Omkar": "Failed",
         "Poonam Anurag Kohli": "Passed",
         "Pratik Mahadev More": NaN,
         "Prachi Kumari": "Passed",
@@ -2339,7 +2339,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 331.0,
+        "Total Passed": 330.0,
         "Total Failed": NaN,
         "Pass Rate": NaN,
         "Task": "Total Passed",
@@ -2356,7 +2356,7 @@ window.PROJECT_DATA = {
         "Musfira": 19,
         "Nisarga Suresh Kapde": 16,
         "Nishtha Sharma": 8,
-        "P. Omkar": 9,
+        "P. Omkar": 8,
         "Poonam Anurag Kohli": 14,
         "Pratik Mahadev More": 9,
         "Prachi Kumari": 6,
@@ -2374,7 +2374,7 @@ window.PROJECT_DATA = {
       },
       {
         "Total Passed": NaN,
-        "Total Failed": 77.0,
+        "Total Failed": 78.0,
         "Pass Rate": NaN,
         "Task": "Total Failed",
         "Aditi": 4,
@@ -2390,7 +2390,7 @@ window.PROJECT_DATA = {
         "Musfira": 3,
         "Nisarga Suresh Kapde": 4,
         "Nishtha Sharma": 5,
-        "P. Omkar": 6,
+        "P. Omkar": 7,
         "Poonam Anurag Kohli": 4,
         "Pratik Mahadev More": 3,
         "Prachi Kumari": 0,
@@ -2409,7 +2409,7 @@ window.PROJECT_DATA = {
       {
         "Total Passed": NaN,
         "Total Failed": NaN,
-        "Pass Rate": 0.8112745098039216,
+        "Pass Rate": 0.8088235294117647,
         "Task": "Pass Rate",
         "Aditi": 0.8095238095238095,
         "Arogya Painuly": 0.6923076923076923,
@@ -2424,7 +2424,7 @@ window.PROJECT_DATA = {
         "Musfira": 0.8636363636363636,
         "Nisarga Suresh Kapde": 0.8,
         "Nishtha Sharma": 0.6153846153846154,
-        "P. Omkar": 0.6,
+        "P. Omkar": 0.5333333333333333,
         "Poonam Anurag Kohli": 0.7777777777777778,
         "Pratik Mahadev More": 0.75,
         "Prachi Kumari": 1,
@@ -3791,9 +3791,9 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 17.0,
-        "Total Failed": 2.0,
-        "Pass Rate": 0.8947368421052632,
+        "Total Passed": 16.0,
+        "Total Failed": 3.0,
+        "Pass Rate": 0.8421052631578947,
         "Task": "260512-video-ref-expression-qa",
         "Aditi": "Passed",
         "Arogya Painuly": "Failed",
@@ -3808,7 +3808,7 @@ window.PROJECT_DATA = {
         "Musfira": NaN,
         "Nisarga Suresh Kapde": NaN,
         "Nishtha Sharma": "Passed",
-        "P. Omkar": "Passed",
+        "P. Omkar": "Failed",
         "Poonam Anurag Kohli": "Passed",
         "Pratik Mahadev More": NaN,
         "Prachi Kumari": "Passed",
@@ -4505,7 +4505,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 331.0,
+        "Total Passed": 330.0,
         "Total Failed": NaN,
         "Pass Rate": NaN,
         "Task": "Total Passed",
@@ -4522,7 +4522,7 @@ window.PROJECT_DATA = {
         "Musfira": 19,
         "Nisarga Suresh Kapde": 16,
         "Nishtha Sharma": 8,
-        "P. Omkar": 9,
+        "P. Omkar": 8,
         "Poonam Anurag Kohli": 14,
         "Pratik Mahadev More": 9,
         "Prachi Kumari": 6,
@@ -4540,7 +4540,7 @@ window.PROJECT_DATA = {
       },
       {
         "Total Passed": NaN,
-        "Total Failed": 77.0,
+        "Total Failed": 78.0,
         "Pass Rate": NaN,
         "Task": "Total Failed",
         "Aditi": 4,
@@ -4556,7 +4556,7 @@ window.PROJECT_DATA = {
         "Musfira": 3,
         "Nisarga Suresh Kapde": 4,
         "Nishtha Sharma": 5,
-        "P. Omkar": 6,
+        "P. Omkar": 7,
         "Poonam Anurag Kohli": 4,
         "Pratik Mahadev More": 3,
         "Prachi Kumari": 0,
@@ -4575,7 +4575,7 @@ window.PROJECT_DATA = {
       {
         "Total Passed": NaN,
         "Total Failed": NaN,
-        "Pass Rate": 0.8112745098039216,
+        "Pass Rate": 0.8088235294117647,
         "Task": "Pass Rate",
         "Aditi": 0.8095238095238095,
         "Arogya Painuly": 0.6923076923076923,
@@ -4590,7 +4590,7 @@ window.PROJECT_DATA = {
         "Musfira": 0.8636363636363636,
         "Nisarga Suresh Kapde": 0.8,
         "Nishtha Sharma": 0.6153846153846154,
-        "P. Omkar": 0.6,
+        "P. Omkar": 0.5333333333333333,
         "Poonam Anurag Kohli": 0.7777777777777778,
         "Pratik Mahadev More": 0.75,
         "Prachi Kumari": 1,
@@ -5924,9 +5924,9 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 17.0,
-        "Total Failed": 2.0,
-        "Pass Rate": 0.8947368421052632,
+        "Total Passed": 16.0,
+        "Total Failed": 3.0,
+        "Pass Rate": 0.8421052631578947,
         "Task": "260512-video-ref-expression-qa",
         "Aditi": "Passed",
         "Arogya Painuly": "Failed",
@@ -5941,7 +5941,7 @@ window.PROJECT_DATA = {
         "Musfira": NaN,
         "Nisarga Suresh Kapde": NaN,
         "Nishtha Sharma": "Passed",
-        "P. Omkar": "Passed",
+        "P. Omkar": "Failed",
         "Poonam Anurag Kohli": "Passed",
         "Pratik Mahadev More": NaN,
         "Prachi Kumari": "Passed",
@@ -6638,7 +6638,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 331.0,
+        "Total Passed": 330.0,
         "Total Failed": NaN,
         "Pass Rate": NaN,
         "Task": "Total Passed",
@@ -6655,7 +6655,7 @@ window.PROJECT_DATA = {
         "Musfira": 19,
         "Nisarga Suresh Kapde": 16,
         "Nishtha Sharma": 8,
-        "P. Omkar": 9,
+        "P. Omkar": 8,
         "Poonam Anurag Kohli": 14,
         "Pratik Mahadev More": 9,
         "Prachi Kumari": 6,
@@ -6673,7 +6673,7 @@ window.PROJECT_DATA = {
       },
       {
         "Total Passed": NaN,
-        "Total Failed": 77.0,
+        "Total Failed": 78.0,
         "Pass Rate": NaN,
         "Task": "Total Failed",
         "Aditi": 4,
@@ -6689,7 +6689,7 @@ window.PROJECT_DATA = {
         "Musfira": 3,
         "Nisarga Suresh Kapde": 4,
         "Nishtha Sharma": 5,
-        "P. Omkar": 6,
+        "P. Omkar": 7,
         "Poonam Anurag Kohli": 4,
         "Pratik Mahadev More": 3,
         "Prachi Kumari": 0,
@@ -6708,7 +6708,7 @@ window.PROJECT_DATA = {
       {
         "Total Passed": NaN,
         "Total Failed": NaN,
-        "Pass Rate": 0.8112745098039216,
+        "Pass Rate": 0.8088235294117647,
         "Task": "Pass Rate",
         "Aditi": 0.8095238095238095,
         "Arogya Painuly": 0.6923076923076923,
@@ -6723,7 +6723,7 @@ window.PROJECT_DATA = {
         "Musfira": 0.8636363636363636,
         "Nisarga Suresh Kapde": 0.8,
         "Nishtha Sharma": 0.6153846153846154,
-        "P. Omkar": 0.6,
+        "P. Omkar": 0.5333333333333333,
         "Poonam Anurag Kohli": 0.7777777777777778,
         "Pratik Mahadev More": 0.75,
         "Prachi Kumari": 1,

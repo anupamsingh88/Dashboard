@@ -1,4 +1,4 @@
-// Generated on 2026-06-25T00:08:30.069483
+// Generated on 2026-06-25T04:43:32.167221
 window.FTE_DETAILS = {
   "IN7947": {
     "name": "ADITI",
@@ -2169,7 +2169,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 17.0,
+        "Total Passed": 18.0,
         "Total Failed": 0.0,
         "Pass Rate": 1.0,
         "Task": "sl-box-verification-correction + milo",
@@ -2178,7 +2178,7 @@ window.PROJECT_DATA = {
         "Arpit Aggarwal": NaN,
         "Benish Ali": NaN,
         "Duddeda Pooja": "Passed",
-        "Kumkum Rawat": NaN,
+        "Kumkum Rawat": "Passed",
         "Kuvvarapu Vikranth": "Passed",
         "Meenakshi Rawat": NaN,
         "Mudimala Chandrashaker": NaN,
@@ -2339,7 +2339,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 330.0,
+        "Total Passed": 331.0,
         "Total Failed": NaN,
         "Pass Rate": NaN,
         "Task": "Total Passed",
@@ -2348,7 +2348,7 @@ window.PROJECT_DATA = {
         "Arpit Aggarwal": 8,
         "Benish Ali": 5,
         "Duddeda Pooja": 23,
-        "Kumkum Rawat": 13,
+        "Kumkum Rawat": 14,
         "Kuvvarapu Vikranth": 4,
         "Meenakshi Rawat": 9,
         "Mudimala Chandrashaker": 10,
@@ -2409,7 +2409,7 @@ window.PROJECT_DATA = {
       {
         "Total Passed": NaN,
         "Total Failed": NaN,
-        "Pass Rate": 0.8108108108108109,
+        "Pass Rate": 0.8112745098039216,
         "Task": "Pass Rate",
         "Aditi": 0.8095238095238095,
         "Arogya Painuly": 0.6923076923076923,
@@ -4335,7 +4335,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 17.0,
+        "Total Passed": 18.0,
         "Total Failed": 0.0,
         "Pass Rate": 1.0,
         "Task": "sl-box-verification-correction + milo",
@@ -4344,7 +4344,7 @@ window.PROJECT_DATA = {
         "Arpit Aggarwal": NaN,
         "Benish Ali": NaN,
         "Duddeda Pooja": "Passed",
-        "Kumkum Rawat": NaN,
+        "Kumkum Rawat": "Passed",
         "Kuvvarapu Vikranth": "Passed",
         "Meenakshi Rawat": NaN,
         "Mudimala Chandrashaker": NaN,
@@ -4505,7 +4505,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 330.0,
+        "Total Passed": 331.0,
         "Total Failed": NaN,
         "Pass Rate": NaN,
         "Task": "Total Passed",
@@ -4514,7 +4514,7 @@ window.PROJECT_DATA = {
         "Arpit Aggarwal": 8,
         "Benish Ali": 5,
         "Duddeda Pooja": 23,
-        "Kumkum Rawat": 13,
+        "Kumkum Rawat": 14,
         "Kuvvarapu Vikranth": 4,
         "Meenakshi Rawat": 9,
         "Mudimala Chandrashaker": 10,
@@ -4575,7 +4575,7 @@ window.PROJECT_DATA = {
       {
         "Total Passed": NaN,
         "Total Failed": NaN,
-        "Pass Rate": 0.8108108108108109,
+        "Pass Rate": 0.8112745098039216,
         "Task": "Pass Rate",
         "Aditi": 0.8095238095238095,
         "Arogya Painuly": 0.6923076923076923,
@@ -6468,7 +6468,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 17.0,
+        "Total Passed": 18.0,
         "Total Failed": 0.0,
         "Pass Rate": 1.0,
         "Task": "sl-box-verification-correction + milo",
@@ -6477,7 +6477,7 @@ window.PROJECT_DATA = {
         "Arpit Aggarwal": NaN,
         "Benish Ali": NaN,
         "Duddeda Pooja": "Passed",
-        "Kumkum Rawat": NaN,
+        "Kumkum Rawat": "Passed",
         "Kuvvarapu Vikranth": "Passed",
         "Meenakshi Rawat": NaN,
         "Mudimala Chandrashaker": NaN,
@@ -6638,7 +6638,7 @@ window.PROJECT_DATA = {
         "Vishnudas S Menon": NaN
       },
       {
-        "Total Passed": 330.0,
+        "Total Passed": 331.0,
         "Total Failed": NaN,
         "Pass Rate": NaN,
         "Task": "Total Passed",
@@ -6647,7 +6647,7 @@ window.PROJECT_DATA = {
         "Arpit Aggarwal": 8,
         "Benish Ali": 5,
         "Duddeda Pooja": 23,
-        "Kumkum Rawat": 13,
+        "Kumkum Rawat": 14,
         "Kuvvarapu Vikranth": 4,
         "Meenakshi Rawat": 9,
         "Mudimala Chandrashaker": 10,
@@ -6708,7 +6708,7 @@ window.PROJECT_DATA = {
       {
         "Total Passed": NaN,
         "Total Failed": NaN,
-        "Pass Rate": 0.8108108108108109,
+        "Pass Rate": 0.8112745098039216,
         "Task": "Pass Rate",
         "Aditi": 0.8095238095238095,
         "Arogya Painuly": 0.6923076923076923,
